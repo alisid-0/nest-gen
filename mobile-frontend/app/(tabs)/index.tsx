@@ -5,8 +5,41 @@ import { Text, View, } from '@/components/Themed';
 import { ScrollView, TouchableOpacity, TextInput, Image} from 'react-native';
 import axios from 'axios';
 import { useRouter } from 'expo-router';
+import { useState, useEffect } from 'react';
 
 export default function Home() {
+
+  const [newHouses, setNewHouses] = useState(null)
+
+  useEffect(() => {
+    const getNewHouses = async() => {
+      const options = {
+        method: 'GET',
+        url: 'https://realty-mole-property-api.p.rapidapi.com/saleListings',
+        params: {
+          city: 'Wildwood',
+          state: 'MO',
+          daysOld: '30',
+          limit: '5'
+        },
+        headers: {
+          'X-RapidAPI-Key': '55744ee29emsh8d7f5fc5fdca9b9p176e64jsn68abcf1c6127',
+          'X-RapidAPI-Host': 'realty-mole-property-api.p.rapidapi.com'
+        }
+      };
+
+      try {
+        const response = await axios.request(options);
+        console.log(response.data);
+        setNewHouses(response.data);
+      } catch (error) {
+        console.error(error);
+      }
+    }
+
+    getNewHouses()
+  }, [])
+  
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Getting Started</Text>
@@ -21,8 +54,7 @@ export default function Home() {
 
       <ScrollView horizontal contentContainerStyle={styles.scrollview}>
 
-        <TouchableOpacity 
-        >
+        <TouchableOpacity>
           <Text style={styles.scrollViewItem}>Buy</Text>
         </TouchableOpacity>
 
@@ -33,26 +65,35 @@ export default function Home() {
 
       </ScrollView>
       {/* <View style={styles.separator} lightColor="#eee" darkColor="rgba(255,255,255,0.1)" /> */}
-      {/* <EditScreenInfo path="app/(tabs)/index.tsx" /> */}
+
+      <View style={styles.leftContainer}>
+        <Text style={{fontSize: 25, fontWeight: 'bold'}}>New in your area</Text>
+        <ScrollView horizontal>
+
+        </ScrollView>
+      </View>
     </View>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
   },
+  leftContainer:{
+    width: '80%',
+    // alignItems: 'flex-start',
+    // justifyContent: 'flex-start',
+    // textAlign: 'left'
+  },
   section: {
-    // flex: 1,
-    gap: 5,
+    gap: 10,
     flexDirection: 'row',
     height: 50,
     width: '80%',
   },
   scrollview: {
-    flex: 1,
     justifyContent: 'center',
     flexDirection: 'row',
     height: 50,
