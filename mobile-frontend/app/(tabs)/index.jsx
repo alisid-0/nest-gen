@@ -63,7 +63,7 @@ export default function Home() {
       </View>
       
 
-      <ScrollView horizontal contentContainerStyle={styles.scrollview}>
+      <ScrollView horizontal contentContainerStyle={styles.scrollview} showsHorizontalScrollIndicator= 'false'>
 
         <TouchableOpacity>
           <Text style={styles.scrollViewItem}>Buy</Text>
@@ -79,7 +79,7 @@ export default function Home() {
 
       <View style={styles.leftContainer}>
         <Text style={{fontSize: 25, fontWeight: 'bold', marginBottom: 15}}>New in your area</Text>
-        <ScrollView horizontal style={{gap:5}}>
+        <ScrollView horizontal style={{gap:5}} showsHorizontalScrollIndicator= 'false'>
           {newHouses && (
             newHouses.map((house,index)=>(
               <TouchableOpacity key={index} style={{paddingHorizontal: 10, }}

@@ -5,6 +5,7 @@ import { Text, View } from '@/components/Themed';
 import { useRoute } from '@react-navigation/native';
 import { Image, ScrollView, TouchableOpacity } from 'react-native';
 import { Button, Link, Box } from 'native-base';
+import React from 'react';
 import axios from 'axios';
 
 function SelectedHome() {
@@ -14,6 +15,8 @@ function SelectedHome() {
 
   const house = JSON.parse(home)
   const house_id = house.property_id.slice(1)
+
+
 
   // console.log(house)
 
@@ -1057,10 +1060,7 @@ function SelectedHome() {
     }
   ]
 }]
-
   const [houseDetails, setHouseDetails] = useState(houseDeets[0].properties[0])
-  // houseDetails = houseDeets[0].properties[0]
-  // const [houseDetails, setHouseDetails] = useState(houseDeets[0].properties[0])
 
   console.log(houseDetails)
 
@@ -1105,8 +1105,14 @@ function SelectedHome() {
     // console.log('house',houseDetails) 
   },[])
 
+  const scrollRef = React.useRef();
+  const overviewRef = React.useRef();
+  const factsRef = React.createRef();
+  const priceRef = React.createRef();
+  const schoolsRef = React.createRef();
+
   return (
-    <ScrollView contentContainerStyle={styles.container}>
+    <ScrollView contentContainerStyle={styles.container} ref={scrollRef}>
 
       <ScrollView horizontal>
         {houseDetails && houseDetails.photos.map((photo,index)=>(
@@ -1140,22 +1146,33 @@ function SelectedHome() {
       <View style={styles.separatorTop} lightColor="#eee" darkColor="rgba(255,255,255,0.1)" />
 
       <View style={{width: '90%', alignItems: 'flex-start', paddingVertical: 20}}>
-       <ScrollView horizontal showsHorizontalScrollIndicator= 'false'>
-        <TouchableOpacity style={{paddingHorizontal: 10}} onPress={() => setSelectedTab('Overview')}>
+       <ScrollView horizontal showsHorizontalScrollIndicator= 'false' ref={scrollRef}>
+
+        <TouchableOpacity style={{paddingHorizontal: 10}} onPress={() => {
+            setSelectedTab('Overview');
+            scrollRef.current.scrollTo({ y: 560, animated: true})
+        }}>
           <Text style={{color: selectedTab === 'Overview' ? 'blue' : 'black'}}>Overview</Text>
         </TouchableOpacity>
-        <TouchableOpacity style={{paddingHorizontal: 10}} onPress={() => setSelectedTab('Facts and Features')}>
+        <TouchableOpacity style={{paddingHorizontal: 10}} onPress={() => {
+          setSelectedTab('Facts and Features');
+          scrollRef.current.scrollTo({ y: 800, animated: true})
+          }}>
           <Text style={{color: selectedTab === 'Facts and Features' ? 'blue' : 'black'}}>Facts and Features</Text>
         </TouchableOpacity>
-        <TouchableOpacity style={{paddingHorizontal: 10}} onPress={() => setSelectedTab('Home value')}>
-          <Text style={{color: selectedTab === 'Home value' ? 'blue' : 'black'}}>Home value</Text>
-        </TouchableOpacity>
-        <TouchableOpacity style={{paddingHorizontal: 10}} onPress={() => setSelectedTab('Price and tax history')}>
+        <TouchableOpacity style={{paddingHorizontal: 10}} onPress={() => {
+          setSelectedTab('Price and tax history');
+          scrollRef.current.scrollTo({ y: 1050, animated: true})
+          }}>
           <Text style={{color: selectedTab === 'Price and tax history' ? 'blue' : 'black'}}>Price and tax history</Text>
         </TouchableOpacity>
-        <TouchableOpacity style={{paddingHorizontal: 10}} onPress={() => setSelectedTab('Nearby Schools')}>
-          <Text style={{color: selectedTab === 'Nearby Schools' ? 'blue' : 'black'}}>Nearby Schools</Text>
+        <TouchableOpacity style={{paddingHorizontal: 10}} onPress={() => {
+          setSelectedTab('Schools');
+          scrollRef.current.scrollTo({ y: 1530, animated: true})
+          }}>
+          <Text style={{color: selectedTab === 'Schools' ? 'blue' : 'black'}}>Schools</Text>
         </TouchableOpacity>
+
        </ScrollView>
       </View>
 
@@ -1182,7 +1199,7 @@ function SelectedHome() {
           </View>
       </View>
 
-      <View style={styles.leftContainerGap}>
+      <View style={styles.leftContainerGap} ref={overviewRef}>
         <View style={{marginVertical: 5}}></View>
         <Text style={styles.title}>Overview</Text>
         <Text>
@@ -1204,7 +1221,7 @@ function SelectedHome() {
         </View>
       </View>
 
-      <View style={styles.leftContainerGap}>
+      <View style={styles.leftContainerGap} ref={factsRef}>
         <View style={{marginVertical: 5}}></View>
         <Text style={styles.title}>Facts and Features</Text>
         {displayFeatures.map((feature,index)=>(
@@ -1222,19 +1239,77 @@ function SelectedHome() {
         </TouchableOpacity>
       </View>
 
-
-
-      <View style={styles.leftContainerGap}>
+      <View style={styles.leftContainer} ref={priceRef}>
         <View style={{marginVertical: 5}}></View>
-        <Text style={styles.title}>Home Value</Text>
-        <View style={styles.leftContainerGap}>
+        <Text style={styles.title}>Price and Tax history</Text>
+        <View style={{width: '100%'}}>
+
+          <Text style={{fontWeight: 'bold', paddingTop: 10}}>Price History</Text>
+
+          <View style={{flexDirection: 'row', justifyContent: 'space-between', gap: 10, width: '88%', paddingTop: 10}}>
+            <Text style={{textAlign: 'center'}}>Date</Text>
+            <Text style={{textAlign: 'center'}}>Event</Text>
+            <Text style={{textAlign: 'center'}}>Price</Text>
+          </View>
           
+          <View style={styles.separatorFull} lightColor="#eee" darkColor="rgba(255,255,255,0.1)" />
+
+          {houseDetails.property_history.map((history, index) => (
+            <View style={{flexDirection: 'row', justifyContent: 'space-between', gap: 10}} key={index}>
+              <View style={{width: 80, alignItems: 'flex-start'}}>
+                <Text style={{textAlign: 'center'}}>{new Date(history.date).toLocaleDateString()}</Text>
+              </View>
+              <View style={{width: 80, alignItems: 'flex-start'}}>
+                <Text style={{textAlign: 'center'}}>{history.event_name}</Text>
+              </View>
+              <View style={{width: 80, alignItems: 'flex-start'}}>
+                <Text style={{textAlign: 'center'}}>{history.event_name ==='Sold'? '' : `${history.price}`}</Text>
+              </View>
+            </View>
+          ))}
+
+          <Text style={{fontWeight: 'bold', paddingTop: 10}}>Tax History</Text>
+            <View style={{flexDirection: 'row', justifyContent: 'space-between', gap: 10, width: '88%', paddingTop: 10}}>
+              <Text style={{textAlign: 'center'}}>Year</Text>
+              <Text style={{textAlign: 'center'}}>Property Taxes</Text>
+              <Text style={{textAlign: 'center'}}>Tax Assessment</Text>
+            </View>
+            
+            <View style={styles.separatorFull} lightColor="#eee" darkColor="rgba(255,255,255,0.1)" />
+
+            {houseDetails.tax_history.map((history, index) => (
+              <View style={{flexDirection: 'row', gap: 10}} key={index}>
+                <View style={{width: 50, alignItems: 'flex-start'}}>
+                  <Text style={{textAlign: 'center'}}>{history.year}</Text>
+                </View>
+                <View style={{width: 125, alignItems: 'flex-start'}}>
+                  <Text style={{textAlign: 'center'}}>${history.tax}</Text>
+                </View>
+                <View style={{width: 80, alignItems: 'flex-start'}}>
+                  <Text style={{textAlign: 'center'}}>${history.assessment.total}</Text>
+                </View>
+              </View>
+            ))}
         </View>
       </View>
 
-      <View style={styles.leftContainerGap}>
+      <View style={styles.leftContainerGap} ref={schoolsRef}>
         <View style={{marginVertical: 5}}></View>
-        <Text style={styles.title}>Price and tax history</Text>
+        <Text style={styles.title}>Schools</Text>
+        {houseDetails.schools.map((school,index)=>(
+          <View key={index} style={{flexDirection:'row', alignItems: 'center', gap: 10, paddingVertical: 10}}>
+            <View style={{width: 50, height: 50, backgroundColor: 'blue', borderRadius: 50, alignItems: 'center', justifyContent: 'center'}}>
+              <Text style={{color: 'white'}}>{!school.ratings.great_schools_rating? 'N/A' : `${school.ratings.great_schools_rating}/10`}</Text>
+            </View>
+            <View style={{justifyContent: 'space-between', height: 50, padding: 5}}>
+              <Text style={{fontWeight: 'bold'}}>{school.name}</Text>
+              <View style={{flexDirection: 'row', gap: 10}}>
+                <Text>Grades: {school.grades.range.low}-{school.grades.range.high}</Text>
+                <Text>Distance: {school.distance_in_miles}</Text>
+              </View>
+            </View>
+          </View>
+        ))}
       </View>
 
       
@@ -1273,6 +1348,11 @@ const styles = StyleSheet.create({
     marginBottom: 10,
     height: 1,
     width: '80%',
+  },
+  separatorFull: {
+    marginBottom: 10,
+    height: 1,
+    width: '100%',
   }
 });
 
