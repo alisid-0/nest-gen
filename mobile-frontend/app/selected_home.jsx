@@ -1112,7 +1112,7 @@ function SelectedHome() {
       }
     };
 
-    // fetchHouseDetails();
+    fetchHouseDetails();
   }, []);
 
   useEffect(() => {
@@ -1129,7 +1129,7 @@ function SelectedHome() {
 
   const saveHome = async () => {
     if (!signedIn) {
-      alert('Please log in to save homes.');
+      alert('Please log in to save homes.')
       return;
     }
 
