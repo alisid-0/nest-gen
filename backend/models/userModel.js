@@ -1,4 +1,4 @@
-const { Schema } = require('mongoose')
+const { Schema, Types } = require('mongoose')
 
 const userSchema = new Schema(
   {
@@ -6,7 +6,8 @@ const userSchema = new Schema(
     email: { type: String, required: true },
     password: { type: String, required: true },
     role: { type: String, default: 'user' },
-    saved_homes: { type: [String], default: '' }
+    saved_homes: { type: [Types.ObjectId], ref: 'SavedHome' },
+    searches: {type: [Types.ObjectId], ref: 'Searches'}
   },
   { timestamps: true }
 )

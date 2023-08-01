@@ -1,14 +1,14 @@
 const mongoose = require('mongoose')
 const userSchema = require('./userModel')
-const mealSchema = require('./mealModel')
-const planSchema = require('./planModel')
+const searchSchema = require('./searchModel')
+const savedHomeSchema = require('./savedHomeModel')
 
 const User = mongoose.model('User', userSchema)
-const Meal = mongoose.model('Meal', mealSchema)
-const Plan = mongoose.model('Plan', planSchema)
+const Search = mongoose.model('Search', searchSchema)
+const SavedHome = mongoose.model('SavedHome', savedHomeSchema)
 
 module.exports = {
     User,
-    Meal,
-    Plan
+    Search,
+    SavedHome
 }

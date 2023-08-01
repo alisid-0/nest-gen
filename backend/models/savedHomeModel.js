@@ -7,4 +7,4 @@ const savedHomeSchema = new Schema(
     { timestamps: true }
 )
 
-module.exports = planSchema
+module.exports = savedHomeSchema
