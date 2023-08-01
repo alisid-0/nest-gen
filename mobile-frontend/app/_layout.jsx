@@ -2,9 +2,9 @@ import FontAwesome from '@expo/vector-icons/FontAwesome';
 import { DarkTheme, DefaultTheme, ThemeProvider } from '@react-navigation/native';
 import { useFonts } from 'expo-font';
 import { SplashScreen, Stack } from 'expo-router';
-import { useEffect } from 'react';
 import { useColorScheme } from 'react-native';
 import { NativeBaseProvider } from 'native-base';
+import { createContext, useState, useEffect } from 'react';
 
 export {
   // Catch any errors thrown by the Layout component.
@@ -42,17 +42,22 @@ export default function RootLayout() {
 
   return <RootLayoutNav />;
 }
+export const LoginContext = createContext(null)
 
 function RootLayoutNav() {
   const colorScheme = useColorScheme();
+  const [user, setUser] = useState(null)
+  const [signedIn, setSignedIn] = useState(false)
 
   return (
     <NativeBaseProvider>
-      <Stack>
-        <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
-        <Stack.Screen name="modal" options={{ presentation: 'modal', title: 'Account' }} />
-        <Stack.Screen name='selected_home' options={{ title: 'Selected Home' }} />
-      </Stack>
+      <LoginContext.Provider value={{ user, setUser, signedIn, setSignedIn}}>
+        <Stack>
+          <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+          <Stack.Screen name="modal" options={{ presentation: 'modal', title: 'Account' }} />
+          <Stack.Screen name='selected_home' options={{ title: 'Selected Home' }} />
+        </Stack>
+      </LoginContext.Provider>
     </NativeBaseProvider>
   );
 }
