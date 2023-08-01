@@ -1,8 +1,8 @@
-const { Schema, Types } = require('mongoose');
+const { Schema, Types } = require('mongoose')
 
 const savedHomeSchema = new Schema(
   {
-    user_ids: [{ type: Types.ObjectId, ref: 'User' }],  // Add this line
+    user_ids: [{ type: Types.ObjectId, ref: 'User' }], 
     home_id: { type: String, default: '' },
     price: { type: Number, required: true },
     thumbnail: {type: String, required: true},
@@ -17,7 +17,7 @@ const savedHomeSchema = new Schema(
     prop_status: { type: String, required: true },
   },
   { timestamps: true }
-);
+)
 
 
-module.exports = savedHomeSchema;
+module.exports = savedHomeSchema
