@@ -1,13 +1,13 @@
 const Router = require('express').Router()
 
 const UserRouter = require('./userRouter')
-const MealRouter = require('./mealRouter')
-const PlanRouter = require('./planRouter')
-const PaymentRouter = require('./paymentRouter')
+const SavedHomeRouter = require('./savedHomeRouter')
+const SearchRouter = require('./searchRouter')
+
 
 Router.use('/users', UserRouter)
-Router.use('/meals', MealRouter)
-Router.use('/plans', PlanRouter)
-Router.use('/payment', PaymentRouter)
+Router.use('/search', SearchRouter)
+Router.use('/savedhomes', SavedHomeRouter)
+
 
 module.exports = Router
