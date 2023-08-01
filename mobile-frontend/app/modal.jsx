@@ -252,17 +252,17 @@ export default function ModalScreen() {
 
           <View style={{width: '75%', gap: 10, backgroundColor: '#f2f2f2', padding: 10, borderRadius: 10, marginBottom: 20}}>
             <Text style={styles.subTitle}>Saved Homes</Text>
-          {homes && homes.map((home, index) => (
-          user.saved_homes.includes(home.home_id) ?
-            <View key={index} style={{borderRadius: 10, padding: 5}}>
-              <Text>Address: {home.address_line}, {home.city}, {home.state_code} {home.postal_code}</Text>
-              <Text>Price: ${home.price}</Text>
-              <Text>Beds: {home.beds}</Text>
-              <Text>Baths: {home.baths}</Text>
-            </View>
-          :
-            null
-        ))}
+              {homes && homes.map((home, index) => (
+              user.saved_homes.includes(home.home_id) ?
+                <View key={index} style={{borderRadius: 10, padding: 5}}>
+                  <Text>Address: {home.address_line}, {home.city}, {home.state_code} {home.postal_code}</Text>
+                  <Text>Price: ${home.price}</Text>
+                  <Text>Beds: {home.beds}</Text>
+                  <Text>Baths: {home.baths}</Text>
+                </View>
+              :
+                null
+            ))}
           </View>
 
 

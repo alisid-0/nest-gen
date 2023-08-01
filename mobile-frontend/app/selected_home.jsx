@@ -1057,7 +1057,16 @@ function SelectedHome() {
   const {home} = route.params
 
   const house = JSON.parse(home)
-  const house_id = house.property_id.slice(1)
+
+  let house_id
+
+  if (house.property_id){
+    house_id = house.property_id.slice(1)
+  } else if (house.home_id){
+    house_id = house.home_id.slice(1)
+  }
+
+  console.log(house_id)
   const contextValue = useContext(LoginContext)
   const user = contextValue.user
   const setUser = contextValue.setUser
@@ -1098,7 +1107,7 @@ function SelectedHome() {
         const options = {
           method: 'GET',
           url: 'https://realty-in-us.p.rapidapi.com/properties/v2/detail',
-          params: { property_id: house.property_id.slice(1) },
+          params: { property_id: house_id },
           headers: {
             'X-RapidAPI-Key': '55744ee29emsh8d7f5fc5fdca9b9p176e64jsn68abcf1c6127',
             'X-RapidAPI-Host': 'realty-in-us.p.rapidapi.com',
@@ -1107,6 +1116,7 @@ function SelectedHome() {
 
         const response = await axios.request(options);
         setHouseDetails(response.data.properties[0]);
+        console.log(response)
       } catch (error) {
         console.error(error);
       }
@@ -1214,7 +1224,7 @@ function SelectedHome() {
       <View style={{width: '90%', marginVertical: 15, gap: 7}}>
         <View style={{flexDirection:'row', gap: 10, alignItems: 'flex-end'}}>
           <Text style={{fontSize: 20, fontWeight: 'bold'}}>${numberWithCommas(house.price)}</Text>
-          <Text style={{marginBottom: 1}}>{house.beds} bd | {house.baths} ba | {house.building_size.size} sqft </Text>
+          <Text style={{marginBottom: 1}}>{house.beds} bd | {house.baths} ba | {houseDetails.building_size.size} sqft </Text>
           <TouchableOpacity 
             style={{
               width: 30,
@@ -1241,12 +1251,12 @@ function SelectedHome() {
             />
           </TouchableOpacity>
         </View>
-        <Text>{house.address.line}, {house.address.city} {house.address.state_code} {house.address.postal_code}</Text>
-        <Text style={{fontWeight: 'bold'}}>{formatString(house.prop_type)} | {formatString(house.prop_status)}</Text>
+        <Text>{houseDetails.address.line}, {houseDetails.address.city} {houseDetails.address.state_code} {houseDetails.address.postal_code}</Text>
+        <Text style={{fontWeight: 'bold'}}>{formatString(houseDetails.prop_type)} | {formatString(houseDetails.prop_status)}</Text>
       </View>
       
       <View style={{flexDirection: 'row', justifyContent: 'flex-start', gap:10, width:'90%'}}>
-        <Link href={house.rdc_web_url} isExternal>
+        <Link href={houseDetails.rdc_web_url} isExternal>
           <Box borderWidth="1" borderColor="coolGray.300" shadow="3" bg="blue.300" p="5" rounded="8">
             <Text>View Listing</Text>
           </Box>
