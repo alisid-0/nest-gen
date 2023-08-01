@@ -248,12 +248,15 @@ export default function ModalScreen() {
                 autoCapitalize='none'
               />
               <View style={{flexDirection: 'row', marginTop: 10, gap: 5}}>
-                <Button onPress={updateUserInfo} >Save</Button>
                 <Button onPress={()=>{
                   setNewUsername('')
                   setNewEmail('')
                   setIsUpdating(false)
-                }}>Cancel</Button>
+                }}
+                variant='outline'
+                colorScheme='secondary'
+                >Cancel</Button>
+                <Button onPress={updateUserInfo}>Save</Button>
               </View>
             </FormControl>
           )}
