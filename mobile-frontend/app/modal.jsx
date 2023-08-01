@@ -189,8 +189,9 @@ export default function ModalScreen() {
         </View>
       )}
 
-      {signedIn && (
+      {signedIn && user && (
         <View style={styles.container}>
+          <View style={{marginVertical: 10}}></View>
           <Text style={styles.title}>Welcome, {user.username}!</Text>
         </View>
       )}
