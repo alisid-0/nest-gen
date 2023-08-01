@@ -193,6 +193,10 @@ export default function ModalScreen() {
         <View style={styles.container}>
           <View style={{marginVertical: 10}}></View>
           <Text style={styles.title}>Welcome, {user.username}!</Text>
+          <Button onPress={()=>{
+            setSignedIn(false)
+            setUser('')
+          }}>Sign Out</Button>
         </View>
       )}
 
