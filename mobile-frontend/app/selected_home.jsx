@@ -1,13 +1,15 @@
-import { StyleSheet } from 'react-native';
-import { useEffect, useState } from 'react';
-import EditScreenInfo from '@/components/EditScreenInfo';
-import { Text, View } from '@/components/Themed';
-import { useRoute } from '@react-navigation/native';
-import { Image, ScrollView, TouchableOpacity } from 'react-native';
-import { Button, Link, Box } from 'native-base';
-import React from 'react';
-import axios from 'axios';
-import FontAwesome from '@expo/vector-icons/FontAwesome';
+import { StyleSheet } from 'react-native'
+import { useEffect, useState } from 'react'
+import EditScreenInfo from '@/components/EditScreenInfo'
+import { Text, View } from '@/components/Themed'
+import { useRoute } from '@react-navigation/native'
+import { Image, ScrollView, TouchableOpacity } from 'react-native'
+import { Button, Link, Box } from 'native-base'
+import React from 'react'
+import axios from 'axios'
+import FontAwesome from '@expo/vector-icons/FontAwesome'
+import { LoginContext } from './_layout'
+import { useContext } from 'react'
 
 function SelectedHome() {
 
@@ -16,6 +18,11 @@ function SelectedHome() {
 
   const house = JSON.parse(home)
   const house_id = house.property_id.slice(1)
+  const contextValue = useContext(LoginContext)
+  const user = contextValue.user
+  const setUser = contextValue.setUser
+  const signedIn = contextValue.signedIn
+  const setSignedIn = contextValue.setSignedIn
 
   // console.log(house)
 
@@ -1066,14 +1073,14 @@ function SelectedHome() {
   const [selectedTab, setSelectedTab] = useState('Overview')
   const [isExpanded, setIsExpanded] = useState(false)
   const [isFactsExpanded, setIsFactsExpanded] = useState(false)
-  const [isSaved, setIsSaved] = useState(false);
-  const [savedHomes, setSavedHomes] = useState([]);
-  const [savedHomeId, setSavedHomeId] = useState(null); 
+  const [isSaved, setIsSaved] = useState(false)
+  const [savedHomes, setSavedHomes] = useState([])
+  const [savedHomeId, setSavedHomeId] = useState(null) 
 
   const shortDescription = houseDetails.description.slice(0,100) + '...'
-  const displayFeatures = isFactsExpanded ? houseDetails.features : houseDetails.features.slice(0, 2);
+  const displayFeatures = isFactsExpanded ? houseDetails.features : houseDetails.features.slice(0, 2)
 
-  const [isPressed, setIsPressed] = useState(false);
+  const [isPressed, setIsPressed] = useState(false)
 
 
   function formatString(str) {
@@ -1081,7 +1088,7 @@ function SelectedHome() {
   }
 
   function numberWithCommas(x) {
-    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")
   }
 
   useEffect(() =>{
@@ -1096,14 +1103,14 @@ function SelectedHome() {
           'X-RapidAPI-Key': '55744ee29emsh8d7f5fc5fdca9b9p176e64jsn68abcf1c6127',
           'X-RapidAPI-Host': 'realty-in-us.p.rapidapi.com'
         }
-      };
+      }
       
       try {
-        const response = await axios.request(options);
-        console.log(response.data.properties);
+        const response = await axios.request(options)
+        console.log(response.data.properties)
         setHouseDetails(response.data.properties[0])
       } catch (error) {
-        console.error(error);
+        console.error(error)
       }
     }
 
@@ -1112,25 +1119,31 @@ function SelectedHome() {
     // console.log('house',houseDetails) 
   },[])
 
-  const scrollRef = React.useRef();
+  const scrollRef = React.useRef()
 
   useEffect(() => {
     // when component mounts, check if home is saved
     axios.get(`http://localhost:3001/api/savedhomes`)
       .then(response => {
         // if home is saved, response.data will contain an array of saved homes
-        const savedHomes = response.data;
+        const savedHomes = response.data
   
         // check if the current home is in the array of saved homes
-        const homeIsSaved = savedHomes.some(savedHome => savedHome.home_id === house.property_id);
+        const homeIsSaved = savedHomes.some(savedHome => savedHome.home_id === house.property_id)
   
-        setIsSaved(homeIsSaved);
+        setIsSaved(homeIsSaved)
       })
-      .catch(console.error);
-  }, []);
+      .catch(console.error)
+  }, [])
 
 
   const saveHome = async () => {
+    // If the user is not signed in
+    if (!signedIn) {
+      alert('Please log in to save homes.')
+      return
+    }
+  
     if (!isSaved) {
       try {
         const response = await axios.post('http://localhost:3001/api/savedhomes/', 
@@ -1145,25 +1158,29 @@ function SelectedHome() {
             state_code: house.address.state_code,
             postal_code: house.address.postal_code,
             prop_type: house.prop_type,
-            prop_status: house.prop_status
+            prop_status: house.prop_status,
+            user_id: user._id
           }
-        );
+        )
   
-        setSavedHomeId(response.data.home_id); // Save the returned home_id
-        setIsSaved(true);
+        setSavedHomeId(response.data.home_id) // Save the returned home_id
+        setIsSaved(true)
       } catch (error) {
-        console.error(error);
+        console.error(error)
       }
     } else {
       // Make a DELETE request
       try {
-        await axios.delete(`http://localhost:3001/api/savedhomes/${savedHomeId}`); // Use the saved home_id
-        setIsSaved(false);
+        // Notice that we have appended the user._id as another parameter
+        await axios.delete(`http://localhost:3001/api/savedhomes/${savedHomeId}/${user._id}`) 
+        setIsSaved(false)
       } catch (error) {
-        console.error(error);
+        console.error(error)
       }
     }
-  };
+  }
+
+  
   
 
   
@@ -1233,25 +1250,25 @@ function SelectedHome() {
        <ScrollView horizontal showsHorizontalScrollIndicator= 'false' ref={scrollRef}>
 
         <TouchableOpacity style={{paddingHorizontal: 10}} onPress={() => {
-            setSelectedTab('Overview');
+            setSelectedTab('Overview')
             scrollRef.current.scrollTo({ y: 560, animated: true})
         }}>
           <Text style={{color: selectedTab === 'Overview' ? 'blue' : 'black'}}>Overview</Text>
         </TouchableOpacity>
         <TouchableOpacity style={{paddingHorizontal: 10}} onPress={() => {
-          setSelectedTab('Facts and Features');
+          setSelectedTab('Facts and Features')
           scrollRef.current.scrollTo({ y: 800, animated: true})
           }}>
           <Text style={{color: selectedTab === 'Facts and Features' ? 'blue' : 'black'}}>Facts and Features</Text>
         </TouchableOpacity>
         <TouchableOpacity style={{paddingHorizontal: 10}} onPress={() => {
-          setSelectedTab('Price and tax history');
+          setSelectedTab('Price and tax history')
           scrollRef.current.scrollTo({ y: 1050, animated: true})
           }}>
           <Text style={{color: selectedTab === 'Price and tax history' ? 'blue' : 'black'}}>Price and tax history</Text>
         </TouchableOpacity>
         <TouchableOpacity style={{paddingHorizontal: 10}} onPress={() => {
-          setSelectedTab('Schools');
+          setSelectedTab('Schools')
           scrollRef.current.scrollTo({ y: 1530, animated: true})
           }}>
           <Text style={{color: selectedTab === 'Schools' ? 'blue' : 'black'}}>Schools</Text>
@@ -1401,7 +1418,7 @@ function SelectedHome() {
       
       {/* <EditScreenInfo path="app/(tabs)/two.tsx" /> */}
     </ScrollView>
-  );
+  )
 }
 
 const styles = StyleSheet.create({
@@ -1440,6 +1457,6 @@ const styles = StyleSheet.create({
     height: 1,
     width: '100%',
   }
-});
+})
 
 export default SelectedHome

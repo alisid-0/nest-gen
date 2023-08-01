@@ -2,6 +2,7 @@ const { Schema, Types } = require('mongoose');
 
 const savedHomeSchema = new Schema(
   {
+    user_ids: [{ type: Types.ObjectId, ref: 'User' }],  // Add this line
     home_id: { type: String, default: '' },
     price: { type: Number, required: true },
     beds: { type: Number, required: true },
@@ -16,5 +17,6 @@ const savedHomeSchema = new Schema(
   },
   { timestamps: true }
 );
+
 
 module.exports = savedHomeSchema;

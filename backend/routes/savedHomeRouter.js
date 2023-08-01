@@ -6,6 +6,6 @@ Router
     .get('/:id', controller.getSavedHomeById)
     .post('/', controller.createSavedHome)
     .put('/:id', controller.updateSavedHome)
-    .delete('/:id', controller.deleteSavedHome)
+    .delete('/:home_id/:user_id', controller.deleteSavedHome)
 
 module.exports = Router
