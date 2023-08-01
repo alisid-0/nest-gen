@@ -80,7 +80,9 @@ export default function SavedHomes() {
         ))}
 
         {!user && (
-          <Text style={styles.title}>Please sign in to save and view homes.</Text>
+          <View style={{width: '80%'}}>
+            <Text style={styles.title}>Please sign in to save and view homes.</Text>
+          </View>
         )}
         {/* {homes && homes.map((house,index)=> (
           (house.size_sqft && house.thumbnail && (
@@ -114,7 +116,8 @@ const styles = StyleSheet.create({
   container: {
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: 'white'
+    backgroundColor: 'white',
+
   },
   leftContainer: {
     width: '90%',
@@ -129,6 +132,7 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 20,
     fontWeight: 'bold',
+    textAlign: 'center'
   },
   separatorTop: {
     marginTop: 10,
