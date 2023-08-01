@@ -1112,7 +1112,7 @@ function SelectedHome() {
       }
     };
 
-    fetchHouseDetails();
+    // fetchHouseDetails();
   }, []);
 
   useEffect(() => {
@@ -1134,7 +1134,7 @@ function SelectedHome() {
     }
 
     if (!isSaved) {
-      console.log('saving home')
+      
       try {
         const response = await axios.post('http://localhost:3001/api/savedhomes/', {
           home_id: house.property_id,
@@ -1162,20 +1162,19 @@ function SelectedHome() {
         console.error(error);
       }
     } else {
-      console.log('unsaving home')
+      
       try {
-        console.log('trying')
+        
         let savedHomeId;
         for (let homeId of user.saved_homes) {
-          console.log('homeId',homeId)
-          console.log('prop id',house.property_id)
+          
           if (homeId === house.property_id) {
             savedHomeId = homeId;
             break;
           }
         }
 
-        console.log(savedHomeId)
+        
 
         if (savedHomeId) {
           await axios.delete(

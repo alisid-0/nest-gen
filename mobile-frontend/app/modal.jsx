@@ -1,36 +1,38 @@
-import { StatusBar } from 'expo-status-bar';
-import { Platform, StyleSheet } from 'react-native';
-import { Text, View } from '@/components/Themed';
-import axios from 'axios';
-import { useState, useEffect, useContext } from 'react';
-import { LoginContext } from './_layout';
-import { FormControl, Input, Button } from 'native-base';
-import { Link } from 'expo-router';
-import { router } from 'expo-router';
-import { TouchableOpacity } from 'react-native';
+import { StatusBar } from 'expo-status-bar'
+import { Platform, StyleSheet } from 'react-native'
+import { Text, View } from '@/components/Themed'
+import axios from 'axios'
+import { useState, useEffect, useContext } from 'react'
+import { LoginContext } from './_layout'
+import { FormControl, Input, Button } from 'native-base'
+import { Link } from 'expo-router'
+import { router } from 'expo-router'
+import { TouchableOpacity } from 'react-native'
 import {useForm} from 'react-hook-form'
+import { FlatList } from 'native-base'
+import { Alert } from 'react-native'
 
 export default function ModalScreen() {
   
-  const contextValue = useContext(LoginContext);
-  const user = contextValue.user;
-  const setUser = contextValue.setUser;
+  const contextValue = useContext(LoginContext)
+  const user = contextValue.user
+  const setUser = contextValue.setUser
   const signedIn = contextValue.signedIn
-  const setSignedIn = contextValue.setSignedIn;
+  const setSignedIn = contextValue.setSignedIn
 
   const [isSigningUp, setIsSigningUp] = useState(false)
 
   const { register, handleSubmit, setValue } = useForm()
 
-  const [email, setEmail] = useState("");
+  const [email, setEmail] = useState("")
   const [loginEmail, setLoginEmail] = useState('')
-  const [username, setUsername] = useState("");
-  const [password, setPassword] = useState("");
+  const [username, setUsername] = useState("")
+  const [password, setPassword] = useState("")
   const [loginPassword, setLoginPassword] = useState('')
-  const [confirmPassword, setConfirmPassword] = useState("");
-  const [emailIsValid, setEmailIsValid] = useState(false);
-  const [passwordIsValid, setPasswordIsValid] = useState(false);
-  const [passwordsMatch, setPasswordsMatch] = useState(false);
+  const [confirmPassword, setConfirmPassword] = useState("")
+  const [emailIsValid, setEmailIsValid] = useState(false)
+  const [passwordIsValid, setPasswordIsValid] = useState(false)
+  const [passwordsMatch, setPasswordsMatch] = useState(false)
 
   useEffect(()=>{
     const getUsers = async()=> {
@@ -78,22 +80,49 @@ export default function ModalScreen() {
   }
 
   const validateEmail = (email) => {
-    const re = /^[\w-]+(\.[\w-]+)*@([\w-]+\.)+[a-zA-Z]{2,7}$/;
-    return re.test(email);
-  };
+    const re = /^[\w-]+(\.[\w-]+)*@([\w-]+\.)+[a-zA-Z]{2,7}$/
+    return re.test(email)
+  }
 
   // Function to validate password
   const validatePassword = (password) => {
-    const re = /^(?=.*\d)(?=.*[!@#$%^&*])(?=.*[a-z])(?=.*[A-Z]).{8,}$/;
-    return re.test(password);
-  };
+    const re = /^(?=.*\d)(?=.*[!@#$%^&*])(?=.*[a-z])(?=.*[A-Z]).{8,}$/
+    return re.test(password)
+  }
 
   // Use useEffect to perform checks whenever inputs change
   useEffect(() => {
-    setEmailIsValid(validateEmail(email));
-    setPasswordIsValid(validatePassword(password));
-    setPasswordsMatch(password === confirmPassword);
-  }, [email, password, confirmPassword]);
+    setEmailIsValid(validateEmail(email))
+    setPasswordIsValid(validatePassword(password))
+    setPasswordsMatch(password === confirmPassword)
+  }, [email, password, confirmPassword])
+
+  const [newUsername, setNewUsername] = useState('')
+  const [newEmail, setNewEmail] = useState('')
+  const [isUpdating, setIsUpdating] = useState(false)
+
+  const updateUserInfo = async () => {
+    try {
+      const response = await axios.put(
+        `http://localhost:3001/api/users/${user._id}`, 
+        { username: newUsername, email: newEmail }
+      )
+      setUser(response.data)
+      setIsUpdating(false)
+    } catch (error) {
+      console.error(error)
+    }
+  }
+
+  const deleteAccount = async () => {
+    try {
+      await axios.delete(`http://localhost:3001/api/users/${user._id}`)
+      setSignedIn(false)
+      setUser('')
+    } catch (error) {
+      console.error(error)
+    }
+  }
 
   return (
     <View style={styles.container}>
@@ -137,8 +166,8 @@ export default function ModalScreen() {
             <Input
               autoCapitalize='none'
               onChangeText={text => {
-                setValue('email', text);
-                setEmail(text);
+                setValue('email', text)
+                setEmail(text)
               }}
               isInvalid={!emailIsValid && email !== ""}
             />
@@ -147,16 +176,16 @@ export default function ModalScreen() {
             <Input
               autoCapitalize='none'
               onChangeText={text => {
-                setValue('username', text);
-                setUsername(text);
+                setValue('username', text)
+                setUsername(text)
               }}
             />
             <FormControl.Label>Password</FormControl.Label>
             <Input
               autoCapitalize='none'
               onChangeText={text => {
-                setValue('password', text);
-                setPassword(text);
+                setValue('password', text)
+                setPassword(text)
               }}
               type='password'
               isInvalid={!passwordIsValid && password !== ""}
@@ -166,8 +195,8 @@ export default function ModalScreen() {
             <Input
               autoCapitalize='none'
               onChangeText={text => {
-                setValue('confirmPassword', text);
-                setConfirmPassword(text);
+                setValue('confirmPassword', text)
+                setConfirmPassword(text)
               }}
               type='password'
               isInvalid={!passwordsMatch && confirmPassword !== ""}
@@ -194,25 +223,74 @@ export default function ModalScreen() {
 
       {signedIn && user && (
         <View style={styles.container}>
-          <View style={{marginVertical: 10}}></View>
           <Text style={styles.title}>Welcome, {user.username}!</Text>
-          <Button style={{marginVertical: 10}} onPress={()=>{
-            setSignedIn(false)
-            setUser('')
-          }}>Sign Out</Button>
+
+          <View style={styles.profileInfo}>
+            <Text style={styles.subTitle}>Profile Information</Text>
+            <Text>Email: {user.email}</Text>
+            <Text>Username: {user.username}</Text>
+          </View>
+
+          {!isUpdating && (
+            <Button onPress={()=> setIsUpdating(true)}>Update Information</Button>
+          )}
+
+          {isUpdating && (
+            <FormControl>
+              <FormControl.Label>New Username</FormControl.Label>
+              <Input
+                onChangeText={(val) => setNewUsername(val)}
+                autoCapitalize='none'
+              />
+              <FormControl.Label>New Email</FormControl.Label>
+              <Input
+                onChangeText={(val) => setNewEmail(val)}
+                autoCapitalize='none'
+              />
+              <Button onPress={updateUserInfo} style={{marginTop: 10}}>Done</Button>
+            </FormControl>
+          )}
+
+          <Button
+            colorScheme="secondary"
+            onPress={() => {
+              Alert.alert(
+                "Delete Account",
+                "Are you sure you want to delete your account? This action cannot be undone.",
+                [
+                  { text: "Cancel", style: "cancel" },
+                  { text: "Delete", style: "destructive", onPress: deleteAccount },
+                ],
+              )
+            }}
+          >
+            Delete Account
+          </Button>
+
+          <Button  
+            onPress={()=>{
+              setSignedIn(false)
+              setUser('')
+            }}
+          >
+            Sign Out
+          </Button>
         </View>
       )}
 
+
       <StatusBar style={Platform.OS === 'ios' ? 'light' : 'auto'} />
     </View>
-  );
+  )
 }
 
 const styles = StyleSheet.create({
   container: {
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: 'white'
+    backgroundColor: 'white',
+    height: '100%',
+    gap: 10
   },
   leftContainer: {
     width: '90%',
@@ -242,5 +320,18 @@ const styles = StyleSheet.create({
     marginBottom: 10,
     height: 1,
     width: '100%',
-  }
+  },
+  profileInfo: {
+    width: '80%',  // adjust as needed
+    backgroundColor: '#f2f2f2',  // adjust as needed
+    padding: 10,  // adjust as needed
+    borderRadius: 10,  // adjust as needed
+    marginBottom: 20,  // adjust as needed
+  },
+  subTitle: {
+    fontSize: 20,
+    fontWeight: 'bold',
+    marginTop: 20,
+    marginBottom: 10,
+  },
 })

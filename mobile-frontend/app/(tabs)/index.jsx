@@ -86,7 +86,7 @@ export default function Home() {
     }
 
     if(city && state){
-      getNewHouses()
+      // getNewHouses()
     }
 
   },[city,state])
