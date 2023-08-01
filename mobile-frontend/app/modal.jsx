@@ -11,6 +11,7 @@ import { TouchableOpacity } from 'react-native'
 import {useForm} from 'react-hook-form'
 import { FlatList } from 'native-base'
 import { Alert } from 'react-native'
+import { ScrollView } from 'native-base'
 
 export default function ModalScreen() {
   
@@ -33,13 +34,14 @@ export default function ModalScreen() {
   const [emailIsValid, setEmailIsValid] = useState(false)
   const [passwordIsValid, setPasswordIsValid] = useState(false)
   const [passwordsMatch, setPasswordsMatch] = useState(false)
+  const [homes, setHomes] = useState('')
 
   useEffect(()=>{
     const getUsers = async()=> {
       const users = await axios.get('http://localhost:3001/api/users')
-      console.log(users.data)
     }
     getUsers()
+
   },[])
 
   useEffect(()=> {
@@ -74,10 +76,22 @@ export default function ModalScreen() {
       console.log(response.data)
       setSignedIn(true)
       setUser(response.data)
+
     } catch(err){
       console.error(err)
     }
   }
+
+  useEffect(()=>{
+    const getHomes = async()=>{
+      const homesList = await axios.get('http://localhost:3001/api/savedhomes')
+      setHomes(homesList.data)
+    }
+
+    getHomes()
+  }, [user])
+
+
 
   const validateEmail = (email) => {
     const re = /^[\w-]+(\.[\w-]+)*@([\w-]+\.)+[a-zA-Z]{2,7}$/
@@ -124,8 +138,13 @@ export default function ModalScreen() {
     }
   }
 
+  const signOutAccount = () => {
+    setSignedIn(false)
+    setUser('')
+  }
+
   return (
-    <View style={styles.container}>
+    <ScrollView contentContainerStyle={styles.container}>
       
       {!signedIn && !isSigningUp && (
         <View style={styles.container}>
@@ -225,11 +244,27 @@ export default function ModalScreen() {
         <View style={styles.container}>
           <Text style={{fontSize: 30, fontWeight: 'bold'}}>Welcome, {user.username}!</Text>
 
-          <View style={styles.profileInfo}>
+          <View style={{width: '75%', gap: 10, backgroundColor: '#f2f2f2', padding: 10, borderRadius: 10, marginBottom: 20}}>
             <Text style={styles.subTitle}>Profile Information</Text>
             <Text>Email: {user.email}</Text>
             <Text>Username: {user.username}</Text>
           </View>
+
+          <View style={{width: '75%', gap: 10, backgroundColor: '#f2f2f2', padding: 10, borderRadius: 10, marginBottom: 20}}>
+            <Text style={styles.subTitle}>Saved Homes</Text>
+          {homes && homes.map((home, index) => (
+          user.saved_homes.includes(home.home_id) ?
+            <View key={index} style={{borderRadius: 10, padding: 5}}>
+              <Text>Address: {home.address_line}, {home.city}, {home.state_code} {home.postal_code}</Text>
+              <Text>Price: ${home.price}</Text>
+              <Text>Beds: {home.beds}</Text>
+              <Text>Baths: {home.baths}</Text>
+            </View>
+          :
+            null
+        ))}
+          </View>
+
 
           {!isUpdating && (
             <Button onPress={()=> setIsUpdating(true)}>Update Information</Button>
@@ -278,9 +313,15 @@ export default function ModalScreen() {
           </Button>
 
           <Button  
-            onPress={()=>{
-              setSignedIn(false)
-              setUser('')
+            onPress={() => {
+              Alert.alert(
+                "Sign Out",
+                "Are you sure you want to sign out? You will need to log back in.",
+                [
+                  { text: "Cancel", style: "cancel" },
+                  { text: "Sign Out", style: "destructive", onPress: signOutAccount },
+                ],
+              )
             }}
           >
             Sign Out
@@ -291,7 +332,7 @@ export default function ModalScreen() {
 
 
       <StatusBar style={Platform.OS === 'ios' ? 'light' : 'auto'} />
-    </View>
+    </ScrollView>
   )
 }
 
@@ -300,8 +341,8 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     backgroundColor: 'white',
-    height: '100%',
-    gap: 10
+    gap: 10,
+    paddingVertical: 10
   },
   leftContainer: {
     width: '90%',
@@ -342,7 +383,5 @@ const styles = StyleSheet.create({
   subTitle: {
     fontSize: 20,
     fontWeight: 'bold',
-    marginTop: 20,
-    marginBottom: 10,
   },
 })
