@@ -247,7 +247,14 @@ export default function ModalScreen() {
                 onChangeText={(val) => setNewEmail(val)}
                 autoCapitalize='none'
               />
-              <Button onPress={updateUserInfo} style={{marginTop: 10}}>Done</Button>
+              <View style={{flexDirection: 'row', marginTop: 10, gap: 5}}>
+                <Button onPress={updateUserInfo} >Save</Button>
+                <Button onPress={()=>{
+                  setNewUsername('')
+                  setNewEmail('')
+                  setIsUpdating(false)
+                }}>Cancel</Button>
+              </View>
             </FormControl>
           )}
 
@@ -275,6 +282,7 @@ export default function ModalScreen() {
           >
             Sign Out
           </Button>
+
         </View>
       )}
 
