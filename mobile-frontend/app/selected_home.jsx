@@ -7,6 +7,7 @@ import { Image, ScrollView, TouchableOpacity } from 'react-native';
 import { Button, Link, Box } from 'native-base';
 import React from 'react';
 import axios from 'axios';
+import FontAwesome from '@expo/vector-icons/FontAwesome';
 
 function SelectedHome() {
 
@@ -15,8 +16,6 @@ function SelectedHome() {
 
   const house = JSON.parse(home)
   const house_id = house.property_id.slice(1)
-
-
 
   // console.log(house)
 
@@ -1067,10 +1066,14 @@ function SelectedHome() {
   const [selectedTab, setSelectedTab] = useState('Overview')
   const [isExpanded, setIsExpanded] = useState(false)
   const [isFactsExpanded, setIsFactsExpanded] = useState(false)
+  const [isSaved, setIsSaved] = useState(false);
+  const [savedHomes, setSavedHomes] = useState([]);
+  const [savedHomeId, setSavedHomeId] = useState(null); 
 
   const shortDescription = houseDetails.description.slice(0,100) + '...'
   const displayFeatures = isFactsExpanded ? houseDetails.features : houseDetails.features.slice(0, 2);
 
+  const [isPressed, setIsPressed] = useState(false);
 
 
   function formatString(str) {
@@ -1111,6 +1114,62 @@ function SelectedHome() {
 
   const scrollRef = React.useRef();
 
+  useEffect(() => {
+    // when component mounts, check if home is saved
+    axios.get(`http://localhost:3001/api/savedhomes`)
+      .then(response => {
+        // if home is saved, response.data will contain an array of saved homes
+        const savedHomes = response.data;
+  
+        // check if the current home is in the array of saved homes
+        const homeIsSaved = savedHomes.some(savedHome => savedHome.home_id === house.property_id);
+  
+        setIsSaved(homeIsSaved);
+      })
+      .catch(console.error);
+  }, []);
+
+
+  const saveHome = async () => {
+    if (!isSaved) {
+      try {
+        const response = await axios.post('http://localhost:3001/api/savedhomes/', 
+          {
+            home_id: house.property_id,
+            price: house.price,
+            beds: house.beds,
+            baths: house.baths,
+            size_sqft: house.building_size.size,
+            address_line: house.address.line,
+            city: house.address.city,
+            state_code: house.address.state_code,
+            postal_code: house.address.postal_code,
+            prop_type: house.prop_type,
+            prop_status: house.prop_status
+          }
+        );
+  
+        setSavedHomeId(response.data.home_id); // Save the returned home_id
+        setIsSaved(true);
+      } catch (error) {
+        console.error(error);
+      }
+    } else {
+      // Make a DELETE request
+      try {
+        await axios.delete(`http://localhost:3001/api/savedhomes/${savedHomeId}`); // Use the saved home_id
+        setIsSaved(false);
+      } catch (error) {
+        console.error(error);
+      }
+    }
+  };
+  
+
+  
+  
+  
+
   return (
     <ScrollView contentContainerStyle={styles.container} ref={scrollRef}>
 
@@ -1124,6 +1183,31 @@ function SelectedHome() {
         <View style={{flexDirection:'row', gap: 10, alignItems: 'flex-end'}}>
           <Text style={{fontSize: 20, fontWeight: 'bold'}}>${numberWithCommas(house.price)}</Text>
           <Text style={{marginBottom: 1}}>{house.beds} bd | {house.baths} ba | {house.building_size.size} sqft </Text>
+          <TouchableOpacity 
+            style={{
+              width: 30,
+              height: 30,
+              borderWidth: 1,
+              justifyContent: 'center',
+              alignItems: 'center',
+              borderRadius: 50,
+              paddingLeft: 1,
+              paddingTop: 1,
+            }}
+            onPress={saveHome}
+          >
+            <FontAwesome
+              name='heart'
+              color='black'
+              size={20} 
+              style={{ position: 'absolute', top: 4, right: 3.5 }} 
+            />
+            <FontAwesome
+              name='heart'
+              color={isSaved ? 'red' : 'white'}
+              size={16} 
+            />
+          </TouchableOpacity>
         </View>
         <Text>{house.address.line}, {house.address.city} {house.address.state_code} {house.address.postal_code}</Text>
         <Text style={{fontWeight: 'bold'}}>{formatString(house.prop_type)} | {formatString(house.prop_status)}</Text>

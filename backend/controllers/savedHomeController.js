@@ -11,18 +11,29 @@ const getAllSavedHomes = async (req, res) => {
 
 const getSavedHomeById = async (req, res) => {
     try {
-        const savedHome = await SavedHome.findById(req.params.id)
-        if (!savedHome) return res.status(404).send('No SavedHome found!')
-        res.status(200).json(savedHome)
+        const savedHome = await SavedHome.findOne({home_id: req.params.id});
+        if (!savedHome) return res.status(404).send('No SavedHome found!');
+        res.status(200).json(savedHome);
     } catch (e) {
-        res.status(400).send(e.message)
+        res.status(400).send(e.message);
     }
-}
+};
+
+const deleteSavedHome = async (req, res) => {
+    try {
+        const savedHome = await SavedHome.findOneAndDelete({home_id: req.params.id});
+        if (!savedHome) return res.status(404).send('No SavedHome found!');
+        res.status(200).send(`SavedHome deleted successfully!`);
+    } catch (e) {
+        res.status(500).send(e.message);
+    }
+};
+
 
 const createSavedHome = async (req, res) => {
     const savedHome = new SavedHome(req.body)
     try {
-        await SavedHome.save()
+        await savedHome.save()
         res.status(201).send(savedHome)
     } catch (e) {
         res.status(400).send(e.message)
@@ -39,15 +50,7 @@ const updateSavedHome = async (req, res) => {
     }
 }
 
-const deleteSavedHome = async (req, res) => {
-    try {
-        const savedHome = await SavedHome.findByIdAndDelete(req.params.id)
-        if (!savedHome) return res.status(404).send('No SavedHome found!')
-        res.status(200).send(`SavedHome deleted successfully!`)
-    } catch (e) {
-        res.status(500).send(e.message)
-    }
-}
+
 
 module.exports = {
     getAllSavedHomes,
