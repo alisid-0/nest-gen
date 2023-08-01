@@ -23,8 +23,10 @@ export default function ModalScreen() {
   const { register, handleSubmit, setValue } = useForm()
 
   const [email, setEmail] = useState("");
+  const [loginEmail, setLoginEmail] = useState('')
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
+  const [loginPassword, setLoginPassword] = useState('')
   const [confirmPassword, setConfirmPassword] = useState("");
   const [emailIsValid, setEmailIsValid] = useState(false);
   const [passwordIsValid, setPasswordIsValid] = useState(false);
@@ -62,9 +64,10 @@ export default function ModalScreen() {
   const onLogin = async data =>{
     try{
       const loginData = {
-        email: data.email,
-        password: data.password
+        email: loginEmail,
+        password: loginPassword
       }
+      console.log(loginData)
       const response = await axios.post('http://localhost:3001/api/users/login', loginData)
       console.log(response.data)
       setSignedIn(true)
@@ -102,9 +105,9 @@ export default function ModalScreen() {
           <Text style={styles.title}>Login</Text>
           <FormControl as='form' onSubmit={handleSubmit(onLogin)} style={{width: 200, marginTop: 20}}>
             <FormControl.Label>Email</FormControl.Label>
-            <Input autoCapitalize= 'none' onChangeText={text => setValue('username', text)} style={{width: 200}}/>
+            <Input autoCapitalize= 'none' onChangeText={setLoginEmail} style={{width: 200}}/>
             <FormControl.Label>Password</FormControl.Label>
-            <Input autoCapitalize='none' onChangeText={text => setValue('password', text)} type='password'/>
+            <Input autoCapitalize='none' onChangeText={setLoginPassword} type='password'/>
             <Button onPress={handleSubmit(onLogin)} style={{marginTop: 20}}>Log In</Button>
           </FormControl>
 
@@ -193,7 +196,7 @@ export default function ModalScreen() {
         <View style={styles.container}>
           <View style={{marginVertical: 10}}></View>
           <Text style={styles.title}>Welcome, {user.username}!</Text>
-          <Button onPress={()=>{
+          <Button style={{marginVertical: 10}} onPress={()=>{
             setSignedIn(false)
             setUser('')
           }}>Sign Out</Button>
