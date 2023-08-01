@@ -98,13 +98,13 @@ export default function ModalScreen() {
     return re.test(email)
   }
 
-  // Function to validate password
+  
   const validatePassword = (password) => {
     const re = /^(?=.*\d)(?=.*[!@#$%^&*])(?=.*[a-z])(?=.*[A-Z]).{8,}$/
     return re.test(password)
   }
 
-  // Use useEffect to perform checks whenever inputs change
+  
   useEffect(() => {
     setEmailIsValid(validateEmail(email))
     setPasswordIsValid(validatePassword(password))
