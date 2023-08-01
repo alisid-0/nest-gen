@@ -1077,6 +1077,10 @@ function SelectedHome() {
     return str.split('_').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ')
   }
 
+  function numberWithCommas(x) {
+    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+  }
+
   useEffect(() =>{
     const getHouseDetails = async()=>{
       const options = {
@@ -1106,10 +1110,6 @@ function SelectedHome() {
   },[])
 
   const scrollRef = React.useRef();
-  const overviewRef = React.useRef();
-  const factsRef = React.createRef();
-  const priceRef = React.createRef();
-  const schoolsRef = React.createRef();
 
   return (
     <ScrollView contentContainerStyle={styles.container} ref={scrollRef}>
@@ -1122,7 +1122,7 @@ function SelectedHome() {
 
       <View style={{width: '90%', marginVertical: 15, gap: 7}}>
         <View style={{flexDirection:'row', gap: 10, alignItems: 'flex-end'}}>
-          <Text style={{fontSize: 20, fontWeight: 'bold'}}>${house.price}</Text>
+          <Text style={{fontSize: 20, fontWeight: 'bold'}}>${numberWithCommas(house.price)}</Text>
           <Text style={{marginBottom: 1}}>{house.beds} bd | {house.baths} ba | {house.building_size.size} sqft </Text>
         </View>
         <Text>{house.address.line}, {house.address.city} {house.address.state_code} {house.address.postal_code}</Text>
@@ -1185,9 +1185,11 @@ function SelectedHome() {
           <View style={styles.leftContainer}>
             <Text>Built in {String(houseDetails.year_built)}</Text>
           </View>
-          <View style={styles.leftContainer}>
-            <Text>{houseDetails.public_records[0].cooling} cooling</Text>
-          </View>
+          {houseDetails.public_records[0].cooling && (
+            <View style={styles.leftContainer}>
+              <Text>{houseDetails.public_records[0].cooling} cooling</Text>
+            </View>
+          )}
           <View style={styles.leftContainer}>
             <Text>{houseDetails.public_records[0].heating} heating</Text>
           </View>
@@ -1199,7 +1201,7 @@ function SelectedHome() {
           </View>
       </View>
 
-      <View style={styles.leftContainerGap} ref={overviewRef}>
+      <View style={styles.leftContainerGap}>
         <View style={{marginVertical: 5}}></View>
         <Text style={styles.title}>Overview</Text>
         <Text>
@@ -1221,7 +1223,7 @@ function SelectedHome() {
         </View>
       </View>
 
-      <View style={styles.leftContainerGap} ref={factsRef}>
+      <View style={styles.leftContainerGap} >
         <View style={{marginVertical: 5}}></View>
         <Text style={styles.title}>Facts and Features</Text>
         {displayFeatures.map((feature,index)=>(
@@ -1239,7 +1241,7 @@ function SelectedHome() {
         </TouchableOpacity>
       </View>
 
-      <View style={styles.leftContainer} ref={priceRef}>
+      <View style={styles.leftContainer} >
         <View style={{marginVertical: 5}}></View>
         <Text style={styles.title}>Price and Tax history</Text>
         <View style={{width: '100%'}}>
@@ -1293,10 +1295,10 @@ function SelectedHome() {
         </View>
       </View>
 
-      <View style={styles.leftContainerGap} ref={schoolsRef}>
+      <View style={styles.leftContainerGap} >
         <View style={{marginVertical: 5}}></View>
         <Text style={styles.title}>Schools</Text>
-        {houseDetails.schools.map((school,index)=>(
+        {houseDetails.schools && houseDetails.schools.grades && houseDetails.school.grades.range && houseDetails.schools.map((school,index)=>(
           <View key={index} style={{flexDirection:'row', alignItems: 'center', gap: 10, paddingVertical: 10}}>
             <View style={{width: 50, height: 50, backgroundColor: 'blue', borderRadius: 50, alignItems: 'center', justifyContent: 'center'}}>
               <Text style={{color: 'white'}}>{!school.ratings.great_schools_rating? 'N/A' : `${school.ratings.great_schools_rating}/10`}</Text>
