@@ -12,20 +12,6 @@ import { LoginContext } from './_layout'
 import { useContext } from 'react'
 
 function SelectedHome() {
-
-  const route = useRoute()
-  const {home} = route.params
-
-  const house = JSON.parse(home)
-  const house_id = house.property_id.slice(1)
-  const contextValue = useContext(LoginContext)
-  const user = contextValue.user
-  const setUser = contextValue.setUser
-  const signedIn = contextValue.signedIn
-  const setSignedIn = contextValue.setSignedIn
-
-  // console.log(house)
-
   houseDeets= [{
   "meta": {
     "build": "3.23.181",
@@ -1066,6 +1052,20 @@ function SelectedHome() {
     }
   ]
 }]
+
+  const route = useRoute()
+  const {home} = route.params
+
+  const house = JSON.parse(home)
+  const house_id = house.property_id.slice(1)
+  const contextValue = useContext(LoginContext)
+  const user = contextValue.user
+  const setUser = contextValue.setUser
+  const signedIn = contextValue.signedIn
+  const setSignedIn = contextValue.setSignedIn
+
+  // console.log(house)
+
   const [houseDetails, setHouseDetails] = useState(houseDeets[0].properties[0])
 
   console.log(houseDetails)
@@ -1081,6 +1081,7 @@ function SelectedHome() {
   const displayFeatures = isFactsExpanded ? houseDetails.features : houseDetails.features.slice(0, 2)
 
   const [isPressed, setIsPressed] = useState(false)
+  const scrollRef = React.useRef()
 
 
   function formatString(str) {
@@ -1091,95 +1092,109 @@ function SelectedHome() {
     return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")
   }
 
-  useEffect(() =>{
-    const getHouseDetails = async()=>{
-      const options = {
-        method: 'GET',
-        url: 'https://realty-in-us.p.rapidapi.com/properties/v2/detail',
-        params: {
-          property_id: house_id
-        },
-        headers: {
-          'X-RapidAPI-Key': '55744ee29emsh8d7f5fc5fdca9b9p176e64jsn68abcf1c6127',
-          'X-RapidAPI-Host': 'realty-in-us.p.rapidapi.com'
-        }
-      }
-      
+  useEffect(() => {
+    const fetchHouseDetails = async () => {
       try {
-        const response = await axios.request(options)
-        console.log(response.data.properties)
-        setHouseDetails(response.data.properties[0])
+        const options = {
+          method: 'GET',
+          url: 'https://realty-in-us.p.rapidapi.com/properties/v2/detail',
+          params: { property_id: house.property_id.slice(1) },
+          headers: {
+            'X-RapidAPI-Key': '55744ee29emsh8d7f5fc5fdca9b9p176e64jsn68abcf1c6127',
+            'X-RapidAPI-Host': 'realty-in-us.p.rapidapi.com',
+          },
+        };
+
+        const response = await axios.request(options);
+        setHouseDetails(response.data.properties[0]);
       } catch (error) {
-        console.error(error)
+        console.error(error);
       }
-    }
+    };
 
-    // getHouseDetails()
-
-    // console.log('house',houseDetails) 
-  },[])
-
-  const scrollRef = React.useRef()
+    // fetchHouseDetails();
+  }, []);
 
   useEffect(() => {
-    // when component mounts, check if home is saved
-    axios.get(`http://localhost:3001/api/savedhomes`)
-      .then(response => {
-        // if home is saved, response.data will contain an array of saved homes
-        const savedHomes = response.data
-  
-        // check if the current home is in the array of saved homes
-        const homeIsSaved = savedHomes.some(savedHome => savedHome.home_id === house.property_id)
-  
-        setIsSaved(homeIsSaved)
+    axios
+      .get('http://localhost:3001/api/savedhomes')
+      .then((response) => {
+        const homeIsSaved = response.data.some(
+          (savedHome) => savedHome.home_id === house.property_id
+        );
+        setIsSaved(homeIsSaved);
       })
-      .catch(console.error)
-  }, [])
-
+      .catch(console.error);
+  }, []);
 
   const saveHome = async () => {
-    // If the user is not signed in
     if (!signedIn) {
-      alert('Please log in to save homes.')
-      return
+      alert('Please log in to save homes.');
+      return;
     }
-  
+
     if (!isSaved) {
+      console.log('saving home')
       try {
-        const response = await axios.post('http://localhost:3001/api/savedhomes/', 
-          {
-            home_id: house.property_id,
-            price: house.price,
-            beds: house.beds,
-            baths: house.baths,
-            size_sqft: house.building_size.size,
-            address_line: house.address.line,
-            city: house.address.city,
-            state_code: house.address.state_code,
-            postal_code: house.address.postal_code,
-            prop_type: house.prop_type,
-            prop_status: house.prop_status,
-            user_id: user._id
-          }
-        )
-  
-        setSavedHomeId(response.data.home_id) // Save the returned home_id
-        setIsSaved(true)
+        const response = await axios.post('http://localhost:3001/api/savedhomes/', {
+          home_id: house.property_id,
+          price: house.price,
+          beds: house.beds,
+          baths: house.baths,
+          size_sqft: house.building_size.size,
+          address_line: house.address.line,
+          city: house.address.city,
+          state_code: house.address.state_code,
+          postal_code: house.address.postal_code,
+          prop_type: house.prop_type,
+          prop_status: house.prop_status,
+          user_id: user._id,
+        });
+
+        setIsSaved(true);
+
+        // Fetch updated user data
+        const updatedUser = await axios.get(
+          `http://localhost:3001/api/users/${user._id}`
+        );
+        setUser(updatedUser.data);
       } catch (error) {
-        console.error(error)
+        console.error(error);
       }
     } else {
-      // Make a DELETE request
+      console.log('unsaving home')
       try {
-        // Notice that we have appended the user._id as another parameter
-        await axios.delete(`http://localhost:3001/api/savedhomes/${savedHomeId}/${user._id}`) 
-        setIsSaved(false)
+        console.log('trying')
+        let savedHomeId;
+        for (let homeId of user.saved_homes) {
+          console.log('homeId',homeId)
+          console.log('prop id',house.property_id)
+          if (homeId === house.property_id) {
+            savedHomeId = homeId;
+            break;
+          }
+        }
+
+        console.log(savedHomeId)
+
+        if (savedHomeId) {
+          await axios.delete(
+            `http://localhost:3001/api/savedhomes/${savedHomeId}/${user._id}`
+          );
+
+          setIsSaved(false);
+
+          // Fetch updated user data
+          const updatedUser = await axios.get(
+            `http://localhost:3001/api/users/${user._id}`
+          );
+          setUser(updatedUser.data);
+        }
       } catch (error) {
-        console.error(error)
+        console.error(error);
       }
     }
-  }
-
+  };
   
   
 

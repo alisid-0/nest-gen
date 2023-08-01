@@ -82,19 +82,16 @@ const loginUser = async (req, res) => {
         email: user.email,
         username: user.username,
         role: user.role,
-        address: user.address,
-        strip_id: user.strip_id,
-        selected_plan: user.selected_plan,
-        google: user.google,
-        createdAt: user.createdAt,
-        updatedAt: user.updatedAt
+        saved_homes: user.saved_homes,  // Add this line
+        searches: user.searches,  // And this line
       };
   
       res.json(userObject);
     } catch (error) {
       res.status(500).json({ error: 'Server error' });
     }
-  };
+};
+
   
 
   

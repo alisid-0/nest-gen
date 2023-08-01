@@ -14,7 +14,7 @@ export default function Home() {
   const houses = newHomesList
   
   // console.log(houses)
-  const [newHouses, setNewHouses] = useState(newHomesList.reverse())
+  const [newHouses, setNewHouses] = useState(newHomesList)
   const [home, setHome] = useState(null)
 
   const [location, setLocation] = useState(null)

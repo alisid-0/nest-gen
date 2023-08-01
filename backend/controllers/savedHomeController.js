@@ -22,29 +22,24 @@ const getSavedHomeById = async (req, res) => {
 
 const deleteSavedHome = async (req, res) => {
     try {
-        // find the savedHome first
         const savedHome = await SavedHome.findOne({ home_id: req.params.home_id });
         if (!savedHome) return res.status(404).send('No SavedHome found!')
 
-        // find the user who saved this home
         const user = await User.findById(req.params.user_id);
         if (!user) return res.status(404).send('No user found!');
 
-        // pull the savedHome from the user's saved_homes
-        const index = user.saved_homes.indexOf(savedHome._id);
+        const index = user.saved_homes.indexOf(savedHome.home_id);
         if (index > -1) {
           user.saved_homes.splice(index, 1);
         }
         await user.save();
 
-        // pull the user from the savedHome's user_ids
         const userIdIndex = savedHome.user_ids.indexOf(user._id);
         if (userIdIndex > -1) {
           savedHome.user_ids.splice(userIdIndex, 1);
         }
         await savedHome.save();
 
-        // if no more users have saved this home, delete the home
         if (savedHome.user_ids.length == 0) {
             await SavedHome.deleteOne({ home_id: req.params.home_id });
         }
@@ -56,12 +51,6 @@ const deleteSavedHome = async (req, res) => {
 };
 
 
-
-
-
-
-
-
 const createSavedHome = async (req, res) => {
     try {
         const savedHome = new SavedHome(req.body);
@@ -69,7 +58,7 @@ const createSavedHome = async (req, res) => {
         const user = await User.findById(req.body.user_id);
         if (!user) return res.status(404).send('No user found!');
         
-        user.saved_homes.push(savedHome._id);
+        user.saved_homes.push(savedHome.home_id);
         await user.save();
 
         savedHome.user_ids.push(user._id);
