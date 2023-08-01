@@ -1300,14 +1300,16 @@ function SelectedHome() {
           <View style={styles.leftContainer}>
             <Text>Built in {String(houseDetails.year_built)}</Text>
           </View>
-          {houseDetails.public_records[0].cooling && (
-            <View style={styles.leftContainer}>
-              <Text>{houseDetails.public_records[0].cooling} cooling</Text>
-            </View>
+          {houseDetails.public_records && houseDetails.public_records[0] && houseDetails.public_records[0].cooling && (
+            <>
+              <View style={styles.leftContainer}>
+                <Text>{houseDetails.public_records[0].cooling} cooling</Text>
+              </View>
+              <View style={styles.leftContainer}>
+                <Text>{houseDetails.public_records[0].heating} heating</Text>
+              </View>
+            </>
           )}
-          <View style={styles.leftContainer}>
-            <Text>{houseDetails.public_records[0].heating} heating</Text>
-          </View>
           <View style={styles.leftContainer}>
             <Text>{((houseDetails.lot_size.size)/43560).toFixed(2)} acres</Text>
           </View>
@@ -1355,65 +1357,69 @@ function SelectedHome() {
           </Text>
         </TouchableOpacity>
       </View>
+      
+      {houseDetails.prop_status != 'for_rent' && (
 
-      <View style={styles.leftContainer} >
-        <View style={{marginVertical: 5}}></View>
-        <Text style={styles.title}>Price and Tax history</Text>
-        <View style={{width: '100%'}}>
+        <View style={styles.leftContainer} >
+          <View style={{marginVertical: 5}}></View>
+          <Text style={styles.title}>Price and Tax history</Text>
+          <View style={{width: '100%'}}>
 
-          <Text style={{fontWeight: 'bold', paddingTop: 10}}>Price History</Text>
+            <Text style={{fontWeight: 'bold', paddingTop: 10}}>Price History</Text>
 
-          <View style={{flexDirection: 'row', justifyContent: 'space-between', gap: 10, width: '88%', paddingTop: 10}}>
-            <Text style={{textAlign: 'center'}}>Date</Text>
-            <Text style={{textAlign: 'center'}}>Event</Text>
-            <Text style={{textAlign: 'center'}}>Price</Text>
-          </View>
-          
-          <View style={styles.separatorFull} lightColor="#eee" darkColor="rgba(255,255,255,0.1)" />
-
-          {houseDetails.property_history.map((history, index) => (
-            <View style={{flexDirection: 'row', justifyContent: 'space-between', gap: 10}} key={index}>
-              <View style={{width: 80, alignItems: 'flex-start'}}>
-                <Text style={{textAlign: 'center'}}>{new Date(history.date).toLocaleDateString()}</Text>
-              </View>
-              <View style={{width: 80, alignItems: 'flex-start'}}>
-                <Text style={{textAlign: 'center'}}>{history.event_name}</Text>
-              </View>
-              <View style={{width: 80, alignItems: 'flex-start'}}>
-                <Text style={{textAlign: 'center'}}>{history.event_name ==='Sold'? '' : `${history.price}`}</Text>
-              </View>
-            </View>
-          ))}
-
-          <Text style={{fontWeight: 'bold', paddingTop: 10}}>Tax History</Text>
             <View style={{flexDirection: 'row', justifyContent: 'space-between', gap: 10, width: '88%', paddingTop: 10}}>
-              <Text style={{textAlign: 'center'}}>Year</Text>
-              <Text style={{textAlign: 'center'}}>Property Taxes</Text>
-              <Text style={{textAlign: 'center'}}>Tax Assessment</Text>
+              <Text style={{textAlign: 'center'}}>Date</Text>
+              <Text style={{textAlign: 'center'}}>Event</Text>
+              <Text style={{textAlign: 'center'}}>Price</Text>
             </View>
             
             <View style={styles.separatorFull} lightColor="#eee" darkColor="rgba(255,255,255,0.1)" />
 
-            {houseDetails.tax_history.map((history, index) => (
-              <View style={{flexDirection: 'row', gap: 10}} key={index}>
-                <View style={{width: 50, alignItems: 'flex-start'}}>
-                  <Text style={{textAlign: 'center'}}>{history.year}</Text>
-                </View>
-                <View style={{width: 125, alignItems: 'flex-start'}}>
-                  <Text style={{textAlign: 'center'}}>${history.tax}</Text>
+            {houseDetails.property_history && houseDetails.property_history.map((history, index) => (
+              <View style={{flexDirection: 'row', justifyContent: 'space-between', gap: 10}} key={index}>
+                <View style={{width: 80, alignItems: 'flex-start'}}>
+                  <Text style={{textAlign: 'center'}}>{new Date(history.date).toLocaleDateString()}</Text>
                 </View>
                 <View style={{width: 80, alignItems: 'flex-start'}}>
-                  <Text style={{textAlign: 'center'}}>${history.assessment.total}</Text>
+                  <Text style={{textAlign: 'center'}}>{history.event_name}</Text>
+                </View>
+                <View style={{width: 80, alignItems: 'flex-start'}}>
+                  <Text style={{textAlign: 'center'}}>{history.event_name ==='Sold'? '' : `${history.price}`}</Text>
                 </View>
               </View>
             ))}
+
+            <Text style={{fontWeight: 'bold', paddingTop: 10}}>Tax History</Text>
+              <View style={{flexDirection: 'row', justifyContent: 'space-between', gap: 10, width: '88%', paddingTop: 10}}>
+                <Text style={{textAlign: 'center'}}>Year</Text>
+                <Text style={{textAlign: 'center'}}>Property Taxes</Text>
+                <Text style={{textAlign: 'center'}}>Tax Assessment</Text>
+              </View>
+              
+              <View style={styles.separatorFull} lightColor="#eee" darkColor="rgba(255,255,255,0.1)" />
+
+              {houseDetails.tax_history && houseDetails.tax_history.map((history, index) => (
+                <View style={{flexDirection: 'row', gap: 10}} key={index}>
+                  <View style={{width: 50, alignItems: 'flex-start'}}>
+                    <Text style={{textAlign: 'center'}}>{history.year}</Text>
+                  </View>
+                  <View style={{width: 125, alignItems: 'flex-start'}}>
+                    <Text style={{textAlign: 'center'}}>${history.tax}</Text>
+                  </View>
+                  <View style={{width: 80, alignItems: 'flex-start'}}>
+                    <Text style={{textAlign: 'center'}}>${history.assessment.total}</Text>
+                  </View>
+                </View>
+              ))}
+          </View>
         </View>
-      </View>
+      )}
+
 
       <View style={styles.leftContainerGap} >
         <View style={{marginVertical: 5}}></View>
         <Text style={styles.title}>Schools</Text>
-        {houseDetails.schools && houseDetails.schools.grades && houseDetails.school.grades.range && houseDetails.schools.map((school,index)=>(
+        {houseDetails.schools.map((school,index)=>(
           <View key={index} style={{flexDirection:'row', alignItems: 'center', gap: 10, paddingVertical: 10}}>
             <View style={{width: 50, height: 50, backgroundColor: 'blue', borderRadius: 50, alignItems: 'center', justifyContent: 'center'}}>
               <Text style={{color: 'white'}}>{!school.ratings.great_schools_rating? 'N/A' : `${school.ratings.great_schools_rating}/10`}</Text>

@@ -19761,3 +19761,9487 @@ export const bigHomesList = [
         "data_source_name": "mls"
     }
 ]
+
+export const bigRentList = [
+    {
+        "property_id": "R9983760766",
+        "listing_id": "2951308484",
+        "prop_type": "apartment",
+        "list_date": "2023-01-11T00:11:21.000Z",
+        "last_update": "2023-07-28T00:06:43.000Z",
+        "year_built": 2000,
+        "listing_status": "active",
+        "beds": 0,
+        "branding": {
+            "state_license": null
+        },
+        "prop_status": "for_rent",
+        "address": {
+            "city": "Stevens Point",
+            "country": "USA",
+            "county": "Portage",
+            "county_needed_for_uniq": false,
+            "lat": 44.527784,
+            "line": "5601 Sandpiper Dr",
+            "postal_code": "54482",
+            "state_code": "WI",
+            "state": "Wisconsin",
+            "time_zone": "America/Chicago",
+            "lon": -89.50848
+        },
+        "client_display_flags": {
+            "presentation_status": "for_rent",
+            "is_showcase": true,
+            "lead_form_phone_required": true,
+            "price_change": 0,
+            "has_specials": false,
+            "is_mls_rental": false,
+            "is_rental_community": true,
+            "is_rental_unit": false,
+            "is_co_star": false,
+            "is_apartmentlist": false,
+            "suppress_map_pin": false,
+            "suppress_phone_call_lead_event": true,
+            "price_reduced": false,
+            "allows_cats": true,
+            "allows_dogs": true,
+            "allows_dogs_small": true,
+            "allows_dogs_large": true
+        },
+        "products": [
+            "enhanced",
+            "_COMMUNITY_RENTAL",
+            "_COMMUNITY_RENTAL",
+            "_COMMUNITY_RENTAL",
+            "_COMMUNITY_RENTAL",
+            "_COMMUNITY_RENTAL"
+        ],
+        "agents": [
+            {
+                "primary": true
+            }
+        ],
+        "lead_forms": {
+            "form": {
+                "name": {
+                    "required": true,
+                    "minimum_character_count": 1
+                },
+                "email": {
+                    "required": true,
+                    "minimum_character_count": 5
+                },
+                "move_in_date": {
+                    "required": false,
+                    "default_date": "2023-09-01T12:00:00Z",
+                    "minimum_days_from_today": 1,
+                    "maximum_days_from_today": 180
+                },
+                "phone": {
+                    "required": true,
+                    "minimum_character_count": 10,
+                    "maximum_character_count": 11
+                },
+                "message": {
+                    "required": false,
+                    "minimum_character_count": 0
+                },
+                "show": false
+            },
+            "show_agent": false,
+            "show_broker": false,
+            "show_provider": false,
+            "show_management": false
+        },
+        "lot_size": {
+            "size": 0,
+            "units": "sqft"
+        },
+        "building_size": {
+            "units": "sqft"
+        },
+        "rdc_web_url": "https://www.realtor.com/realestateandhomes-detail/5601-Sandpiper-Dr_Stevens-Point_WI_54482_M99837-60766",
+        "rdc_app_url": "move-rdc://www.realtor.com/realestateandhomes-detail/5601-Sandpiper-Dr_Stevens-Point_WI_54482_M99837-60766",
+        "community": {
+            "baths_max": 2,
+            "baths_min": 2,
+            "beds_max": 2,
+            "beds_min": 2,
+            "contact_number": "(888) 610-7279",
+            "id": 3653136,
+            "name": "Platinum Property Management WI",
+            "price_max": 1100,
+            "price_min": 1100,
+            "source_id": "7859094",
+            "sqft_max": 1100,
+            "sqft_min": 1100
+        },
+        "data_source_name": "community_rental",
+        "source": "community",
+        "page_no": 1,
+        "rank": 1,
+        "list_tracking": "type|property|data|prop_id|9983760766|list_id|2951308484|comm_id|3653136|page|rank|list_branding|listing_agent|listing_office|data_source|community_rental|property_status|product_code|advantage_code^1|1|0|0|3K2|E8|0^^$0|1|2|$3|4|5|6|7|8|9|J|A|K|B|$C|L|D|M]|E|F|G|N|H|O|I|P]]",
+        "photo_count": 61,
+        "photos": [
+            {
+                "href": "https://ar.rdcpix.com/b3578659106d17ddc1c97baa38ea0482c-f1396663148s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b3578659106d17ddc1c97baa38ea0482c-f2307267719s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b3578659106d17ddc1c97baa38ea0482c-f1384429613s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b3578659106d17ddc1c97baa38ea0482c-f1396663148s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b3578659106d17ddc1c97baa38ea0482c-f2269030149s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b3578659106d17ddc1c97baa38ea0482c-f3394083564s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b3578659106d17ddc1c97baa38ea0482c-f1992101574s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b3578659106d17ddc1c97baa38ea0482c-f996071303s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b3578659106d17ddc1c97baa38ea0482c-f2387480121s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b3578659106d17ddc1c97baa38ea0482c-f1384429613s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b3578659106d17ddc1c97baa38ea0482c-f3603547444s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b3578659106d17ddc1c97baa38ea0482c-f3974295514s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b3578659106d17ddc1c97baa38ea0482c-f3166251729s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b3578659106d17ddc1c97baa38ea0482c-f1811360675s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b3578659106d17ddc1c97baa38ea0482c-f2772163483s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b3578659106d17ddc1c97baa38ea0482c-f971768061s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b3578659106d17ddc1c97baa38ea0482c-f3040881937s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b3578659106d17ddc1c97baa38ea0482c-f4131698707s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b3578659106d17ddc1c97baa38ea0482c-f4009451125s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b3578659106d17ddc1c97baa38ea0482c-f1782302042s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b3578659106d17ddc1c97baa38ea0482c-f401302086s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b3578659106d17ddc1c97baa38ea0482c-f1725713097s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b3578659106d17ddc1c97baa38ea0482c-f3435767480s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b3578659106d17ddc1c97baa38ea0482c-f1132570185s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b3578659106d17ddc1c97baa38ea0482c-f3406753040s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b3578659106d17ddc1c97baa38ea0482c-f483807467s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b3578659106d17ddc1c97baa38ea0482c-f435658936s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b3578659106d17ddc1c97baa38ea0482c-f942444725s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b3578659106d17ddc1c97baa38ea0482c-f942444725s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b3578659106d17ddc1c97baa38ea0482c-f1895387862s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b3578659106d17ddc1c97baa38ea0482c-f1895387862s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b3578659106d17ddc1c97baa38ea0482c-f3960404516s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b3578659106d17ddc1c97baa38ea0482c-f3960404516s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b3578659106d17ddc1c97baa38ea0482c-f2382582434s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b3578659106d17ddc1c97baa38ea0482c-f1380480389s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b3578659106d17ddc1c97baa38ea0482c-f2456323252s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b3578659106d17ddc1c97baa38ea0482c-f1380480389s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b3578659106d17ddc1c97baa38ea0482c-f2456323252s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b3578659106d17ddc1c97baa38ea0482c-f3454144178s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b3578659106d17ddc1c97baa38ea0482c-f2382582434s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b3578659106d17ddc1c97baa38ea0482c-f1071616588s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b3578659106d17ddc1c97baa38ea0482c-f1071616588s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b3578659106d17ddc1c97baa38ea0482c-f1380480389s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b3578659106d17ddc1c97baa38ea0482c-f483807467s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b3578659106d17ddc1c97baa38ea0482c-f483807467s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b3578659106d17ddc1c97baa38ea0482c-f1414449806s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b3578659106d17ddc1c97baa38ea0482c-f1414449806s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b3578659106d17ddc1c97baa38ea0482c-f3345625196s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b3578659106d17ddc1c97baa38ea0482c-f3237077287s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b3578659106d17ddc1c97baa38ea0482c-f2456323252s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b3578659106d17ddc1c97baa38ea0482c-f1071616588s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b3578659106d17ddc1c97baa38ea0482c-f483807467s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b3578659106d17ddc1c97baa38ea0482c-f1414449806s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b3578659106d17ddc1c97baa38ea0482c-f1134391278s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b3578659106d17ddc1c97baa38ea0482c-f1380480389s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b3578659106d17ddc1c97baa38ea0482c-f3345625196s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b3578659106d17ddc1c97baa38ea0482c-f435658936s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b3578659106d17ddc1c97baa38ea0482c-f2456323252s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b3578659106d17ddc1c97baa38ea0482c-f1071616588s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b3578659106d17ddc1c97baa38ea0482c-f2559423531s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b3578659106d17ddc1c97baa38ea0482c-f2559423531s.jpg"
+            }
+        ]
+    },
+    {
+        "property_id": "R8147883999",
+        "listing_id": "2947847428",
+        "prop_type": "apartment",
+        "list_date": "2022-09-16T00:04:34.000Z",
+        "last_update": "2023-07-09T00:12:10.000Z",
+        "listing_status": "active",
+        "beds": 0,
+        "branding": {
+            "state_license": null
+        },
+        "prop_status": "for_rent",
+        "address": {
+            "city": "Stevens Point",
+            "country": "USA",
+            "county": "Portage",
+            "county_needed_for_uniq": false,
+            "lat": 44.518509,
+            "line": "1749 Strongs Ave",
+            "postal_code": "54481",
+            "state_code": "WI",
+            "state": "Wisconsin",
+            "time_zone": "America/Chicago",
+            "lon": -89.578791
+        },
+        "client_display_flags": {
+            "presentation_status": "for_rent",
+            "is_showcase": true,
+            "lead_form_phone_required": true,
+            "price_change": 0,
+            "has_specials": false,
+            "is_mls_rental": false,
+            "is_rental_community": true,
+            "is_rental_unit": false,
+            "is_co_star": false,
+            "is_apartmentlist": false,
+            "suppress_map_pin": false,
+            "suppress_phone_call_lead_event": true,
+            "price_reduced": false,
+            "allows_cats": false,
+            "allows_dogs": true,
+            "allows_dogs_small": true
+        },
+        "products": [
+            "enhanced",
+            "_COMMUNITY_RENTAL",
+            "_COMMUNITY_RENTAL",
+            "_COMMUNITY_RENTAL",
+            "_COMMUNITY_RENTAL",
+            "_COMMUNITY_RENTAL"
+        ],
+        "agents": [
+            {
+                "primary": true
+            }
+        ],
+        "lead_forms": {
+            "form": {
+                "name": {
+                    "required": true,
+                    "minimum_character_count": 1
+                },
+                "email": {
+                    "required": true,
+                    "minimum_character_count": 5
+                },
+                "move_in_date": {
+                    "required": false,
+                    "default_date": "2023-09-01T12:00:00Z",
+                    "minimum_days_from_today": 1,
+                    "maximum_days_from_today": 180
+                },
+                "phone": {
+                    "required": true,
+                    "minimum_character_count": 10,
+                    "maximum_character_count": 11
+                },
+                "message": {
+                    "required": false,
+                    "minimum_character_count": 0
+                },
+                "show": false
+            },
+            "show_agent": false,
+            "show_broker": false,
+            "show_provider": false,
+            "show_management": false
+        },
+        "lot_size": {
+            "size": 0,
+            "units": "sqft"
+        },
+        "building_size": {
+            "units": "sqft"
+        },
+        "rdc_web_url": "https://www.realtor.com/realestateandhomes-detail/1749-Strongs-Ave_Stevens-Point_WI_54481_M81478-83999",
+        "rdc_app_url": "move-rdc://www.realtor.com/realestateandhomes-detail/1749-Strongs-Ave_Stevens-Point_WI_54481_M81478-83999",
+        "community": {
+            "baths_max": 1,
+            "baths_min": 1,
+            "beds_max": 1,
+            "beds_min": 1,
+            "contact_number": "(888) 814-6352",
+            "id": 3429013,
+            "name": "Platinum Property Management WI",
+            "price_max": 700,
+            "price_min": 700,
+            "source_id": "7700825",
+            "sqft_max": 850,
+            "sqft_min": 850
+        },
+        "data_source_name": "community_rental",
+        "source": "community",
+        "page_no": 1,
+        "rank": 2,
+        "list_tracking": "type|property|data|prop_id|8147883999|list_id|2947847428|comm_id|3429013|page|rank|list_branding|listing_agent|listing_office|data_source|community_rental|property_status|product_code|advantage_code^1|2|0|0|3K2|E8|0^^$0|1|2|$3|4|5|6|7|8|9|J|A|K|B|$C|L|D|M]|E|F|G|N|H|O|I|P]]",
+        "photo_count": 18,
+        "photos": [
+            {
+                "href": "https://ar.rdcpix.com/e8b9ac55fc28c1df0200fec66dfdd31ec-f2704166149s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e8b9ac55fc28c1df0200fec66dfdd31ec-f3486871026s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e8b9ac55fc28c1df0200fec66dfdd31ec-f3796542948s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e8b9ac55fc28c1df0200fec66dfdd31ec-f1576707717s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e8b9ac55fc28c1df0200fec66dfdd31ec-f1799298736s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e8b9ac55fc28c1df0200fec66dfdd31ec-f1797688197s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e8b9ac55fc28c1df0200fec66dfdd31ec-f2831890870s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e8b9ac55fc28c1df0200fec66dfdd31ec-f988095210s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e8b9ac55fc28c1df0200fec66dfdd31ec-f3236135591s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e8b9ac55fc28c1df0200fec66dfdd31ec-f2699896446s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e8b9ac55fc28c1df0200fec66dfdd31ec-f2028712868s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e8b9ac55fc28c1df0200fec66dfdd31ec-f3859405750s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e8b9ac55fc28c1df0200fec66dfdd31ec-f3201316002s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e8b9ac55fc28c1df0200fec66dfdd31ec-f1014652637s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e8b9ac55fc28c1df0200fec66dfdd31ec-f259489755s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e8b9ac55fc28c1df0200fec66dfdd31ec-f1916395020s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e8b9ac55fc28c1df0200fec66dfdd31ec-f31968843s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e8b9ac55fc28c1df0200fec66dfdd31ec-f1797688197s.jpg"
+            }
+        ]
+    },
+    {
+        "property_id": "R8168985877",
+        "listing_id": "637307303",
+        "prop_type": "apartment",
+        "list_date": "2023-01-10T21:54:05.000Z",
+        "last_update": "2023-08-01T12:19:08.000Z",
+        "year_built": 1999,
+        "listing_status": "active",
+        "beds": 0,
+        "branding": {
+            "state_license": null
+        },
+        "prop_status": "for_rent",
+        "address": {
+            "city": "Stevens Point",
+            "country": "USA",
+            "county": "Portage",
+            "county_needed_for_uniq": false,
+            "lat": 44.494765,
+            "line": "215 Sherman Ave",
+            "postal_code": "54481",
+            "state_code": "WI",
+            "state": "Wisconsin",
+            "time_zone": "America/Chicago",
+            "neighborhood_name": "Village of Whiting",
+            "neighborhoods": [
+                {
+                    "id": "e487dd96-f574-5fac-aab1-389e39e12fed",
+                    "level": "neighborhood",
+                    "name": "Village of Whiting"
+                }
+            ],
+            "lon": -89.561136
+        },
+        "client_display_flags": {
+            "presentation_status": "for_rent",
+            "is_showcase": false,
+            "lead_form_phone_required": true,
+            "price_change": 0,
+            "has_specials": false,
+            "is_mls_rental": false,
+            "is_rental_community": true,
+            "is_rental_unit": false,
+            "is_co_star": false,
+            "is_apartmentlist": false,
+            "suppress_map_pin": false,
+            "suppress_phone_call_lead_event": false,
+            "price_reduced": false,
+            "allows_cats": true,
+            "allows_dogs": true,
+            "allows_dogs_small": true
+        },
+        "products": [
+            "basic",
+            "_COMMUNITY_RENTAL",
+            "_COMMUNITY_RENTAL",
+            "_COMMUNITY_RENTAL",
+            "_COMMUNITY_RENTAL",
+            "_COMMUNITY_RENTAL"
+        ],
+        "agents": [
+            {
+                "primary": true
+            }
+        ],
+        "lead_forms": {
+            "form": {
+                "name": {
+                    "required": true,
+                    "minimum_character_count": 1
+                },
+                "email": {
+                    "required": true,
+                    "minimum_character_count": 5
+                },
+                "move_in_date": {
+                    "required": false,
+                    "default_date": "2023-09-01T12:00:00Z",
+                    "minimum_days_from_today": 1,
+                    "maximum_days_from_today": 180
+                },
+                "phone": {
+                    "required": true,
+                    "minimum_character_count": 10,
+                    "maximum_character_count": 11
+                },
+                "message": {
+                    "required": false,
+                    "minimum_character_count": 0
+                },
+                "show": false
+            },
+            "show_agent": false,
+            "show_broker": false,
+            "show_provider": false,
+            "show_management": false
+        },
+        "lot_size": {
+            "size": 0,
+            "units": "sqft"
+        },
+        "building_size": {
+            "units": "sqft"
+        },
+        "rdc_web_url": "https://www.realtor.com/realestateandhomes-detail/215-Sherman-Ave_Stevens-Point_WI_54481_M81689-85877",
+        "rdc_app_url": "move-rdc://www.realtor.com/realestateandhomes-detail/215-Sherman-Ave_Stevens-Point_WI_54481_M81689-85877",
+        "community": {
+            "baths_max": 1,
+            "baths_min": 1,
+            "beds_max": 2,
+            "beds_min": 2,
+            "contact_number": "(715) 515-7371",
+            "id": 3639707,
+            "name": "Diamond Property Management, LLC",
+            "price_max": 1145,
+            "price_min": 945,
+            "source_id": "4097456",
+            "sqft_max": null,
+            "sqft_min": null,
+            "sqft_hint": "CALL"
+        },
+        "data_source_name": "community_rental",
+        "source": "community",
+        "page_no": 1,
+        "rank": 3,
+        "list_tracking": "type|property|data|prop_id|8168985877|list_id|637307303|comm_id|3639707|page|rank|list_branding|listing_agent|listing_office|data_source|community_rental|property_status|product_code|advantage_code^1|3|0|0|3K2|W|0^^$0|1|2|$3|4|5|6|7|8|9|J|A|K|B|$C|L|D|M]|E|F|G|N|H|O|I|P]]",
+        "photo_count": 89,
+        "photos": [
+            {
+                "href": "https://ar.rdcpix.com/b2d26d86b5a97e6c7c2c5992ce461bacc-f811046223s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b2d26d86b5a97e6c7c2c5992ce461bacc-f3639082362s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b2d26d86b5a97e6c7c2c5992ce461bacc-f984922625s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b2d26d86b5a97e6c7c2c5992ce461bacc-f1350697026s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b2d26d86b5a97e6c7c2c5992ce461bacc-f596701581s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b2d26d86b5a97e6c7c2c5992ce461bacc-f3919380049s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b2d26d86b5a97e6c7c2c5992ce461bacc-f3876812836s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b2d26d86b5a97e6c7c2c5992ce461bacc-f2138779756s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b2d26d86b5a97e6c7c2c5992ce461bacc-f2265243367s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b2d26d86b5a97e6c7c2c5992ce461bacc-f3560683000s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b2d26d86b5a97e6c7c2c5992ce461bacc-f1592522785s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b2d26d86b5a97e6c7c2c5992ce461bacc-f2464795744s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b2d26d86b5a97e6c7c2c5992ce461bacc-f487995038s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b2d26d86b5a97e6c7c2c5992ce461bacc-f3953733311s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b2d26d86b5a97e6c7c2c5992ce461bacc-f195050448s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b2d26d86b5a97e6c7c2c5992ce461bacc-f1782353421s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b2d26d86b5a97e6c7c2c5992ce461bacc-f49770571s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b2d26d86b5a97e6c7c2c5992ce461bacc-f891197904s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b2d26d86b5a97e6c7c2c5992ce461bacc-f1093979674s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b2d26d86b5a97e6c7c2c5992ce461bacc-f1327170005s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b2d26d86b5a97e6c7c2c5992ce461bacc-f1275341685s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b2d26d86b5a97e6c7c2c5992ce461bacc-f545877229s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b2d26d86b5a97e6c7c2c5992ce461bacc-f4187384618s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b2d26d86b5a97e6c7c2c5992ce461bacc-f3558088586s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b2d26d86b5a97e6c7c2c5992ce461bacc-f500519462s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b2d26d86b5a97e6c7c2c5992ce461bacc-f3446243097s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b2d26d86b5a97e6c7c2c5992ce461bacc-f1986549717s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b2d26d86b5a97e6c7c2c5992ce461bacc-f3284078868s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b2d26d86b5a97e6c7c2c5992ce461bacc-f596701581s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b2d26d86b5a97e6c7c2c5992ce461bacc-f3919380049s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b2d26d86b5a97e6c7c2c5992ce461bacc-f2138779756s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b2d26d86b5a97e6c7c2c5992ce461bacc-f2265243367s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b2d26d86b5a97e6c7c2c5992ce461bacc-f3560683000s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b2d26d86b5a97e6c7c2c5992ce461bacc-f1592522785s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b2d26d86b5a97e6c7c2c5992ce461bacc-f3876812836s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b2d26d86b5a97e6c7c2c5992ce461bacc-f2464795744s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b2d26d86b5a97e6c7c2c5992ce461bacc-f487995038s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b2d26d86b5a97e6c7c2c5992ce461bacc-f195050448s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b2d26d86b5a97e6c7c2c5992ce461bacc-f49770571s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b2d26d86b5a97e6c7c2c5992ce461bacc-f1782353421s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b2d26d86b5a97e6c7c2c5992ce461bacc-f1782353421s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b2d26d86b5a97e6c7c2c5992ce461bacc-f891197904s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b2d26d86b5a97e6c7c2c5992ce461bacc-f891197904s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b2d26d86b5a97e6c7c2c5992ce461bacc-f3953733311s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b2d26d86b5a97e6c7c2c5992ce461bacc-f3953733311s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b2d26d86b5a97e6c7c2c5992ce461bacc-f1327170005s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b2d26d86b5a97e6c7c2c5992ce461bacc-f1327170005s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b2d26d86b5a97e6c7c2c5992ce461bacc-f1093979674s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b2d26d86b5a97e6c7c2c5992ce461bacc-f1093979674s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b2d26d86b5a97e6c7c2c5992ce461bacc-f545877229s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b2d26d86b5a97e6c7c2c5992ce461bacc-f545877229s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b2d26d86b5a97e6c7c2c5992ce461bacc-f500519462s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b2d26d86b5a97e6c7c2c5992ce461bacc-f500519462s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b2d26d86b5a97e6c7c2c5992ce461bacc-f3558088586s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b2d26d86b5a97e6c7c2c5992ce461bacc-f3558088586s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b2d26d86b5a97e6c7c2c5992ce461bacc-f1275341685s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b2d26d86b5a97e6c7c2c5992ce461bacc-f1275341685s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b2d26d86b5a97e6c7c2c5992ce461bacc-f4187384618s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b2d26d86b5a97e6c7c2c5992ce461bacc-f4187384618s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b2d26d86b5a97e6c7c2c5992ce461bacc-f3446243097s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b2d26d86b5a97e6c7c2c5992ce461bacc-f3446243097s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b2d26d86b5a97e6c7c2c5992ce461bacc-f1986549717s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b2d26d86b5a97e6c7c2c5992ce461bacc-f984922625s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b2d26d86b5a97e6c7c2c5992ce461bacc-f3639082362s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b2d26d86b5a97e6c7c2c5992ce461bacc-f2265243367s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b2d26d86b5a97e6c7c2c5992ce461bacc-f3876812836s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b2d26d86b5a97e6c7c2c5992ce461bacc-f195050448s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b2d26d86b5a97e6c7c2c5992ce461bacc-f49770571s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b2d26d86b5a97e6c7c2c5992ce461bacc-f1350697026s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b2d26d86b5a97e6c7c2c5992ce461bacc-f3560683000s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b2d26d86b5a97e6c7c2c5992ce461bacc-f1592522785s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b2d26d86b5a97e6c7c2c5992ce461bacc-f891197904s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b2d26d86b5a97e6c7c2c5992ce461bacc-f3558088586s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b2d26d86b5a97e6c7c2c5992ce461bacc-f500519462s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b2d26d86b5a97e6c7c2c5992ce461bacc-f1275341685s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b2d26d86b5a97e6c7c2c5992ce461bacc-f3953733311s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b2d26d86b5a97e6c7c2c5992ce461bacc-f487995038s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b2d26d86b5a97e6c7c2c5992ce461bacc-f4187384618s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b2d26d86b5a97e6c7c2c5992ce461bacc-f1093979674s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b2d26d86b5a97e6c7c2c5992ce461bacc-f1327170005s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b2d26d86b5a97e6c7c2c5992ce461bacc-f545877229s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b2d26d86b5a97e6c7c2c5992ce461bacc-f2464795744s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b2d26d86b5a97e6c7c2c5992ce461bacc-f3919380049s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b2d26d86b5a97e6c7c2c5992ce461bacc-f596701581s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b2d26d86b5a97e6c7c2c5992ce461bacc-f1782353421s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b2d26d86b5a97e6c7c2c5992ce461bacc-f2138779756s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b2d26d86b5a97e6c7c2c5992ce461bacc-f3284078868s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b2d26d86b5a97e6c7c2c5992ce461bacc-f4274657332s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/b2d26d86b5a97e6c7c2c5992ce461bacc-f3446243097s.jpg"
+            }
+        ]
+    },
+    {
+        "property_id": "R9387849065",
+        "listing_id": "2951306488",
+        "prop_type": "apartment",
+        "list_date": "2023-01-10T21:54:05.000Z",
+        "last_update": "2023-08-01T12:19:08.000Z",
+        "year_built": 2005,
+        "listing_status": "active",
+        "beds": 0,
+        "branding": {
+            "state_license": null
+        },
+        "prop_status": "for_rent",
+        "address": {
+            "city": "Stevens Point",
+            "country": "USA",
+            "county": "Portage",
+            "county_needed_for_uniq": false,
+            "lat": 44.501406,
+            "line": "1200 River View Ave Apt 26",
+            "postal_code": "54481",
+            "state_code": "WI",
+            "state": "Wisconsin",
+            "time_zone": "America/Chicago",
+            "lon": -89.5802
+        },
+        "client_display_flags": {
+            "presentation_status": "for_rent",
+            "is_showcase": false,
+            "lead_form_phone_required": true,
+            "price_change": 0,
+            "has_specials": false,
+            "is_mls_rental": false,
+            "is_rental_community": true,
+            "is_rental_unit": false,
+            "is_co_star": false,
+            "is_apartmentlist": false,
+            "suppress_map_pin": false,
+            "suppress_phone_call_lead_event": false,
+            "price_reduced": false,
+            "allows_cats": true,
+            "allows_dogs": true,
+            "allows_dogs_small": true
+        },
+        "products": [
+            "basic",
+            "_COMMUNITY_RENTAL",
+            "_COMMUNITY_RENTAL",
+            "_COMMUNITY_RENTAL",
+            "_COMMUNITY_RENTAL",
+            "_COMMUNITY_RENTAL"
+        ],
+        "agents": [
+            {
+                "primary": true
+            }
+        ],
+        "lead_forms": {
+            "form": {
+                "name": {
+                    "required": true,
+                    "minimum_character_count": 1
+                },
+                "email": {
+                    "required": true,
+                    "minimum_character_count": 5
+                },
+                "move_in_date": {
+                    "required": false,
+                    "default_date": "2023-09-01T12:00:00Z",
+                    "minimum_days_from_today": 1,
+                    "maximum_days_from_today": 180
+                },
+                "phone": {
+                    "required": true,
+                    "minimum_character_count": 10,
+                    "maximum_character_count": 11
+                },
+                "message": {
+                    "required": false,
+                    "minimum_character_count": 0
+                },
+                "show": false
+            },
+            "show_agent": false,
+            "show_broker": false,
+            "show_provider": false,
+            "show_management": false
+        },
+        "lot_size": {
+            "size": 0,
+            "units": "sqft"
+        },
+        "building_size": {
+            "units": "sqft"
+        },
+        "rdc_web_url": "https://www.realtor.com/realestateandhomes-detail/1200-River-View-Ave-Apt-26_Stevens-Point_WI_54481_M93878-49065",
+        "rdc_app_url": "move-rdc://www.realtor.com/realestateandhomes-detail/1200-River-View-Ave-Apt-26_Stevens-Point_WI_54481_M93878-49065",
+        "community": {
+            "baths_max": 1,
+            "baths_min": 1,
+            "beds_max": 2,
+            "beds_min": 1,
+            "contact_number": "(715) 997-2487",
+            "id": 3640174,
+            "name": "S.C. Swiderski, LLC",
+            "price_max": 1105,
+            "price_min": 1005,
+            "source_id": "4614836",
+            "sqft_max": 895,
+            "sqft_min": 691
+        },
+        "data_source_name": "community_rental",
+        "source": "community",
+        "page_no": 1,
+        "rank": 4,
+        "list_tracking": "type|property|data|prop_id|9387849065|list_id|2951306488|comm_id|3640174|page|rank|list_branding|listing_agent|listing_office|data_source|community_rental|property_status|product_code|advantage_code^1|4|0|0|3K2|W|0^^$0|1|2|$3|4|5|6|7|8|9|J|A|K|B|$C|L|D|M]|E|F|G|N|H|O|I|P]]",
+        "photo_count": 24,
+        "photos": [
+            {
+                "href": "https://ar.rdcpix.com/2c9b1c20054456232aaa5153f248540ac-f516784639s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/2c9b1c20054456232aaa5153f248540ac-f720187187s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/2c9b1c20054456232aaa5153f248540ac-f943067513s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/2c9b1c20054456232aaa5153f248540ac-f3838887332s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/2c9b1c20054456232aaa5153f248540ac-f2021354556s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/2c9b1c20054456232aaa5153f248540ac-f4196799147s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/2c9b1c20054456232aaa5153f248540ac-f2466109408s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/2c9b1c20054456232aaa5153f248540ac-f1079971749s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/2c9b1c20054456232aaa5153f248540ac-f163223202s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/2c9b1c20054456232aaa5153f248540ac-f720187187s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/2c9b1c20054456232aaa5153f248540ac-f943067513s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/2c9b1c20054456232aaa5153f248540ac-f3069209800s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/2c9b1c20054456232aaa5153f248540ac-f1600124239s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/2c9b1c20054456232aaa5153f248540ac-f3838887332s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/2c9b1c20054456232aaa5153f248540ac-f2416772580s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/2c9b1c20054456232aaa5153f248540ac-f4196799147s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/2c9b1c20054456232aaa5153f248540ac-f2837839541s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/2c9b1c20054456232aaa5153f248540ac-f516784639s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/2c9b1c20054456232aaa5153f248540ac-f720187187s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/2c9b1c20054456232aaa5153f248540ac-f943067513s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/2c9b1c20054456232aaa5153f248540ac-f3838887332s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/2c9b1c20054456232aaa5153f248540ac-f2021354556s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/2c9b1c20054456232aaa5153f248540ac-f4196799147s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/2c9b1c20054456232aaa5153f248540ac-f2466109408s.jpg"
+            }
+        ]
+    },
+    {
+        "property_id": "R7758820926",
+        "listing_id": "2952833034",
+        "prop_type": "apartment",
+        "list_date": "2023-02-22T17:15:30.000Z",
+        "last_update": "2023-08-01T10:19:58.000Z",
+        "listing_status": "active",
+        "beds": 0,
+        "branding": {
+            "state_license": null
+        },
+        "prop_status": "for_rent",
+        "address": {
+            "city": "Stevens Point",
+            "country": "USA",
+            "county": "Portage",
+            "county_needed_for_uniq": false,
+            "lat": 44.50363,
+            "line": "3101 Whiting Ave",
+            "postal_code": "54481",
+            "state_code": "WI",
+            "state": "Wisconsin",
+            "time_zone": "America/Chicago",
+            "lon": -89.57302
+        },
+        "client_display_flags": {
+            "presentation_status": "for_rent",
+            "is_showcase": false,
+            "lead_form_phone_required": true,
+            "price_change": 0,
+            "has_specials": false,
+            "is_mls_rental": false,
+            "is_rental_community": true,
+            "is_rental_unit": false,
+            "is_co_star": false,
+            "is_apartmentlist": false,
+            "suppress_map_pin": false,
+            "suppress_phone_call_lead_event": false,
+            "price_reduced": false,
+            "allows_cats": true,
+            "allows_dogs": true
+        },
+        "products": [
+            "rentals_cost_per_lead_hybrid",
+            "co_broke",
+            "_COMMUNITY_RENTAL",
+            "_COMMUNITY_RENTAL",
+            "_COMMUNITY_RENTAL",
+            "_COMMUNITY_RENTAL",
+            "_COMMUNITY_RENTAL"
+        ],
+        "agents": [
+            {
+                "primary": true
+            }
+        ],
+        "lead_forms": {
+            "form": {
+                "name": {
+                    "required": true,
+                    "minimum_character_count": 1
+                },
+                "email": {
+                    "required": true,
+                    "minimum_character_count": 5
+                },
+                "move_in_date": {
+                    "required": false,
+                    "default_date": "2023-09-01T12:00:00Z",
+                    "minimum_days_from_today": 1,
+                    "maximum_days_from_today": 180
+                },
+                "phone": {
+                    "required": true,
+                    "minimum_character_count": 10,
+                    "maximum_character_count": 11
+                },
+                "message": {
+                    "required": false,
+                    "minimum_character_count": 0
+                },
+                "show": false
+            },
+            "show_agent": false,
+            "show_broker": false,
+            "show_provider": false,
+            "show_management": false
+        },
+        "lot_size": {
+            "size": 0,
+            "units": "sqft"
+        },
+        "building_size": {
+            "units": "sqft"
+        },
+        "rdc_web_url": "https://www.realtor.com/realestateandhomes-detail/3101-Whiting-Ave_Stevens-Point_WI_54481_M77588-20926",
+        "rdc_app_url": "move-rdc://www.realtor.com/realestateandhomes-detail/3101-Whiting-Ave_Stevens-Point_WI_54481_M77588-20926",
+        "community": {
+            "baths_max": 2,
+            "baths_min": 1,
+            "beds_max": 2,
+            "beds_min": 1,
+            "contact_number": "(888) 719-0725",
+            "id": 3742808,
+            "name": "Whiting Avenue Estates",
+            "price_max": 1135,
+            "price_min": 840,
+            "source_id": "100035523",
+            "sqft_max": 1177,
+            "sqft_min": 775
+        },
+        "data_source_name": "community_rental",
+        "source": "community",
+        "page_no": 1,
+        "rank": 5,
+        "list_tracking": "type|property|data|prop_id|7758820926|list_id|2952833034|comm_id|3742808|page|rank|list_branding|listing_agent|listing_office|data_source|community_rental|property_status|product_code|advantage_code^1|5|0|0|3K2|1C|0^^$0|1|2|$3|4|5|6|7|8|9|J|A|K|B|$C|L|D|M]|E|F|G|N|H|O|I|P]]",
+        "photo_count": 22,
+        "photos": [
+            {
+                "href": "https://ar.rdcpix.com/d287154b0c2c912480f3eeb7449210e7c-f168824033s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/d287154b0c2c912480f3eeb7449210e7c-f593623017s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/d287154b0c2c912480f3eeb7449210e7c-f1141517116s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/d287154b0c2c912480f3eeb7449210e7c-f1295837593s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/d287154b0c2c912480f3eeb7449210e7c-f3180399197s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/d287154b0c2c912480f3eeb7449210e7c-f3876777632s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/d287154b0c2c912480f3eeb7449210e7c-f125819158s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/d287154b0c2c912480f3eeb7449210e7c-f2573616470s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/d287154b0c2c912480f3eeb7449210e7c-f2922449031s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/d287154b0c2c912480f3eeb7449210e7c-f1083333596s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/d287154b0c2c912480f3eeb7449210e7c-f3971097727s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/d287154b0c2c912480f3eeb7449210e7c-f1248453385s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/d287154b0c2c912480f3eeb7449210e7c-f1243014516s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/d287154b0c2c912480f3eeb7449210e7c-f2224221434s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/d287154b0c2c912480f3eeb7449210e7c-f2865685207s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/d287154b0c2c912480f3eeb7449210e7c-f2555125875s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/d287154b0c2c912480f3eeb7449210e7c-f1435085059s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/d287154b0c2c912480f3eeb7449210e7c-f1992763794s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/d287154b0c2c912480f3eeb7449210e7c-f97508503s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/d287154b0c2c912480f3eeb7449210e7c-f3619680754s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/d287154b0c2c912480f3eeb7449210e7c-f1933036137s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/d287154b0c2c912480f3eeb7449210e7c-f594611627s.jpg"
+            }
+        ]
+    },
+    {
+        "property_id": "R9694878184",
+        "listing_id": "2951306520",
+        "prop_type": "apartment",
+        "list_date": "2023-01-10T21:54:05.000Z",
+        "last_update": "2023-07-28T12:19:12.000Z",
+        "year_built": 2021,
+        "listing_status": "active",
+        "beds": 0,
+        "branding": {
+            "state_license": null
+        },
+        "prop_status": "for_rent",
+        "address": {
+            "city": "Stevens Point",
+            "country": "USA",
+            "county": "Portage",
+            "county_needed_for_uniq": false,
+            "lat": 44.52568,
+            "line": "1060 Centerpoint Dr",
+            "postal_code": "54481",
+            "state_code": "WI",
+            "state": "Wisconsin",
+            "time_zone": "America/Chicago",
+            "neighborhood_name": "Downtown Stevens Point",
+            "neighborhoods": [
+                {
+                    "id": "5039d448-3ed3-52ce-b17b-87d17d7d3589",
+                    "level": "neighborhood",
+                    "name": "Downtown Stevens Point"
+                }
+            ],
+            "lon": -89.583318
+        },
+        "client_display_flags": {
+            "presentation_status": "for_rent",
+            "is_showcase": false,
+            "lead_form_phone_required": true,
+            "price_change": 0,
+            "has_specials": false,
+            "is_mls_rental": false,
+            "is_rental_community": true,
+            "is_rental_unit": false,
+            "is_co_star": false,
+            "is_apartmentlist": false,
+            "suppress_map_pin": false,
+            "suppress_phone_call_lead_event": false,
+            "price_reduced": false,
+            "allows_cats": true,
+            "allows_dogs": true,
+            "allows_dogs_small": true,
+            "has_matterport": true
+        },
+        "products": [
+            "basic",
+            "_COMMUNITY_RENTAL",
+            "_COMMUNITY_RENTAL",
+            "_COMMUNITY_RENTAL",
+            "_COMMUNITY_RENTAL",
+            "_COMMUNITY_RENTAL"
+        ],
+        "agents": [
+            {
+                "primary": true
+            }
+        ],
+        "lead_forms": {
+            "form": {
+                "name": {
+                    "required": true,
+                    "minimum_character_count": 1
+                },
+                "email": {
+                    "required": true,
+                    "minimum_character_count": 5
+                },
+                "move_in_date": {
+                    "required": false,
+                    "default_date": "2023-09-01T12:00:00Z",
+                    "minimum_days_from_today": 1,
+                    "maximum_days_from_today": 180
+                },
+                "phone": {
+                    "required": true,
+                    "minimum_character_count": 10,
+                    "maximum_character_count": 11
+                },
+                "message": {
+                    "required": false,
+                    "minimum_character_count": 0
+                },
+                "show": false
+            },
+            "show_agent": false,
+            "show_broker": false,
+            "show_provider": false,
+            "show_management": false
+        },
+        "lot_size": {
+            "size": 0,
+            "units": "sqft"
+        },
+        "building_size": {
+            "units": "sqft"
+        },
+        "rdc_web_url": "https://www.realtor.com/realestateandhomes-detail/1060-Centerpoint-Dr_Stevens-Point_WI_54481_M96948-78184",
+        "rdc_app_url": "move-rdc://www.realtor.com/realestateandhomes-detail/1060-Centerpoint-Dr_Stevens-Point_WI_54481_M96948-78184",
+        "community": {
+            "baths_max": 2,
+            "baths_min": 1,
+            "beds_max": 2,
+            "beds_min": 0,
+            "contact_number": "(715) 513-9958",
+            "id": 3644295,
+            "name": "North Side Yard",
+            "price_max": 1850,
+            "price_min": 975,
+            "source_id": "6803771",
+            "sqft_max": 943,
+            "sqft_min": 390
+        },
+        "data_source_name": "community_rental",
+        "source": "community",
+        "page_no": 1,
+        "rank": 6,
+        "list_tracking": "type|property|data|prop_id|9694878184|list_id|2951306520|comm_id|3644295|page|rank|list_branding|listing_agent|listing_office|data_source|community_rental|property_status|product_code|advantage_code^1|6|0|0|3K2|CO0|0^^$0|1|2|$3|4|5|6|7|8|9|J|A|K|B|$C|L|D|M]|E|F|G|N|H|O|I|P]]",
+        "photo_count": 177,
+        "photos": [
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f3461414991s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f1863325960s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f526529061s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f569469408s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f1986149519s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f3244297673s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f2761368724s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f1018458654s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f1331226819s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f2775805556s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f1904704760s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f3519525187s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f3721238003s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f2670737373s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f3684296760s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f72819914s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f2694956136s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f3678298692s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f3779210579s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f100360339s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f2493027577s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f2244099481s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f3729578821s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f3663633380s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f4106433229s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f3442451394s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f620803902s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f848739869s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f3935950829s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f166969579s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f4006491915s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f616838095s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f461061759s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f3714134008s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f3169891506s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f1466956483s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f3111198592s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f486565731s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f391566249s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f3227199981s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f2244099481s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f3000910330s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f82054482s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f2385138048s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f2201228032s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f1347195640s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f3546086546s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f3389356975s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f1774801996s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f4057075485s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f2192420249s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f2244099481s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f3500995362s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f2173367478s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f1256722085s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f3199210640s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f473232408s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f2275594817s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f1936091260s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f2987566734s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f894377104s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f2544335909s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f4032450573s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f2251590228s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f1920312258s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f1382692366s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f3316386990s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f435768718s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f1143407599s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f751454952s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f1784180778s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f1669963876s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f1327859213s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f2491613939s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f1799756875s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f4119025019s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f3045174115s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f4255336930s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f2188626769s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f3686203709s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f4013161951s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f2928782977s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f1663853306s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f807753251s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f1730367181s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f3346571129s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f2266609093s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f437991381s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f3441232378s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f3862554965s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f1929843901s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f486030733s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f2291995283s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f2632504723s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f2928782977s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f2567825644s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f3312609368s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f859818060s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f681033192s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f4286370864s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f3069928936s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f576058186s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f2274501215s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f368764039s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f1667674823s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f189666883s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f1688654645s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f1762202801s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f1425861161s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f3373555985s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f2830947660s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f675223072s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f4213072042s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f2067495165s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f1156033932s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f4085252093s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f3609388678s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f1114602639s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f3780936796s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f3778421038s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f1700636935s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f3211403855s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f3405906584s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f2136997350s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f1808373592s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f3438047126s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f406490058s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f1720028282s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f425749349s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f3277036877s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f2805794260s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f3956302854s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f2928782977s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f3419963936s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f1716044463s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f492613453s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f4217542357s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f599616593s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f3405711080s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f4173862418s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f308215231s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f2899981915s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f2075278054s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f1277952637s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f4066008775s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f3737839673s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f675426494s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f2654777887s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f3495402318s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f3504165732s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f327277216s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f1625208985s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f4106433229s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f3015714684s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f615980355s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f3460161159s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f979636446s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f3841446491s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f2278679625s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f2244099481s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f3451341830s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f509117774s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f1862103360s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f3461414991s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f1863325960s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f526529061s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f1986149519s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f569469408s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f1018458654s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f2761368724s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f3244297673s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f2775805556s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f1331226819s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f275647475s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f1892043073s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f2960593704s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/e2d8b24f8a8d26240671521593ed6451c-f3721238003s.jpg"
+            }
+        ]
+    },
+    {
+        "property_id": "R9936898797",
+        "listing_id": "2951330109",
+        "prop_type": "apartment",
+        "list_date": "2023-01-10T21:54:05.000Z",
+        "last_update": "2023-07-28T12:19:12.000Z",
+        "year_built": 2022,
+        "listing_status": "active",
+        "beds": 0,
+        "branding": {
+            "state_license": null
+        },
+        "prop_status": "for_rent",
+        "address": {
+            "city": "Stevens Point",
+            "country": "USA",
+            "county": "Portage",
+            "county_needed_for_uniq": false,
+            "lat": 44.52568,
+            "line": "1020 Centerpoint Dr",
+            "postal_code": "54481",
+            "state_code": "WI",
+            "state": "Wisconsin",
+            "time_zone": "America/Chicago",
+            "neighborhood_name": "Downtown Stevens Point",
+            "neighborhoods": [
+                {
+                    "id": "5039d448-3ed3-52ce-b17b-87d17d7d3589",
+                    "level": "neighborhood",
+                    "name": "Downtown Stevens Point"
+                }
+            ],
+            "lon": -89.583318
+        },
+        "client_display_flags": {
+            "presentation_status": "for_rent",
+            "is_showcase": false,
+            "lead_form_phone_required": true,
+            "price_change": 0,
+            "has_specials": false,
+            "is_mls_rental": false,
+            "is_rental_community": true,
+            "is_rental_unit": false,
+            "is_co_star": false,
+            "is_apartmentlist": false,
+            "suppress_map_pin": false,
+            "suppress_phone_call_lead_event": false,
+            "price_reduced": false,
+            "allows_cats": true,
+            "allows_dogs": true,
+            "allows_dogs_small": true
+        },
+        "products": [
+            "basic",
+            "_COMMUNITY_RENTAL",
+            "_COMMUNITY_RENTAL",
+            "_COMMUNITY_RENTAL",
+            "_COMMUNITY_RENTAL",
+            "_COMMUNITY_RENTAL"
+        ],
+        "agents": [
+            {
+                "primary": true
+            }
+        ],
+        "lead_forms": {
+            "form": {
+                "name": {
+                    "required": true,
+                    "minimum_character_count": 1
+                },
+                "email": {
+                    "required": true,
+                    "minimum_character_count": 5
+                },
+                "move_in_date": {
+                    "required": false,
+                    "default_date": "2023-09-01T12:00:00Z",
+                    "minimum_days_from_today": 1,
+                    "maximum_days_from_today": 180
+                },
+                "phone": {
+                    "required": true,
+                    "minimum_character_count": 10,
+                    "maximum_character_count": 11
+                },
+                "message": {
+                    "required": false,
+                    "minimum_character_count": 0
+                },
+                "show": false
+            },
+            "show_agent": false,
+            "show_broker": false,
+            "show_provider": false,
+            "show_management": false
+        },
+        "lot_size": {
+            "size": 0,
+            "units": "sqft"
+        },
+        "building_size": {
+            "units": "sqft"
+        },
+        "rdc_web_url": "https://www.realtor.com/realestateandhomes-detail/1020-Centerpoint-Dr_Stevens-Point_WI_54481_M99368-98797",
+        "rdc_app_url": "move-rdc://www.realtor.com/realestateandhomes-detail/1020-Centerpoint-Dr_Stevens-Point_WI_54481_M99368-98797",
+        "community": {
+            "baths_max": 1,
+            "baths_min": 1,
+            "beds_max": 2,
+            "beds_min": 0,
+            "contact_number": "(715) 513-9958",
+            "id": 3646144,
+            "name": "North Side Yard",
+            "price_max": 1600,
+            "price_min": 975,
+            "source_id": "7323566",
+            "sqft_max": 930,
+            "sqft_min": 390
+        },
+        "data_source_name": "community_rental",
+        "source": "community",
+        "page_no": 1,
+        "rank": 7,
+        "list_tracking": "type|property|data|prop_id|9936898797|list_id|2951330109|comm_id|3646144|page|rank|list_branding|listing_agent|listing_office|data_source|community_rental|property_status|product_code|advantage_code^1|7|0|0|3K2|W|0^^$0|1|2|$3|4|5|6|7|8|9|J|A|K|B|$C|L|D|M]|E|F|G|N|H|O|I|P]]",
+        "photo_count": 163,
+        "photos": [
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f1969238707s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f212625683s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f1437420403s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f2209405917s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f1874033510s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f3795237596s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f2252257655s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f2091458629s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f1588437065s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f4256588246s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f889594686s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f16803579s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f3657892542s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f3325571902s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f853989543s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f2244099481s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f3763825600s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f2238726250s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f3291426597s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f1709310769s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f340182523s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f2326722493s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f994559925s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f3701592403s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f2113139985s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f994559925s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f2027664660s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f4174371279s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f101948683s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f2514646631s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f603964699s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f3953467134s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f2345531820s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f3049262792s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f4248036256s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f345765746s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f641724873s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f2166278271s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f2244099481s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f3362675900s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f2060036775s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f1883079120s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f1816679505s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f3284566367s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f3018280810s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f23269345s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f2606454998s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f150958848s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f2626188045s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f1779067147s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f669934973s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f666800504s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f2571379304s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f305832366s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f1620509273s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f3270374592s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f2767641545s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f1016966036s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f4204500390s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f3451133044s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f620133666s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f1387949890s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f1287476880s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f2532574898s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f2215272392s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f196246633s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f859537968s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f1933932653s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f814572789s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f488741005s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f1863353644s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f3877809144s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f2416343711s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f3297983815s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f1523259240s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f3686203709s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f4013161951s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f2252257655s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f3795237596s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f1969238707s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f212625683s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f2209405917s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f2091458629s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f4256588246s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f1874033510s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f1588437065s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f16803579s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f889594686s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f3657892542s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f3325571902s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f853989543s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f1437420403s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f2706830801s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f4044459210s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f3539797743s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f24471885s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f3726621734s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f3888835197s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f3721195728s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f964765725s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f2670849563s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f3835544673s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f3102041580s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f4255780460s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f2803644629s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f3522632795s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f2957798229s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f652038633s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f991299864s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f207522247s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f4045290846s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f426449292s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f798467181s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f2536223939s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f2199882555s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f371806719s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f1158481904s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f344089264s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f2199702862s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f465459902s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f161511733s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f4174371279s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f101948683s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f2682874376s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f779276531s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f1292501868s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f3465113433s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f841124394s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f1958266847s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f2517020243s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f1292501868s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f2244099481s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f2060036775s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f1883079120s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f3558793826s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f3939650s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f2111399117s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f1803299064s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f1673327557s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f2414433473s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f4010471488s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f1974297785s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f3630328227s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f539229569s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f1831400313s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f1723251348s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f319413146s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f3619962310s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f3492998855s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f4162356914s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f2256801874s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f3877710978s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f1606007621s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f690274153s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f3188689396s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f2423814472s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f1308076974s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f1766056435s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f2296391750s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f2423814472s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f3892669514s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f426449292s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f55f9509c905cf2639ed8f46943a4f99c-f798467181s.jpg"
+            }
+        ]
+    },
+    {
+        "property_id": "R8501149664",
+        "listing_id": "2952837401",
+        "prop_type": "apartment",
+        "list_date": "2023-02-22T17:15:30.000Z",
+        "last_update": "2023-07-01T03:19:28.000Z",
+        "listing_status": "active",
+        "beds": 0,
+        "branding": {
+            "state_license": null
+        },
+        "prop_status": "for_rent",
+        "address": {
+            "city": "Stevens Point",
+            "country": "USA",
+            "county": "Portage",
+            "county_needed_for_uniq": false,
+            "lat": 44.50366,
+            "line": "3056 Water St",
+            "postal_code": "54481",
+            "state_code": "WI",
+            "state": "Wisconsin",
+            "time_zone": "America/Chicago",
+            "lon": -89.56952
+        },
+        "client_display_flags": {
+            "presentation_status": "for_rent",
+            "is_showcase": false,
+            "lead_form_phone_required": true,
+            "price_change": 0,
+            "has_specials": false,
+            "is_mls_rental": false,
+            "is_rental_community": true,
+            "is_rental_unit": false,
+            "is_co_star": false,
+            "is_apartmentlist": false,
+            "suppress_map_pin": false,
+            "suppress_phone_call_lead_event": false,
+            "price_reduced": false,
+            "allows_cats": true,
+            "allows_dogs": true
+        },
+        "products": [
+            "rentals_cost_per_lead_hybrid",
+            "co_broke",
+            "_COMMUNITY_RENTAL",
+            "_COMMUNITY_RENTAL",
+            "_COMMUNITY_RENTAL",
+            "_COMMUNITY_RENTAL",
+            "_COMMUNITY_RENTAL"
+        ],
+        "agents": [
+            {
+                "primary": true
+            }
+        ],
+        "lead_forms": {
+            "form": {
+                "name": {
+                    "required": true,
+                    "minimum_character_count": 1
+                },
+                "email": {
+                    "required": true,
+                    "minimum_character_count": 5
+                },
+                "move_in_date": {
+                    "required": false,
+                    "default_date": "2023-09-01T12:00:00Z",
+                    "minimum_days_from_today": 1,
+                    "maximum_days_from_today": 180
+                },
+                "phone": {
+                    "required": true,
+                    "minimum_character_count": 10,
+                    "maximum_character_count": 11
+                },
+                "message": {
+                    "required": false,
+                    "minimum_character_count": 0
+                },
+                "show": false
+            },
+            "show_agent": false,
+            "show_broker": false,
+            "show_provider": false,
+            "show_management": false
+        },
+        "lot_size": {
+            "size": 0,
+            "units": "sqft"
+        },
+        "building_size": {
+            "units": "sqft"
+        },
+        "rdc_web_url": "https://www.realtor.com/realestateandhomes-detail/3056-Water-St_Stevens-Point_WI_54481_M85011-49664",
+        "rdc_app_url": "move-rdc://www.realtor.com/realestateandhomes-detail/3056-Water-St_Stevens-Point_WI_54481_M85011-49664",
+        "community": {
+            "baths_max": 1,
+            "baths_min": 1,
+            "beds_max": 1,
+            "beds_min": 1,
+            "contact_number": "(888) 347-9209",
+            "id": 3740506,
+            "name": "Park Place Apartments",
+            "price_max": 827,
+            "price_min": 827,
+            "source_id": "100013282",
+            "sqft_max": 527,
+            "sqft_min": 527
+        },
+        "data_source_name": "community_rental",
+        "source": "community",
+        "page_no": 1,
+        "rank": 8,
+        "list_tracking": "type|property|data|prop_id|8501149664|list_id|2952837401|comm_id|3740506|page|rank|list_branding|listing_agent|listing_office|data_source|community_rental|property_status|product_code|advantage_code^1|8|0|0|3K2|1C|0^^$0|1|2|$3|4|5|6|7|8|9|J|A|K|B|$C|L|D|M]|E|F|G|N|H|O|I|P]]",
+        "photo_count": 46,
+        "photos": [
+            {
+                "href": "https://ar.rdcpix.com/9ca92ed699a534f9b3e76e765a8e51f2c-f4011414966s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/9ca92ed699a534f9b3e76e765a8e51f2c-f2936866843s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/9ca92ed699a534f9b3e76e765a8e51f2c-f1045888383s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/9ca92ed699a534f9b3e76e765a8e51f2c-f1691240739s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/9ca92ed699a534f9b3e76e765a8e51f2c-f59601144s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/9ca92ed699a534f9b3e76e765a8e51f2c-f3438909958s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/9ca92ed699a534f9b3e76e765a8e51f2c-f1782960781s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/9ca92ed699a534f9b3e76e765a8e51f2c-f2503544896s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/9ca92ed699a534f9b3e76e765a8e51f2c-f1309077294s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/9ca92ed699a534f9b3e76e765a8e51f2c-f3480946925s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/9ca92ed699a534f9b3e76e765a8e51f2c-f3718105553s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/9ca92ed699a534f9b3e76e765a8e51f2c-f3361841935s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/9ca92ed699a534f9b3e76e765a8e51f2c-f1637483213s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/9ca92ed699a534f9b3e76e765a8e51f2c-f2616148673s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/9ca92ed699a534f9b3e76e765a8e51f2c-f2672709362s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/9ca92ed699a534f9b3e76e765a8e51f2c-f1521034250s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/9ca92ed699a534f9b3e76e765a8e51f2c-f2538990645s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/9ca92ed699a534f9b3e76e765a8e51f2c-f2275135694s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/9ca92ed699a534f9b3e76e765a8e51f2c-f550101353s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/9ca92ed699a534f9b3e76e765a8e51f2c-f2939785850s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/9ca92ed699a534f9b3e76e765a8e51f2c-f850664283s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/9ca92ed699a534f9b3e76e765a8e51f2c-f4169699804s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/9ca92ed699a534f9b3e76e765a8e51f2c-f2937276844s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/9ca92ed699a534f9b3e76e765a8e51f2c-f1541152812s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/9ca92ed699a534f9b3e76e765a8e51f2c-f1501366736s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/9ca92ed699a534f9b3e76e765a8e51f2c-f95002313s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/9ca92ed699a534f9b3e76e765a8e51f2c-f3319069922s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/9ca92ed699a534f9b3e76e765a8e51f2c-f2976232650s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/9ca92ed699a534f9b3e76e765a8e51f2c-f3613135285s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/9ca92ed699a534f9b3e76e765a8e51f2c-f1885624548s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/9ca92ed699a534f9b3e76e765a8e51f2c-f830520486s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/9ca92ed699a534f9b3e76e765a8e51f2c-f1940741656s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/9ca92ed699a534f9b3e76e765a8e51f2c-f1497580199s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/9ca92ed699a534f9b3e76e765a8e51f2c-f89435302s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/9ca92ed699a534f9b3e76e765a8e51f2c-f1981712408s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/9ca92ed699a534f9b3e76e765a8e51f2c-f1654017550s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/9ca92ed699a534f9b3e76e765a8e51f2c-f2508375906s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/9ca92ed699a534f9b3e76e765a8e51f2c-f3164965370s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/9ca92ed699a534f9b3e76e765a8e51f2c-f1699066751s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/9ca92ed699a534f9b3e76e765a8e51f2c-f1321771246s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/9ca92ed699a534f9b3e76e765a8e51f2c-f117539395s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/9ca92ed699a534f9b3e76e765a8e51f2c-f2096802854s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/9ca92ed699a534f9b3e76e765a8e51f2c-f3106025836s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/9ca92ed699a534f9b3e76e765a8e51f2c-f3268926454s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/9ca92ed699a534f9b3e76e765a8e51f2c-f1148590242s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/9ca92ed699a534f9b3e76e765a8e51f2c-f3400059252s.jpg"
+            }
+        ]
+    },
+    {
+        "property_id": "R9143619161",
+        "listing_id": "2953451957",
+        "prop_type": "apartment",
+        "list_date": "2023-03-13T12:44:40.000Z",
+        "last_update": "2023-07-30T15:11:48.000Z",
+        "listing_status": "active",
+        "beds": 2,
+        "branding": {
+            "state_license": null
+        },
+        "baths_full": 2,
+        "prop_status": "for_rent",
+        "address": {
+            "city": "Stevens Point",
+            "country": "USA",
+            "county": "Portage",
+            "county_needed_for_uniq": false,
+            "lat": 44.500675,
+            "line": "1421 River View Ave Unit 1419",
+            "postal_code": "54481",
+            "state_code": "WI",
+            "state": "Wisconsin",
+            "time_zone": "America/Chicago",
+            "lon": -89.577393
+        },
+        "client_display_flags": {
+            "presentation_status": "for_rent",
+            "is_showcase": false,
+            "lead_form_phone_required": true,
+            "price_change": 0,
+            "has_specials": false,
+            "is_mls_rental": false,
+            "is_rental_community": false,
+            "is_rental_unit": true,
+            "is_co_star": false,
+            "is_apartmentlist": false,
+            "suppress_map_pin": false,
+            "suppress_phone_call_lead_event": false,
+            "price_reduced": false,
+            "allows_cats": true,
+            "allows_dogs": false
+        },
+        "products": [
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL"
+        ],
+        "agents": [
+            {
+                "primary": true
+            }
+        ],
+        "lead_forms": {
+            "form": {
+                "name": {
+                    "required": true,
+                    "minimum_character_count": 1
+                },
+                "email": {
+                    "required": true,
+                    "minimum_character_count": 5
+                },
+                "move_in_date": {
+                    "required": false,
+                    "default_date": "2023-09-01T12:00:00Z",
+                    "minimum_days_from_today": 1,
+                    "maximum_days_from_today": 180
+                },
+                "phone": {
+                    "required": true,
+                    "minimum_character_count": 10,
+                    "maximum_character_count": 11
+                },
+                "message": {
+                    "required": false,
+                    "minimum_character_count": 0
+                },
+                "show": false
+            },
+            "show_agent": false,
+            "show_broker": false,
+            "show_provider": false,
+            "show_management": false
+        },
+        "lot_size": {
+            "size": 0,
+            "units": "sqft"
+        },
+        "building_size": {
+            "size": 1200,
+            "units": "sqft"
+        },
+        "price": 1400,
+        "rdc_web_url": "https://www.realtor.com/realestateandhomes-detail/1419-River-View-Ave_Stevens-Point_WI_54481_M91436-19161",
+        "rdc_app_url": "move-rdc://www.realtor.com/realestateandhomes-detail/1419-River-View-Ave_Stevens-Point_WI_54481_M91436-19161",
+        "baths": 2,
+        "data_source_name": "unit_rental",
+        "source": "unit_rental",
+        "page_no": 1,
+        "rank": 9,
+        "list_tracking": "type|property|data|prop_id|9143619161|list_id|2953451957|page|rank|list_branding|listing_agent|listing_office|data_source|unit_rental|property_status|product_code|advantage_code^1|9|0|0|3YA|W|0^^$0|1|2|$3|4|5|6|7|H|8|I|9|$A|J|B|K]|C|D|E|L|F|M|G|N]]",
+        "photo_count": 33,
+        "photos": [
+            {
+                "href": "https://ap.rdcpix.com/faba9fb648159e86c642394e9d855b01l-m3141137539s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/faba9fb648159e86c642394e9d855b01l-m3608933518s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/faba9fb648159e86c642394e9d855b01l-m115709154s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/faba9fb648159e86c642394e9d855b01l-m4045424196s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/faba9fb648159e86c642394e9d855b01l-m62003156s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/faba9fb648159e86c642394e9d855b01l-m4084676751s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/faba9fb648159e86c642394e9d855b01l-m3600875940s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/faba9fb648159e86c642394e9d855b01l-m2537397708s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/faba9fb648159e86c642394e9d855b01l-m3355739175s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/faba9fb648159e86c642394e9d855b01l-m2533518848s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/faba9fb648159e86c642394e9d855b01l-m486405126s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/faba9fb648159e86c642394e9d855b01l-m908892145s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/faba9fb648159e86c642394e9d855b01l-m2680584006s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/faba9fb648159e86c642394e9d855b01l-m1539750770s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/faba9fb648159e86c642394e9d855b01l-m324844061s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/faba9fb648159e86c642394e9d855b01l-m4133072611s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/faba9fb648159e86c642394e9d855b01l-m3814040742s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/faba9fb648159e86c642394e9d855b01l-m1593754478s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/faba9fb648159e86c642394e9d855b01l-m1912235957s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/faba9fb648159e86c642394e9d855b01l-m720759251s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/faba9fb648159e86c642394e9d855b01l-m2841368581s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/faba9fb648159e86c642394e9d855b01l-m4171380013s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/faba9fb648159e86c642394e9d855b01l-m607002965s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/faba9fb648159e86c642394e9d855b01l-m3950695217s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/faba9fb648159e86c642394e9d855b01l-m416618168s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/faba9fb648159e86c642394e9d855b01l-m3929030193s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/faba9fb648159e86c642394e9d855b01l-m2853709326s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/faba9fb648159e86c642394e9d855b01l-m1034883744s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/faba9fb648159e86c642394e9d855b01l-m3743467879s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/faba9fb648159e86c642394e9d855b01l-m382950674s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/faba9fb648159e86c642394e9d855b01l-m734247767s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/faba9fb648159e86c642394e9d855b01l-m1596782971s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/faba9fb648159e86c642394e9d855b01l-m4018672087s.jpg"
+            }
+        ]
+    },
+    {
+        "property_id": "R9858766996",
+        "listing_id": "2956823691",
+        "prop_type": "single_family",
+        "last_update": "2023-07-03T23:13:20.000Z",
+        "listing_status": "active",
+        "beds": 4,
+        "branding": {
+            "state_license": null
+        },
+        "baths_full": 1,
+        "prop_status": "for_rent",
+        "address": {
+            "city": "Stevens Point",
+            "country": "USA",
+            "county": "Portage",
+            "county_needed_for_uniq": false,
+            "lat": 44.546661,
+            "line": "817 2nd St N",
+            "postal_code": "54481",
+            "state_code": "WI",
+            "state": "Wisconsin",
+            "time_zone": "America/Chicago",
+            "lon": -89.58477
+        },
+        "client_display_flags": {
+            "presentation_status": "for_rent",
+            "is_showcase": false,
+            "lead_form_phone_required": true,
+            "price_change": 0,
+            "has_specials": false,
+            "is_mls_rental": false,
+            "is_rental_community": false,
+            "is_rental_unit": true,
+            "is_co_star": false,
+            "is_apartmentlist": false,
+            "suppress_map_pin": false,
+            "suppress_phone_call_lead_event": false,
+            "price_reduced": false
+        },
+        "products": [
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL"
+        ],
+        "agents": [
+            {
+                "primary": true
+            }
+        ],
+        "lead_forms": {
+            "form": {
+                "name": {
+                    "required": true,
+                    "minimum_character_count": 1
+                },
+                "email": {
+                    "required": true,
+                    "minimum_character_count": 5
+                },
+                "move_in_date": {
+                    "required": false,
+                    "default_date": "2023-09-01T12:00:00Z",
+                    "minimum_days_from_today": 1,
+                    "maximum_days_from_today": 180
+                },
+                "phone": {
+                    "required": true,
+                    "minimum_character_count": 10,
+                    "maximum_character_count": 11
+                },
+                "message": {
+                    "required": false,
+                    "minimum_character_count": 0
+                },
+                "show": false
+            },
+            "show_agent": false,
+            "show_broker": false,
+            "show_provider": false,
+            "show_management": false
+        },
+        "lot_size": {
+            "size": 0,
+            "units": "sqft"
+        },
+        "building_size": {
+            "units": "sqft"
+        },
+        "price": 1500,
+        "rdc_web_url": "https://www.realtor.com/realestateandhomes-detail/817-2nd-St-N_Stevens-Point_WI_54481_M98587-66996",
+        "rdc_app_url": "move-rdc://www.realtor.com/realestateandhomes-detail/817-2nd-St-N_Stevens-Point_WI_54481_M98587-66996",
+        "baths": 1,
+        "data_source_name": "unit_rental",
+        "source": "unit_rental",
+        "page_no": 1,
+        "rank": 10,
+        "list_tracking": "type|property|data|prop_id|9858766996|list_id|2956823691|page|rank|list_branding|listing_agent|listing_office|data_source|unit_rental|property_status|product_code|advantage_code^1|A|0|0|3YA|W|0^^$0|1|2|$3|4|5|6|7|H|8|I|9|$A|J|B|K]|C|D|E|L|F|M|G|N]]",
+        "photo_count": 31,
+        "photos": [
+            {
+                "href": "https://ap.rdcpix.com/cece541209788ff1d5468e576d089a5dl-m810115109s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/cece541209788ff1d5468e576d089a5dl-m3304612753s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/cece541209788ff1d5468e576d089a5dl-m2447794110s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/cece541209788ff1d5468e576d089a5dl-m1488391256s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/cece541209788ff1d5468e576d089a5dl-m3422432122s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/cece541209788ff1d5468e576d089a5dl-m1212285364s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/cece541209788ff1d5468e576d089a5dl-m2275726244s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/cece541209788ff1d5468e576d089a5dl-m12224788s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/cece541209788ff1d5468e576d089a5dl-m2466626518s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/cece541209788ff1d5468e576d089a5dl-m659311469s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/cece541209788ff1d5468e576d089a5dl-m3220150601s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/cece541209788ff1d5468e576d089a5dl-m2472225492s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/cece541209788ff1d5468e576d089a5dl-m4274034840s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/cece541209788ff1d5468e576d089a5dl-m67850077s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/cece541209788ff1d5468e576d089a5dl-m450407317s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/cece541209788ff1d5468e576d089a5dl-m1185868083s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/cece541209788ff1d5468e576d089a5dl-m1175294886s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/cece541209788ff1d5468e576d089a5dl-m2462094588s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/cece541209788ff1d5468e576d089a5dl-m1290992374s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/cece541209788ff1d5468e576d089a5dl-m195158687s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/cece541209788ff1d5468e576d089a5dl-m242359455s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/cece541209788ff1d5468e576d089a5dl-m702485509s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/cece541209788ff1d5468e576d089a5dl-m3616425892s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/cece541209788ff1d5468e576d089a5dl-m3246120114s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/cece541209788ff1d5468e576d089a5dl-m4223004413s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/cece541209788ff1d5468e576d089a5dl-m3060461745s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/cece541209788ff1d5468e576d089a5dl-m1362893635s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/cece541209788ff1d5468e576d089a5dl-m2432052557s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/cece541209788ff1d5468e576d089a5dl-m3375072767s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/cece541209788ff1d5468e576d089a5dl-m1006802317s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/cece541209788ff1d5468e576d089a5dl-m160950438s.jpg"
+            }
+        ]
+    },
+    {
+        "property_id": "R7920896287",
+        "listing_id": "2952837058",
+        "prop_type": "apartment",
+        "list_date": "2023-02-22T17:15:30.000Z",
+        "last_update": "2023-07-25T23:19:51.000Z",
+        "listing_status": "active",
+        "beds": 0,
+        "branding": {
+            "state_license": null
+        },
+        "prop_status": "for_rent",
+        "address": {
+            "city": "Stevens Point",
+            "country": "USA",
+            "county": "Portage",
+            "county_needed_for_uniq": false,
+            "lat": 44.52685,
+            "line": "924 Songbird Ln",
+            "postal_code": "54482",
+            "state_code": "WI",
+            "state": "Wisconsin",
+            "time_zone": "America/Chicago",
+            "lon": -89.50166
+        },
+        "client_display_flags": {
+            "presentation_status": "for_rent",
+            "is_showcase": false,
+            "lead_form_phone_required": true,
+            "price_change": 0,
+            "has_specials": false,
+            "is_mls_rental": false,
+            "is_rental_community": true,
+            "is_rental_unit": false,
+            "is_co_star": false,
+            "is_apartmentlist": false,
+            "suppress_map_pin": false,
+            "suppress_phone_call_lead_event": false,
+            "price_reduced": false,
+            "allows_cats": true,
+            "allows_dogs": true
+        },
+        "products": [
+            "rentals_cost_per_lead_hybrid",
+            "co_broke",
+            "_COMMUNITY_RENTAL",
+            "_COMMUNITY_RENTAL",
+            "_COMMUNITY_RENTAL",
+            "_COMMUNITY_RENTAL",
+            "_COMMUNITY_RENTAL"
+        ],
+        "agents": [
+            {
+                "primary": true
+            }
+        ],
+        "lead_forms": {
+            "form": {
+                "name": {
+                    "required": true,
+                    "minimum_character_count": 1
+                },
+                "email": {
+                    "required": true,
+                    "minimum_character_count": 5
+                },
+                "move_in_date": {
+                    "required": false,
+                    "default_date": "2023-09-01T12:00:00Z",
+                    "minimum_days_from_today": 1,
+                    "maximum_days_from_today": 180
+                },
+                "phone": {
+                    "required": true,
+                    "minimum_character_count": 10,
+                    "maximum_character_count": 11
+                },
+                "message": {
+                    "required": false,
+                    "minimum_character_count": 0
+                },
+                "show": false
+            },
+            "show_agent": false,
+            "show_broker": false,
+            "show_provider": false,
+            "show_management": false
+        },
+        "lot_size": {
+            "size": 0,
+            "units": "sqft"
+        },
+        "building_size": {
+            "units": "sqft"
+        },
+        "rdc_web_url": "https://www.realtor.com/realestateandhomes-detail/924-Songbird-Ln_Stevens-Point_WI_54482_M79208-96287",
+        "rdc_app_url": "move-rdc://www.realtor.com/realestateandhomes-detail/924-Songbird-Ln_Stevens-Point_WI_54482_M79208-96287",
+        "community": {
+            "baths_max": 2,
+            "baths_min": 1,
+            "beds_max": 2,
+            "beds_min": 1,
+            "contact_number": "(888) 449-1864",
+            "id": 3742806,
+            "name": "Parkdale Apartments",
+            "price_max": 1150,
+            "price_min": 795,
+            "source_id": "100035521",
+            "sqft_max": 1200,
+            "sqft_min": 950
+        },
+        "data_source_name": "community_rental",
+        "source": "community",
+        "page_no": 1,
+        "rank": 11,
+        "list_tracking": "type|property|data|prop_id|7920896287|list_id|2952837058|comm_id|3742806|page|rank|list_branding|listing_agent|listing_office|data_source|community_rental|property_status|product_code|advantage_code^1|B|0|0|3K2|1C|0^^$0|1|2|$3|4|5|6|7|8|9|J|A|K|B|$C|L|D|M]|E|F|G|N|H|O|I|P]]",
+        "photo_count": 29,
+        "photos": [
+            {
+                "href": "https://ar.rdcpix.com/d99ced5ac54a7f51531c2fed0c7bf2a5c-f20518172s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/d99ced5ac54a7f51531c2fed0c7bf2a5c-f3013215356s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/d99ced5ac54a7f51531c2fed0c7bf2a5c-f3098787033s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/d99ced5ac54a7f51531c2fed0c7bf2a5c-f854637450s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/d99ced5ac54a7f51531c2fed0c7bf2a5c-f796739034s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/d99ced5ac54a7f51531c2fed0c7bf2a5c-f2776863937s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/d99ced5ac54a7f51531c2fed0c7bf2a5c-f4017945209s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/d99ced5ac54a7f51531c2fed0c7bf2a5c-f861312456s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/d99ced5ac54a7f51531c2fed0c7bf2a5c-f3411102378s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/d99ced5ac54a7f51531c2fed0c7bf2a5c-f4188598831s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/d99ced5ac54a7f51531c2fed0c7bf2a5c-f2965659607s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/d99ced5ac54a7f51531c2fed0c7bf2a5c-f1786903860s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/d99ced5ac54a7f51531c2fed0c7bf2a5c-f2563026564s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/d99ced5ac54a7f51531c2fed0c7bf2a5c-f180477226s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/d99ced5ac54a7f51531c2fed0c7bf2a5c-f560174391s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/d99ced5ac54a7f51531c2fed0c7bf2a5c-f55868135s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/d99ced5ac54a7f51531c2fed0c7bf2a5c-f1620578918s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/d99ced5ac54a7f51531c2fed0c7bf2a5c-f1216927989s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/d99ced5ac54a7f51531c2fed0c7bf2a5c-f1620670508s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/d99ced5ac54a7f51531c2fed0c7bf2a5c-f104150693s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/d99ced5ac54a7f51531c2fed0c7bf2a5c-f4157104292s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/d99ced5ac54a7f51531c2fed0c7bf2a5c-f4201353306s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/d99ced5ac54a7f51531c2fed0c7bf2a5c-f4042483636s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/d99ced5ac54a7f51531c2fed0c7bf2a5c-f178071474s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/d99ced5ac54a7f51531c2fed0c7bf2a5c-f4000164693s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/d99ced5ac54a7f51531c2fed0c7bf2a5c-f234378114s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/d99ced5ac54a7f51531c2fed0c7bf2a5c-f2954064624s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/d99ced5ac54a7f51531c2fed0c7bf2a5c-f3276056853s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/d99ced5ac54a7f51531c2fed0c7bf2a5c-f1304768450s.jpg"
+            }
+        ]
+    },
+    {
+        "property_id": "R9947819325",
+        "listing_id": "2954356573",
+        "prop_type": "apartment",
+        "list_date": "2023-04-07T23:03:54.000Z",
+        "last_update": "2023-07-28T20:06:36.000Z",
+        "listing_status": "active",
+        "beds": 2,
+        "branding": {
+            "state_license": null
+        },
+        "baths_full": 3,
+        "price_reduced_date": "2023-05-06T16:04:49.916Z",
+        "prop_status": "for_rent",
+        "address": {
+            "city": "Stevens Point",
+            "country": "USA",
+            "county": "Portage",
+            "county_needed_for_uniq": false,
+            "lat": 44.523129,
+            "line": "1055 Main St Ste 205",
+            "postal_code": "54481",
+            "state_code": "WI",
+            "state": "Wisconsin",
+            "time_zone": "America/Chicago",
+            "neighborhood_name": "Downtown Stevens Point",
+            "neighborhoods": [
+                {
+                    "id": "5039d448-3ed3-52ce-b17b-87d17d7d3589",
+                    "level": "neighborhood",
+                    "name": "Downtown Stevens Point"
+                }
+            ],
+            "lon": -89.583687
+        },
+        "client_display_flags": {
+            "presentation_status": "for_rent",
+            "is_showcase": false,
+            "lead_form_phone_required": true,
+            "price_change": 0,
+            "has_specials": false,
+            "is_mls_rental": false,
+            "is_rental_community": false,
+            "is_rental_unit": true,
+            "is_co_star": false,
+            "is_apartmentlist": false,
+            "suppress_map_pin": false,
+            "suppress_phone_call_lead_event": false,
+            "price_reduced": true,
+            "allows_cats": true,
+            "allows_dogs": true,
+            "allows_dogs_small": true,
+            "allows_dogs_large": true
+        },
+        "products": [
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL"
+        ],
+        "agents": [
+            {
+                "primary": true
+            }
+        ],
+        "lead_forms": {
+            "form": {
+                "name": {
+                    "required": true,
+                    "minimum_character_count": 1
+                },
+                "email": {
+                    "required": true,
+                    "minimum_character_count": 5
+                },
+                "move_in_date": {
+                    "required": false,
+                    "default_date": "2023-09-01T12:00:00Z",
+                    "minimum_days_from_today": 1,
+                    "maximum_days_from_today": 180
+                },
+                "phone": {
+                    "required": true,
+                    "minimum_character_count": 10,
+                    "maximum_character_count": 11
+                },
+                "message": {
+                    "required": false,
+                    "minimum_character_count": 0
+                },
+                "show": false
+            },
+            "show_agent": false,
+            "show_broker": false,
+            "show_provider": false,
+            "show_management": false
+        },
+        "lot_size": {
+            "size": 0,
+            "units": "sqft"
+        },
+        "building_size": {
+            "size": 2012,
+            "units": "sqft"
+        },
+        "price": 1950,
+        "rdc_web_url": "https://www.realtor.com/realestateandhomes-detail/1055-Main-St-205_Stevens-Point_WI_54481_M99478-19325",
+        "rdc_app_url": "move-rdc://www.realtor.com/realestateandhomes-detail/1055-Main-St-205_Stevens-Point_WI_54481_M99478-19325",
+        "baths": 3,
+        "data_source_name": "unit_rental",
+        "source": "unit_rental",
+        "page_no": 1,
+        "rank": 12,
+        "list_tracking": "type|property|data|prop_id|9947819325|list_id|2954356573|page|rank|list_branding|listing_agent|listing_office|data_source|unit_rental|property_status|product_code|advantage_code^1|C|0|0|3YA|W|0^^$0|1|2|$3|4|5|6|7|H|8|I|9|$A|J|B|K]|C|D|E|L|F|M|G|N]]",
+        "photo_count": 26,
+        "photos": [
+            {
+                "href": "https://ap.rdcpix.com/8f449c08e89a63d0742f2d05173784del-m899429819s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/8f449c08e89a63d0742f2d05173784del-m491799627s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/8f449c08e89a63d0742f2d05173784del-m1907578088s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/8f449c08e89a63d0742f2d05173784del-m2855175106s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/8f449c08e89a63d0742f2d05173784del-m1170680641s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/8f449c08e89a63d0742f2d05173784del-m717533391s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/8f449c08e89a63d0742f2d05173784del-m1636357927s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/8f449c08e89a63d0742f2d05173784del-m269522497s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/8f449c08e89a63d0742f2d05173784del-m2870612997s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/8f449c08e89a63d0742f2d05173784del-m2346957695s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/8f449c08e89a63d0742f2d05173784del-m138751478s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/8f449c08e89a63d0742f2d05173784del-m172422397s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/8f449c08e89a63d0742f2d05173784del-m2038988872s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/8f449c08e89a63d0742f2d05173784del-m3092374547s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/8f449c08e89a63d0742f2d05173784del-m2792945471s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/8f449c08e89a63d0742f2d05173784del-m2566776466s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/8f449c08e89a63d0742f2d05173784del-m3986495589s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/8f449c08e89a63d0742f2d05173784del-m4278171331s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/8f449c08e89a63d0742f2d05173784del-m2013177167s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/8f449c08e89a63d0742f2d05173784del-m1532782284s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/8f449c08e89a63d0742f2d05173784del-m4069893973s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/8f449c08e89a63d0742f2d05173784del-m3161488101s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/8f449c08e89a63d0742f2d05173784del-m2393100603s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/8f449c08e89a63d0742f2d05173784del-m1630846264s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/8f449c08e89a63d0742f2d05173784del-m3610259419s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/8f449c08e89a63d0742f2d05173784del-m628762730s.jpg"
+            }
+        ]
+    },
+    {
+        "property_id": "R7993811338",
+        "listing_id": "2954631251",
+        "prop_type": "apartment",
+        "last_update": "2023-07-26T23:13:22.000Z",
+        "listing_status": "active",
+        "beds": 3,
+        "branding": {
+            "state_license": null
+        },
+        "baths_full": 2,
+        "baths_half": 1,
+        "prop_status": "for_rent",
+        "address": {
+            "city": "Stevens Point",
+            "country": "USA",
+            "county": "Portage",
+            "county_needed_for_uniq": false,
+            "lat": 44.527193,
+            "line": "826 Songbird Ln # 826",
+            "postal_code": "54482",
+            "state_code": "WI",
+            "state": "Wisconsin",
+            "time_zone": "America/Chicago",
+            "lon": -89.500921
+        },
+        "client_display_flags": {
+            "presentation_status": "for_rent",
+            "is_showcase": false,
+            "lead_form_phone_required": true,
+            "price_change": 0,
+            "has_specials": false,
+            "is_mls_rental": false,
+            "is_rental_community": false,
+            "is_rental_unit": true,
+            "is_co_star": false,
+            "is_apartmentlist": false,
+            "suppress_map_pin": false,
+            "suppress_phone_call_lead_event": false,
+            "price_reduced": false,
+            "allows_cats": true,
+            "allows_dogs": true,
+            "allows_dogs_small": true,
+            "allows_dogs_large": true
+        },
+        "products": [
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL"
+        ],
+        "agents": [
+            {
+                "primary": true
+            }
+        ],
+        "lead_forms": {
+            "form": {
+                "name": {
+                    "required": true,
+                    "minimum_character_count": 1
+                },
+                "email": {
+                    "required": true,
+                    "minimum_character_count": 5
+                },
+                "move_in_date": {
+                    "required": false,
+                    "default_date": "2023-09-01T12:00:00Z",
+                    "minimum_days_from_today": 1,
+                    "maximum_days_from_today": 180
+                },
+                "phone": {
+                    "required": true,
+                    "minimum_character_count": 10,
+                    "maximum_character_count": 11
+                },
+                "message": {
+                    "required": false,
+                    "minimum_character_count": 0
+                },
+                "show": false
+            },
+            "show_agent": false,
+            "show_broker": false,
+            "show_provider": false,
+            "show_management": false
+        },
+        "lot_size": {
+            "size": 0,
+            "units": "sqft"
+        },
+        "building_size": {
+            "units": "sqft"
+        },
+        "price": 1510,
+        "rdc_web_url": "https://www.realtor.com/realestateandhomes-detail/826-Songbird-Ln_Stevens-Point_WI_54482_M79938-11338",
+        "rdc_app_url": "move-rdc://www.realtor.com/realestateandhomes-detail/826-Songbird-Ln_Stevens-Point_WI_54482_M79938-11338",
+        "baths": 3,
+        "data_source_name": "unit_rental",
+        "source": "unit_rental",
+        "page_no": 1,
+        "rank": 13,
+        "list_tracking": "type|property|data|prop_id|7993811338|list_id|2954631251|page|rank|list_branding|listing_agent|listing_office|data_source|unit_rental|property_status|product_code|advantage_code^1|D|0|0|3YA|W|0^^$0|1|2|$3|4|5|6|7|H|8|I|9|$A|J|B|K]|C|D|E|L|F|M|G|N]]",
+        "photo_count": 25,
+        "photos": [
+            {
+                "href": "https://ap.rdcpix.com/c82b00ead82415816fe78806e2b90302l-m1370504768s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/c82b00ead82415816fe78806e2b90302l-m2923132832s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/c82b00ead82415816fe78806e2b90302l-m1639764813s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/c82b00ead82415816fe78806e2b90302l-m2882850042s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/c82b00ead82415816fe78806e2b90302l-m1765463915s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/c82b00ead82415816fe78806e2b90302l-m3757064329s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/c82b00ead82415816fe78806e2b90302l-m3725214077s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/c82b00ead82415816fe78806e2b90302l-m2320789080s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/c82b00ead82415816fe78806e2b90302l-m1849816389s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/c82b00ead82415816fe78806e2b90302l-m4227444521s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/c82b00ead82415816fe78806e2b90302l-m1243099102s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/c82b00ead82415816fe78806e2b90302l-m1805572047s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/c82b00ead82415816fe78806e2b90302l-m814286746s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/c82b00ead82415816fe78806e2b90302l-m1865988637s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/c82b00ead82415816fe78806e2b90302l-m479150860s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/c82b00ead82415816fe78806e2b90302l-m2589430185s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/c82b00ead82415816fe78806e2b90302l-m2009907607s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/c82b00ead82415816fe78806e2b90302l-m749441598s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/c82b00ead82415816fe78806e2b90302l-m4022712800s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/c82b00ead82415816fe78806e2b90302l-m2635694165s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/c82b00ead82415816fe78806e2b90302l-m2252569242s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/c82b00ead82415816fe78806e2b90302l-m2218785748s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/c82b00ead82415816fe78806e2b90302l-m3660841700s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/c82b00ead82415816fe78806e2b90302l-m1164578284s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/c82b00ead82415816fe78806e2b90302l-m1764469690s.jpg"
+            }
+        ]
+    },
+    {
+        "property_id": "R9187387885",
+        "listing_id": "2952780069",
+        "prop_type": "apartment",
+        "last_update": "2023-06-01T23:12:42.000Z",
+        "listing_status": "active",
+        "beds": 3,
+        "branding": {
+            "state_license": null
+        },
+        "baths_full": 2,
+        "price_reduced_date": "2023-06-02T00:28:21.186Z",
+        "prop_status": "for_rent",
+        "address": {
+            "city": "Stevens Point",
+            "country": "USA",
+            "county": "Portage",
+            "county_needed_for_uniq": false,
+            "lat": 44.501203,
+            "line": "1438 River View Ave",
+            "postal_code": "54481",
+            "state_code": "WI",
+            "state": "Wisconsin",
+            "time_zone": "America/Chicago",
+            "lon": -89.577957
+        },
+        "client_display_flags": {
+            "presentation_status": "for_rent",
+            "is_showcase": false,
+            "lead_form_phone_required": true,
+            "price_change": 0,
+            "has_specials": false,
+            "is_mls_rental": false,
+            "is_rental_community": false,
+            "is_rental_unit": true,
+            "is_co_star": false,
+            "is_apartmentlist": false,
+            "suppress_map_pin": false,
+            "suppress_phone_call_lead_event": false,
+            "price_reduced": true,
+            "allows_cats": true,
+            "allows_dogs": true,
+            "allows_dogs_small": true,
+            "allows_dogs_large": true
+        },
+        "products": [
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL"
+        ],
+        "agents": [
+            {
+                "primary": true
+            }
+        ],
+        "lead_forms": {
+            "form": {
+                "name": {
+                    "required": true,
+                    "minimum_character_count": 1
+                },
+                "email": {
+                    "required": true,
+                    "minimum_character_count": 5
+                },
+                "move_in_date": {
+                    "required": false,
+                    "default_date": "2023-09-01T12:00:00Z",
+                    "minimum_days_from_today": 1,
+                    "maximum_days_from_today": 180
+                },
+                "phone": {
+                    "required": true,
+                    "minimum_character_count": 10,
+                    "maximum_character_count": 11
+                },
+                "message": {
+                    "required": false,
+                    "minimum_character_count": 0
+                },
+                "show": false
+            },
+            "show_agent": false,
+            "show_broker": false,
+            "show_provider": false,
+            "show_management": false
+        },
+        "lot_size": {
+            "size": 0,
+            "units": "sqft"
+        },
+        "building_size": {
+            "units": "sqft"
+        },
+        "price": 2000,
+        "rdc_web_url": "https://www.realtor.com/realestateandhomes-detail/1438-River-View-Ave_Stevens-Point_WI_54481_M91873-87885",
+        "rdc_app_url": "move-rdc://www.realtor.com/realestateandhomes-detail/1438-River-View-Ave_Stevens-Point_WI_54481_M91873-87885",
+        "baths": 2,
+        "data_source_name": "unit_rental",
+        "source": "unit_rental",
+        "page_no": 1,
+        "rank": 14,
+        "list_tracking": "type|property|data|prop_id|9187387885|list_id|2952780069|page|rank|list_branding|listing_agent|listing_office|data_source|unit_rental|property_status|product_code|advantage_code^1|E|0|0|3YA|W|0^^$0|1|2|$3|4|5|6|7|H|8|I|9|$A|J|B|K]|C|D|E|L|F|M|G|N]]",
+        "photo_count": 24,
+        "photos": [
+            {
+                "href": "https://ap.rdcpix.com/c909aeb0bdfd65efc321850149d96106l-m3708386875s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/c909aeb0bdfd65efc321850149d96106l-m544016813s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/c909aeb0bdfd65efc321850149d96106l-m1329128650s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/c909aeb0bdfd65efc321850149d96106l-m1407679078s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/c909aeb0bdfd65efc321850149d96106l-m3897421430s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/c909aeb0bdfd65efc321850149d96106l-m2345511007s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/c909aeb0bdfd65efc321850149d96106l-m1629866898s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/c909aeb0bdfd65efc321850149d96106l-m1487763416s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/c909aeb0bdfd65efc321850149d96106l-m2712384291s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/c909aeb0bdfd65efc321850149d96106l-m2022863169s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/c909aeb0bdfd65efc321850149d96106l-m3742719515s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/c909aeb0bdfd65efc321850149d96106l-m3846978869s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/c909aeb0bdfd65efc321850149d96106l-m3049623069s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/c909aeb0bdfd65efc321850149d96106l-m2097600416s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/c909aeb0bdfd65efc321850149d96106l-m4163454562s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/c909aeb0bdfd65efc321850149d96106l-m2463192876s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/c909aeb0bdfd65efc321850149d96106l-m1548682802s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/c909aeb0bdfd65efc321850149d96106l-m2456401984s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/c909aeb0bdfd65efc321850149d96106l-m3649830919s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/c909aeb0bdfd65efc321850149d96106l-m32002600s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/c909aeb0bdfd65efc321850149d96106l-m257294782s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/c909aeb0bdfd65efc321850149d96106l-m2298835576s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/c909aeb0bdfd65efc321850149d96106l-m2795325411s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/c909aeb0bdfd65efc321850149d96106l-m755533652s.jpg"
+            }
+        ]
+    },
+    {
+        "property_id": "R9037089909",
+        "listing_id": "2958034797",
+        "prop_type": "apartment",
+        "last_update": "2023-07-28T23:26:14.000Z",
+        "listing_status": "active",
+        "beds": 2,
+        "branding": {
+            "state_license": null
+        },
+        "baths_full": 1,
+        "prop_status": "for_rent",
+        "address": {
+            "city": "Stevens Point",
+            "country": "USA",
+            "county": "Portage",
+            "county_needed_for_uniq": false,
+            "lat": 44.523251,
+            "line": "2321 Main St Apt B",
+            "postal_code": "54481",
+            "state_code": "WI",
+            "state": "Wisconsin",
+            "time_zone": "America/Chicago",
+            "lon": -89.56546
+        },
+        "client_display_flags": {
+            "presentation_status": "for_rent",
+            "is_showcase": false,
+            "lead_form_phone_required": true,
+            "price_change": 0,
+            "has_specials": false,
+            "is_mls_rental": false,
+            "is_rental_community": false,
+            "is_rental_unit": true,
+            "is_co_star": false,
+            "is_apartmentlist": false,
+            "suppress_map_pin": false,
+            "suppress_phone_call_lead_event": false,
+            "price_reduced": false,
+            "allows_cats": true,
+            "allows_dogs": true,
+            "allows_dogs_small": true,
+            "allows_dogs_large": true
+        },
+        "products": [
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL"
+        ],
+        "agents": [
+            {
+                "primary": true
+            }
+        ],
+        "lead_forms": {
+            "form": {
+                "name": {
+                    "required": true,
+                    "minimum_character_count": 1
+                },
+                "email": {
+                    "required": true,
+                    "minimum_character_count": 5
+                },
+                "move_in_date": {
+                    "required": false,
+                    "default_date": "2023-09-01T12:00:00Z",
+                    "minimum_days_from_today": 1,
+                    "maximum_days_from_today": 180
+                },
+                "phone": {
+                    "required": true,
+                    "minimum_character_count": 10,
+                    "maximum_character_count": 11
+                },
+                "message": {
+                    "required": false,
+                    "minimum_character_count": 0
+                },
+                "show": false
+            },
+            "show_agent": false,
+            "show_broker": false,
+            "show_provider": false,
+            "show_management": false
+        },
+        "lot_size": {
+            "size": 0,
+            "units": "sqft"
+        },
+        "building_size": {
+            "units": "sqft"
+        },
+        "price": 825,
+        "rdc_web_url": "https://www.realtor.com/realestateandhomes-detail/2321-Main-St-B_Stevens-Point_WI_54481_M90370-89909",
+        "rdc_app_url": "move-rdc://www.realtor.com/realestateandhomes-detail/2321-Main-St-B_Stevens-Point_WI_54481_M90370-89909",
+        "baths": 1,
+        "data_source_name": "unit_rental",
+        "source": "unit_rental",
+        "page_no": 1,
+        "rank": 15,
+        "list_tracking": "type|property|data|prop_id|9037089909|list_id|2958034797|page|rank|list_branding|listing_agent|listing_office|data_source|unit_rental|property_status|product_code|advantage_code^1|F|0|0|3YA|W|0^^$0|1|2|$3|4|5|6|7|H|8|I|9|$A|J|B|K]|C|D|E|L|F|M|G|N]]",
+        "photo_count": 21,
+        "photos": [
+            {
+                "href": "https://ap.rdcpix.com/039b5d3141379e0e38e2cc6d9576241bl-m3431890940s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/039b5d3141379e0e38e2cc6d9576241bl-m970912648s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/039b5d3141379e0e38e2cc6d9576241bl-m1223918567s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/039b5d3141379e0e38e2cc6d9576241bl-m38369617s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/039b5d3141379e0e38e2cc6d9576241bl-m2918516135s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/039b5d3141379e0e38e2cc6d9576241bl-m1257259593s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/039b5d3141379e0e38e2cc6d9576241bl-m1853098314s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/039b5d3141379e0e38e2cc6d9576241bl-m2489784148s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/039b5d3141379e0e38e2cc6d9576241bl-m3754366459s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/039b5d3141379e0e38e2cc6d9576241bl-m3986449722s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/039b5d3141379e0e38e2cc6d9576241bl-m2301413345s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/039b5d3141379e0e38e2cc6d9576241bl-m4183031586s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/039b5d3141379e0e38e2cc6d9576241bl-m225625440s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/039b5d3141379e0e38e2cc6d9576241bl-m2101820234s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/039b5d3141379e0e38e2cc6d9576241bl-m3454109947s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/039b5d3141379e0e38e2cc6d9576241bl-m389540162s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/039b5d3141379e0e38e2cc6d9576241bl-m3137123650s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/039b5d3141379e0e38e2cc6d9576241bl-m862029424s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/039b5d3141379e0e38e2cc6d9576241bl-m559251955s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/039b5d3141379e0e38e2cc6d9576241bl-m771810439s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/039b5d3141379e0e38e2cc6d9576241bl-m720228531s.jpg"
+            }
+        ]
+    },
+    {
+        "property_id": "R9694090238",
+        "listing_id": "2958072367",
+        "prop_type": "apartment",
+        "last_update": "2023-07-26T23:13:22.000Z",
+        "listing_status": "active",
+        "beds": 3,
+        "branding": {
+            "state_license": null
+        },
+        "baths_full": 2,
+        "baths_half": 1,
+        "prop_status": "for_rent",
+        "address": {
+            "city": "Stevens Point",
+            "country": "USA",
+            "county": "Portage",
+            "county_needed_for_uniq": false,
+            "lat": 44.501457,
+            "line": "1452 River View Ave",
+            "postal_code": "54481",
+            "state_code": "WI",
+            "state": "Wisconsin",
+            "time_zone": "America/Chicago",
+            "lon": -89.57756
+        },
+        "client_display_flags": {
+            "presentation_status": "for_rent",
+            "is_showcase": false,
+            "lead_form_phone_required": true,
+            "price_change": 0,
+            "has_specials": false,
+            "is_mls_rental": false,
+            "is_rental_community": false,
+            "is_rental_unit": true,
+            "is_co_star": false,
+            "is_apartmentlist": false,
+            "suppress_map_pin": false,
+            "suppress_phone_call_lead_event": false,
+            "price_reduced": false,
+            "allows_cats": true,
+            "allows_dogs": true,
+            "allows_dogs_small": true,
+            "allows_dogs_large": true
+        },
+        "products": [
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL"
+        ],
+        "agents": [
+            {
+                "primary": true
+            }
+        ],
+        "lead_forms": {
+            "form": {
+                "name": {
+                    "required": true,
+                    "minimum_character_count": 1
+                },
+                "email": {
+                    "required": true,
+                    "minimum_character_count": 5
+                },
+                "move_in_date": {
+                    "required": false,
+                    "default_date": "2023-09-01T12:00:00Z",
+                    "minimum_days_from_today": 1,
+                    "maximum_days_from_today": 180
+                },
+                "phone": {
+                    "required": true,
+                    "minimum_character_count": 10,
+                    "maximum_character_count": 11
+                },
+                "message": {
+                    "required": false,
+                    "minimum_character_count": 0
+                },
+                "show": false
+            },
+            "show_agent": false,
+            "show_broker": false,
+            "show_provider": false,
+            "show_management": false
+        },
+        "lot_size": {
+            "size": 0,
+            "units": "sqft"
+        },
+        "building_size": {
+            "units": "sqft"
+        },
+        "price": 1560,
+        "rdc_web_url": "https://www.realtor.com/realestateandhomes-detail/1452-River-View-Ave_Stevens-Point_WI_54481_M96940-90238",
+        "rdc_app_url": "move-rdc://www.realtor.com/realestateandhomes-detail/1452-River-View-Ave_Stevens-Point_WI_54481_M96940-90238",
+        "baths": 3,
+        "data_source_name": "unit_rental",
+        "source": "unit_rental",
+        "page_no": 1,
+        "rank": 16,
+        "list_tracking": "type|property|data|prop_id|9694090238|list_id|2958072367|page|rank|list_branding|listing_agent|listing_office|data_source|unit_rental|property_status|product_code|advantage_code^1|G|0|0|3YA|W|0^^$0|1|2|$3|4|5|6|7|H|8|I|9|$A|J|B|K]|C|D|E|L|F|M|G|N]]",
+        "photo_count": 21,
+        "photos": [
+            {
+                "href": "https://ap.rdcpix.com/8087179072639252d920a3f99cac1815l-m2304206072s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/8087179072639252d920a3f99cac1815l-m1621369987s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/8087179072639252d920a3f99cac1815l-m4106440064s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/8087179072639252d920a3f99cac1815l-m2321027095s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/8087179072639252d920a3f99cac1815l-m2465663144s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/8087179072639252d920a3f99cac1815l-m3568867377s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/8087179072639252d920a3f99cac1815l-m1685873193s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/8087179072639252d920a3f99cac1815l-m22781157s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/8087179072639252d920a3f99cac1815l-m1895033700s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/8087179072639252d920a3f99cac1815l-m1189828547s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/8087179072639252d920a3f99cac1815l-m285387110s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/8087179072639252d920a3f99cac1815l-m508978659s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/8087179072639252d920a3f99cac1815l-m3741237898s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/8087179072639252d920a3f99cac1815l-m67156174s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/8087179072639252d920a3f99cac1815l-m3676173781s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/8087179072639252d920a3f99cac1815l-m3261224796s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/8087179072639252d920a3f99cac1815l-m1972549116s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/8087179072639252d920a3f99cac1815l-m4281558277s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/8087179072639252d920a3f99cac1815l-m2924000721s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/8087179072639252d920a3f99cac1815l-m3046228800s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/8087179072639252d920a3f99cac1815l-m2039417811s.jpg"
+            }
+        ]
+    },
+    {
+        "property_id": "R7833769370",
+        "listing_id": "2957556268",
+        "prop_type": "single_family",
+        "last_update": "2023-07-10T23:14:32.000Z",
+        "listing_status": "active",
+        "beds": 3,
+        "branding": {
+            "state_license": null
+        },
+        "baths_full": 2,
+        "prop_status": "for_rent",
+        "address": {
+            "city": "Stevens Point",
+            "country": "USA",
+            "county": "Portage",
+            "county_needed_for_uniq": false,
+            "lat": 44.522401,
+            "line": "1433 Soo Marie Ave",
+            "postal_code": "54481",
+            "state_code": "WI",
+            "state": "Wisconsin",
+            "time_zone": "America/Chicago",
+            "lon": -89.556649
+        },
+        "client_display_flags": {
+            "presentation_status": "for_rent",
+            "is_showcase": false,
+            "lead_form_phone_required": true,
+            "price_change": 0,
+            "has_specials": false,
+            "is_mls_rental": false,
+            "is_rental_community": false,
+            "is_rental_unit": true,
+            "is_co_star": false,
+            "is_apartmentlist": false,
+            "suppress_map_pin": false,
+            "suppress_phone_call_lead_event": false,
+            "price_reduced": false,
+            "allows_cats": true,
+            "allows_dogs": true,
+            "allows_dogs_small": true,
+            "allows_dogs_large": true
+        },
+        "products": [
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL"
+        ],
+        "agents": [
+            {
+                "primary": true
+            }
+        ],
+        "lead_forms": {
+            "form": {
+                "name": {
+                    "required": true,
+                    "minimum_character_count": 1
+                },
+                "email": {
+                    "required": true,
+                    "minimum_character_count": 5
+                },
+                "move_in_date": {
+                    "required": false,
+                    "default_date": "2023-09-01T12:00:00Z",
+                    "minimum_days_from_today": 1,
+                    "maximum_days_from_today": 180
+                },
+                "phone": {
+                    "required": true,
+                    "minimum_character_count": 10,
+                    "maximum_character_count": 11
+                },
+                "message": {
+                    "required": false,
+                    "minimum_character_count": 0
+                },
+                "show": false
+            },
+            "show_agent": false,
+            "show_broker": false,
+            "show_provider": false,
+            "show_management": false
+        },
+        "lot_size": {
+            "size": 0,
+            "units": "sqft"
+        },
+        "building_size": {
+            "size": 1230,
+            "units": "sqft"
+        },
+        "price": 1285,
+        "rdc_web_url": "https://www.realtor.com/realestateandhomes-detail/1433-Soo-Marie-Ave_Stevens-Point_WI_54481_M78337-69370",
+        "rdc_app_url": "move-rdc://www.realtor.com/realestateandhomes-detail/1433-Soo-Marie-Ave_Stevens-Point_WI_54481_M78337-69370",
+        "baths": 2,
+        "data_source_name": "unit_rental",
+        "source": "unit_rental",
+        "page_no": 1,
+        "rank": 17,
+        "list_tracking": "type|property|data|prop_id|7833769370|list_id|2957556268|page|rank|list_branding|listing_agent|listing_office|data_source|unit_rental|property_status|product_code|advantage_code^1|H|0|0|3YA|W|0^^$0|1|2|$3|4|5|6|7|H|8|I|9|$A|J|B|K]|C|D|E|L|F|M|G|N]]",
+        "photo_count": 21,
+        "photos": [
+            {
+                "href": "https://ap.rdcpix.com/f07a2beea0826677f95fd5132252d5f4l-m1249394157s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/f07a2beea0826677f95fd5132252d5f4l-m2765360935s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/f07a2beea0826677f95fd5132252d5f4l-m2632932142s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/f07a2beea0826677f95fd5132252d5f4l-m1892756313s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/f07a2beea0826677f95fd5132252d5f4l-m3569812114s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/f07a2beea0826677f95fd5132252d5f4l-m2746949632s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/f07a2beea0826677f95fd5132252d5f4l-m230493671s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/f07a2beea0826677f95fd5132252d5f4l-m464317470s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/f07a2beea0826677f95fd5132252d5f4l-m2977221307s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/f07a2beea0826677f95fd5132252d5f4l-m4141016986s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/f07a2beea0826677f95fd5132252d5f4l-m2476387326s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/f07a2beea0826677f95fd5132252d5f4l-m3949232164s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/f07a2beea0826677f95fd5132252d5f4l-m826767573s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/f07a2beea0826677f95fd5132252d5f4l-m1376451298s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/f07a2beea0826677f95fd5132252d5f4l-m87416860s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/f07a2beea0826677f95fd5132252d5f4l-m2205869182s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/f07a2beea0826677f95fd5132252d5f4l-m329642984s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/f07a2beea0826677f95fd5132252d5f4l-m1981212868s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/f07a2beea0826677f95fd5132252d5f4l-m661777333s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/f07a2beea0826677f95fd5132252d5f4l-m1361093101s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/f07a2beea0826677f95fd5132252d5f4l-m3496655028s.jpg"
+            }
+        ]
+    },
+    {
+        "property_id": "R9567024147",
+        "listing_id": "2951826882",
+        "prop_type": "apartment",
+        "last_update": "2023-06-28T23:13:22.000Z",
+        "listing_status": "active",
+        "beds": 3,
+        "branding": {
+            "state_license": null
+        },
+        "baths_full": 1,
+        "price_reduced_date": "2023-06-29T00:27:01.631Z",
+        "prop_status": "for_rent",
+        "address": {
+            "city": "Stevens Point",
+            "country": "USA",
+            "county": "Portage",
+            "county_needed_for_uniq": false,
+            "lat": 44.533664,
+            "line": "1717 Maria Dr Apt 203",
+            "postal_code": "54481",
+            "state_code": "WI",
+            "state": "Wisconsin",
+            "time_zone": "America/Chicago",
+            "lon": -89.573846
+        },
+        "client_display_flags": {
+            "presentation_status": "for_rent",
+            "is_showcase": false,
+            "lead_form_phone_required": true,
+            "price_change": 0,
+            "has_specials": false,
+            "is_mls_rental": false,
+            "is_rental_community": false,
+            "is_rental_unit": true,
+            "is_co_star": false,
+            "is_apartmentlist": false,
+            "suppress_map_pin": false,
+            "suppress_phone_call_lead_event": false,
+            "price_reduced": true
+        },
+        "products": [
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL"
+        ],
+        "agents": [
+            {
+                "primary": true
+            }
+        ],
+        "lead_forms": {
+            "form": {
+                "name": {
+                    "required": true,
+                    "minimum_character_count": 1
+                },
+                "email": {
+                    "required": true,
+                    "minimum_character_count": 5
+                },
+                "move_in_date": {
+                    "required": false,
+                    "default_date": "2023-09-01T12:00:00Z",
+                    "minimum_days_from_today": 1,
+                    "maximum_days_from_today": 180
+                },
+                "phone": {
+                    "required": true,
+                    "minimum_character_count": 10,
+                    "maximum_character_count": 11
+                },
+                "message": {
+                    "required": false,
+                    "minimum_character_count": 0
+                },
+                "show": false
+            },
+            "show_agent": false,
+            "show_broker": false,
+            "show_provider": false,
+            "show_management": false
+        },
+        "lot_size": {
+            "size": 0,
+            "units": "sqft"
+        },
+        "building_size": {
+            "units": "sqft"
+        },
+        "price": 1200,
+        "rdc_web_url": "https://www.realtor.com/realestateandhomes-detail/1717-Maria-Dr-Apt-203_Stevens-Point_WI_54481_M95670-24147",
+        "rdc_app_url": "move-rdc://www.realtor.com/realestateandhomes-detail/1717-Maria-Dr-Apt-203_Stevens-Point_WI_54481_M95670-24147",
+        "baths": 1,
+        "data_source_name": "unit_rental",
+        "source": "unit_rental",
+        "page_no": 1,
+        "rank": 18,
+        "list_tracking": "type|property|data|prop_id|9567024147|list_id|2951826882|page|rank|list_branding|listing_agent|listing_office|data_source|unit_rental|property_status|product_code|advantage_code^1|I|0|0|3YA|W|0^^$0|1|2|$3|4|5|6|7|H|8|I|9|$A|J|B|K]|C|D|E|L|F|M|G|N]]",
+        "photo_count": 21,
+        "photos": [
+            {
+                "href": "https://ap.rdcpix.com/083f94b7fe8e7c0e306f8725403f2aa4l-m2063788108s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/083f94b7fe8e7c0e306f8725403f2aa4l-m968659660s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/083f94b7fe8e7c0e306f8725403f2aa4l-m3413552047s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/083f94b7fe8e7c0e306f8725403f2aa4l-m1682922575s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/083f94b7fe8e7c0e306f8725403f2aa4l-m2583284411s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/083f94b7fe8e7c0e306f8725403f2aa4l-m255139581s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/083f94b7fe8e7c0e306f8725403f2aa4l-m3769823878s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/083f94b7fe8e7c0e306f8725403f2aa4l-m775270574s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/083f94b7fe8e7c0e306f8725403f2aa4l-m3610359514s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/083f94b7fe8e7c0e306f8725403f2aa4l-m2158622087s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/083f94b7fe8e7c0e306f8725403f2aa4l-m4131437572s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/083f94b7fe8e7c0e306f8725403f2aa4l-m173997249s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/083f94b7fe8e7c0e306f8725403f2aa4l-m2517647998s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/083f94b7fe8e7c0e306f8725403f2aa4l-m2468565609s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/083f94b7fe8e7c0e306f8725403f2aa4l-m3055900930s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/083f94b7fe8e7c0e306f8725403f2aa4l-m3956683386s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/083f94b7fe8e7c0e306f8725403f2aa4l-m2890580130s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/083f94b7fe8e7c0e306f8725403f2aa4l-m4286162951s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/083f94b7fe8e7c0e306f8725403f2aa4l-m3943296880s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/083f94b7fe8e7c0e306f8725403f2aa4l-m2025783946s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/083f94b7fe8e7c0e306f8725403f2aa4l-m2615580276s.jpg"
+            }
+        ]
+    },
+    {
+        "property_id": "R9757124531",
+        "listing_id": "2945542477",
+        "prop_type": "apartment",
+        "last_update": "2023-07-09T23:13:01.000Z",
+        "listing_status": "active",
+        "beds": 2,
+        "branding": {
+            "state_license": null
+        },
+        "baths_full": 1,
+        "prop_status": "for_rent",
+        "address": {
+            "city": "Stevens Point",
+            "country": "USA",
+            "county": "Portage",
+            "county_needed_for_uniq": false,
+            "lat": 44.529873,
+            "line": "700/700A 5th Ave Unit 700A",
+            "postal_code": "54481",
+            "state_code": "WI",
+            "state": "Wisconsin",
+            "time_zone": "America/Chicago",
+            "lon": -89.58828
+        },
+        "client_display_flags": {
+            "presentation_status": "for_rent",
+            "is_showcase": false,
+            "lead_form_phone_required": true,
+            "price_change": 0,
+            "has_specials": false,
+            "is_mls_rental": false,
+            "is_rental_community": false,
+            "is_rental_unit": true,
+            "is_co_star": false,
+            "is_apartmentlist": false,
+            "suppress_map_pin": false,
+            "suppress_phone_call_lead_event": false,
+            "price_reduced": false
+        },
+        "products": [
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL"
+        ],
+        "agents": [
+            {
+                "primary": true
+            }
+        ],
+        "lead_forms": {
+            "form": {
+                "name": {
+                    "required": true,
+                    "minimum_character_count": 1
+                },
+                "email": {
+                    "required": true,
+                    "minimum_character_count": 5
+                },
+                "move_in_date": {
+                    "required": false,
+                    "default_date": "2023-09-01T12:00:00Z",
+                    "minimum_days_from_today": 1,
+                    "maximum_days_from_today": 180
+                },
+                "phone": {
+                    "required": true,
+                    "minimum_character_count": 10,
+                    "maximum_character_count": 11
+                },
+                "message": {
+                    "required": false,
+                    "minimum_character_count": 0
+                },
+                "show": false
+            },
+            "show_agent": false,
+            "show_broker": false,
+            "show_provider": false,
+            "show_management": false
+        },
+        "lot_size": {
+            "size": 0,
+            "units": "sqft"
+        },
+        "building_size": {
+            "units": "sqft"
+        },
+        "price": 725,
+        "rdc_web_url": "https://www.realtor.com/realestateandhomes-detail/700700A-5th-Ave-Unit-700A_Stevens-Point_WI_54481_M97571-24531",
+        "rdc_app_url": "move-rdc://www.realtor.com/realestateandhomes-detail/700700A-5th-Ave-Unit-700A_Stevens-Point_WI_54481_M97571-24531",
+        "baths": 1,
+        "data_source_name": "unit_rental",
+        "source": "unit_rental",
+        "page_no": 1,
+        "rank": 19,
+        "list_tracking": "type|property|data|prop_id|9757124531|list_id|2945542477|page|rank|list_branding|listing_agent|listing_office|data_source|unit_rental|property_status|product_code|advantage_code^1|J|0|0|3YA|W|0^^$0|1|2|$3|4|5|6|7|H|8|I|9|$A|J|B|K]|C|D|E|L|F|M|G|N]]",
+        "photo_count": 20,
+        "photos": [
+            {
+                "href": "https://ap.rdcpix.com/19cbe6b60dcd2dd074530c4dae4357c0l-m2504121827s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/19cbe6b60dcd2dd074530c4dae4357c0l-m4186383613s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/19cbe6b60dcd2dd074530c4dae4357c0l-m928327019s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/19cbe6b60dcd2dd074530c4dae4357c0l-m3121440949s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/19cbe6b60dcd2dd074530c4dae4357c0l-m1933207640s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/19cbe6b60dcd2dd074530c4dae4357c0l-m3249300456s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/19cbe6b60dcd2dd074530c4dae4357c0l-m2164684473s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/19cbe6b60dcd2dd074530c4dae4357c0l-m96125629s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/19cbe6b60dcd2dd074530c4dae4357c0l-m2544055089s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/19cbe6b60dcd2dd074530c4dae4357c0l-m64921908s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/19cbe6b60dcd2dd074530c4dae4357c0l-m926366079s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/19cbe6b60dcd2dd074530c4dae4357c0l-m3888880868s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/19cbe6b60dcd2dd074530c4dae4357c0l-m1592395156s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/19cbe6b60dcd2dd074530c4dae4357c0l-m2750338198s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/19cbe6b60dcd2dd074530c4dae4357c0l-m3931950576s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/19cbe6b60dcd2dd074530c4dae4357c0l-m2613182982s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/19cbe6b60dcd2dd074530c4dae4357c0l-m2504121827s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/19cbe6b60dcd2dd074530c4dae4357c0l-m1450086374s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/19cbe6b60dcd2dd074530c4dae4357c0l-m2652353188s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/19cbe6b60dcd2dd074530c4dae4357c0l-m2284458543s.jpg"
+            }
+        ]
+    },
+    {
+        "property_id": "R7351746327",
+        "listing_id": "2958072575",
+        "prop_type": "apartment",
+        "last_update": "2023-07-26T23:13:22.000Z",
+        "listing_status": "active",
+        "beds": 3,
+        "branding": {
+            "state_license": null
+        },
+        "baths_full": 1,
+        "prop_status": "for_rent",
+        "address": {
+            "city": "Stevens Point",
+            "country": "USA",
+            "county": "Portage",
+            "county_needed_for_uniq": false,
+            "lat": 44.521743,
+            "line": "1209 W River Dr",
+            "postal_code": "54481",
+            "state_code": "WI",
+            "state": "Wisconsin",
+            "time_zone": "America/Chicago",
+            "lon": -89.594231
+        },
+        "client_display_flags": {
+            "presentation_status": "for_rent",
+            "is_showcase": false,
+            "lead_form_phone_required": true,
+            "price_change": 0,
+            "has_specials": false,
+            "is_mls_rental": false,
+            "is_rental_community": false,
+            "is_rental_unit": true,
+            "is_co_star": false,
+            "is_apartmentlist": false,
+            "suppress_map_pin": false,
+            "suppress_phone_call_lead_event": false,
+            "price_reduced": false
+        },
+        "products": [
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL"
+        ],
+        "agents": [
+            {
+                "primary": true
+            }
+        ],
+        "lead_forms": {
+            "form": {
+                "name": {
+                    "required": true,
+                    "minimum_character_count": 1
+                },
+                "email": {
+                    "required": true,
+                    "minimum_character_count": 5
+                },
+                "move_in_date": {
+                    "required": false,
+                    "default_date": "2023-09-01T12:00:00Z",
+                    "minimum_days_from_today": 1,
+                    "maximum_days_from_today": 180
+                },
+                "phone": {
+                    "required": true,
+                    "minimum_character_count": 10,
+                    "maximum_character_count": 11
+                },
+                "message": {
+                    "required": false,
+                    "minimum_character_count": 0
+                },
+                "show": false
+            },
+            "show_agent": false,
+            "show_broker": false,
+            "show_provider": false,
+            "show_management": false
+        },
+        "lot_size": {
+            "size": 0,
+            "units": "sqft"
+        },
+        "building_size": {
+            "units": "sqft"
+        },
+        "price": 910,
+        "rdc_web_url": "https://www.realtor.com/realestateandhomes-detail/1209-W-River-Dr_Stevens-Point_WI_54481_M73517-46327",
+        "rdc_app_url": "move-rdc://www.realtor.com/realestateandhomes-detail/1209-W-River-Dr_Stevens-Point_WI_54481_M73517-46327",
+        "baths": 1,
+        "data_source_name": "unit_rental",
+        "source": "unit_rental",
+        "page_no": 1,
+        "rank": 20,
+        "list_tracking": "type|property|data|prop_id|7351746327|list_id|2958072575|page|rank|list_branding|listing_agent|listing_office|data_source|unit_rental|property_status|product_code|advantage_code^1|K|0|0|3YA|W|0^^$0|1|2|$3|4|5|6|7|H|8|I|9|$A|J|B|K]|C|D|E|L|F|M|G|N]]",
+        "photo_count": 19,
+        "photos": [
+            {
+                "href": "https://ap.rdcpix.com/a57e59f643bc6509b0a89b0073867d85l-m850362639s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/a57e59f643bc6509b0a89b0073867d85l-m2691514644s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/a57e59f643bc6509b0a89b0073867d85l-m1330912221s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/a57e59f643bc6509b0a89b0073867d85l-m3901664046s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/a57e59f643bc6509b0a89b0073867d85l-m1163534553s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/a57e59f643bc6509b0a89b0073867d85l-m1385504203s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/a57e59f643bc6509b0a89b0073867d85l-m2847795542s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/a57e59f643bc6509b0a89b0073867d85l-m2283868321s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/a57e59f643bc6509b0a89b0073867d85l-m4239326786s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/a57e59f643bc6509b0a89b0073867d85l-m2816712855s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/a57e59f643bc6509b0a89b0073867d85l-m106916847s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/a57e59f643bc6509b0a89b0073867d85l-m1261324818s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/a57e59f643bc6509b0a89b0073867d85l-m3202019759s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/a57e59f643bc6509b0a89b0073867d85l-m3704920224s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/a57e59f643bc6509b0a89b0073867d85l-m1292664819s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/a57e59f643bc6509b0a89b0073867d85l-m1323092228s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/a57e59f643bc6509b0a89b0073867d85l-m539982742s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/a57e59f643bc6509b0a89b0073867d85l-m411310820s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/a57e59f643bc6509b0a89b0073867d85l-m3657015050s.jpg"
+            }
+        ]
+    },
+    {
+        "property_id": "R9492110272",
+        "listing_id": "2957628742",
+        "prop_type": "apartment",
+        "last_update": "2023-07-12T23:21:32.000Z",
+        "listing_status": "active",
+        "beds": 3,
+        "branding": {
+            "state_license": null
+        },
+        "baths_full": 2,
+        "baths_half": 1,
+        "prop_status": "for_rent",
+        "address": {
+            "city": "Stevens Point",
+            "country": "USA",
+            "county": "Portage",
+            "county_needed_for_uniq": false,
+            "lat": 44.501682,
+            "line": "1448 River View Ave",
+            "postal_code": "54481",
+            "state_code": "WI",
+            "state": "Wisconsin",
+            "time_zone": "America/Chicago",
+            "lon": -89.577545
+        },
+        "client_display_flags": {
+            "presentation_status": "for_rent",
+            "is_showcase": false,
+            "lead_form_phone_required": true,
+            "price_change": 0,
+            "has_specials": false,
+            "is_mls_rental": false,
+            "is_rental_community": false,
+            "is_rental_unit": true,
+            "is_co_star": false,
+            "is_apartmentlist": false,
+            "suppress_map_pin": false,
+            "suppress_phone_call_lead_event": false,
+            "price_reduced": false,
+            "allows_cats": true,
+            "allows_dogs": true,
+            "allows_dogs_small": true,
+            "allows_dogs_large": true
+        },
+        "products": [
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL"
+        ],
+        "agents": [
+            {
+                "primary": true
+            }
+        ],
+        "lead_forms": {
+            "form": {
+                "name": {
+                    "required": true,
+                    "minimum_character_count": 1
+                },
+                "email": {
+                    "required": true,
+                    "minimum_character_count": 5
+                },
+                "move_in_date": {
+                    "required": false,
+                    "default_date": "2023-09-01T12:00:00Z",
+                    "minimum_days_from_today": 1,
+                    "maximum_days_from_today": 180
+                },
+                "phone": {
+                    "required": true,
+                    "minimum_character_count": 10,
+                    "maximum_character_count": 11
+                },
+                "message": {
+                    "required": false,
+                    "minimum_character_count": 0
+                },
+                "show": false
+            },
+            "show_agent": false,
+            "show_broker": false,
+            "show_provider": false,
+            "show_management": false
+        },
+        "lot_size": {
+            "size": 0,
+            "units": "sqft"
+        },
+        "building_size": {
+            "units": "sqft"
+        },
+        "price": 1560,
+        "rdc_web_url": "https://www.realtor.com/realestateandhomes-detail/1448-River-View-Ave_Stevens-Point_WI_54481_M94921-10272",
+        "rdc_app_url": "move-rdc://www.realtor.com/realestateandhomes-detail/1448-River-View-Ave_Stevens-Point_WI_54481_M94921-10272",
+        "baths": 3,
+        "data_source_name": "unit_rental",
+        "source": "unit_rental",
+        "page_no": 1,
+        "rank": 21,
+        "list_tracking": "type|property|data|prop_id|9492110272|list_id|2957628742|page|rank|list_branding|listing_agent|listing_office|data_source|unit_rental|property_status|product_code|advantage_code^1|L|0|0|3YA|W|0^^$0|1|2|$3|4|5|6|7|H|8|I|9|$A|J|B|K]|C|D|E|L|F|M|G|N]]",
+        "photo_count": 19,
+        "photos": [
+            {
+                "href": "https://ap.rdcpix.com/af155286766542f48f721aaea204738bl-m1173891259s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/af155286766542f48f721aaea204738bl-m1710250740s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/af155286766542f48f721aaea204738bl-m784970896s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/af155286766542f48f721aaea204738bl-m3076109945s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/af155286766542f48f721aaea204738bl-m1202840927s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/af155286766542f48f721aaea204738bl-m1512350533s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/af155286766542f48f721aaea204738bl-m4032320342s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/af155286766542f48f721aaea204738bl-m2035708538s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/af155286766542f48f721aaea204738bl-m3877231038s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/af155286766542f48f721aaea204738bl-m1528206423s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/af155286766542f48f721aaea204738bl-m2155451227s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/af155286766542f48f721aaea204738bl-m2537295809s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/af155286766542f48f721aaea204738bl-m217527505s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/af155286766542f48f721aaea204738bl-m185752018s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/af155286766542f48f721aaea204738bl-m1458702149s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/af155286766542f48f721aaea204738bl-m1926298687s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/af155286766542f48f721aaea204738bl-m3063819708s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/af155286766542f48f721aaea204738bl-m228706823s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/af155286766542f48f721aaea204738bl-m1079195024s.jpg"
+            }
+        ]
+    },
+    {
+        "property_id": "R7705447811",
+        "listing_id": "2949288002",
+        "prop_type": "apartment",
+        "list_date": "2022-10-27T00:04:57.000Z",
+        "last_update": "2023-07-29T12:06:25.000Z",
+        "year_built": 2005,
+        "listing_status": "active",
+        "beds": 0,
+        "branding": {
+            "state_license": null
+        },
+        "prop_status": "for_rent",
+        "address": {
+            "city": "Stevens Point",
+            "country": "USA",
+            "county": "Portage",
+            "county_needed_for_uniq": false,
+            "lat": 44.50148,
+            "line": "1200 River View Ave",
+            "postal_code": "54481",
+            "state_code": "WI",
+            "state": "Wisconsin",
+            "time_zone": "America/Chicago",
+            "lon": -89.5816
+        },
+        "client_display_flags": {
+            "presentation_status": "for_rent",
+            "is_showcase": false,
+            "lead_form_phone_required": true,
+            "price_change": 0,
+            "has_specials": false,
+            "is_mls_rental": false,
+            "is_rental_community": true,
+            "is_rental_unit": false,
+            "is_co_star": false,
+            "is_apartmentlist": false,
+            "suppress_map_pin": false,
+            "suppress_phone_call_lead_event": false,
+            "price_reduced": false,
+            "allows_cats": true,
+            "allows_dogs": true,
+            "allows_dogs_small": true,
+            "allows_dogs_large": true,
+            "has_matterport": true
+        },
+        "products": [
+            "basic_community",
+            "_COMMUNITY_RENTAL",
+            "_COMMUNITY_RENTAL",
+            "_COMMUNITY_RENTAL",
+            "_COMMUNITY_RENTAL",
+            "_COMMUNITY_RENTAL"
+        ],
+        "agents": [
+            {
+                "primary": true
+            }
+        ],
+        "lead_forms": {
+            "form": {
+                "name": {
+                    "required": true,
+                    "minimum_character_count": 1
+                },
+                "email": {
+                    "required": true,
+                    "minimum_character_count": 5
+                },
+                "move_in_date": {
+                    "required": false,
+                    "default_date": "2023-09-01T12:00:00Z",
+                    "minimum_days_from_today": 1,
+                    "maximum_days_from_today": 180
+                },
+                "phone": {
+                    "required": true,
+                    "minimum_character_count": 10,
+                    "maximum_character_count": 11
+                },
+                "message": {
+                    "required": false,
+                    "minimum_character_count": 0
+                },
+                "show": false
+            },
+            "show_agent": false,
+            "show_broker": false,
+            "show_provider": false,
+            "show_management": false
+        },
+        "lot_size": {
+            "size": 0,
+            "units": "sqft"
+        },
+        "building_size": {
+            "units": "sqft"
+        },
+        "rdc_web_url": "https://www.realtor.com/realestateandhomes-detail/1200-River-View-Ave_Stevens-Point_WI_54481_M77054-47811",
+        "rdc_app_url": "move-rdc://www.realtor.com/realestateandhomes-detail/1200-River-View-Ave_Stevens-Point_WI_54481_M77054-47811",
+        "community": {
+            "baths_max": 1,
+            "baths_min": 1,
+            "beds_max": 2,
+            "beds_min": 1,
+            "contact_number": "(715) 240-9053",
+            "id": 3504207,
+            "name": "River View Apartments",
+            "price_max": 1105,
+            "price_min": 1005,
+            "source_id": "1008949",
+            "sqft_max": 895,
+            "sqft_min": 691
+        },
+        "data_source_name": "community_rental",
+        "source": "community",
+        "page_no": 1,
+        "rank": 22,
+        "list_tracking": "type|property|data|prop_id|7705447811|list_id|2949288002|comm_id|3504207|page|rank|list_branding|listing_agent|listing_office|data_source|community_rental|property_status|product_code|advantage_code^1|M|0|0|3K2|CO0|0^^$0|1|2|$3|4|5|6|7|8|9|J|A|K|B|$C|L|D|M]|E|F|G|N|H|O|I|P]]",
+        "photo_count": 18,
+        "photos": [
+            {
+                "href": "https://ar.rdcpix.com/94505d55a6204fd01f5e9e150ff67497c-f3619429063s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/94505d55a6204fd01f5e9e150ff67497c-f563647520s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/94505d55a6204fd01f5e9e150ff67497c-f2792314172s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/94505d55a6204fd01f5e9e150ff67497c-f685671963s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/94505d55a6204fd01f5e9e150ff67497c-f3628962990s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/94505d55a6204fd01f5e9e150ff67497c-f194717746s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/94505d55a6204fd01f5e9e150ff67497c-f1517428301s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/94505d55a6204fd01f5e9e150ff67497c-f1022867324s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/94505d55a6204fd01f5e9e150ff67497c-f3610002022s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/94505d55a6204fd01f5e9e150ff67497c-f3519662010s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/94505d55a6204fd01f5e9e150ff67497c-f3220871514s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/94505d55a6204fd01f5e9e150ff67497c-f3619429063s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/94505d55a6204fd01f5e9e150ff67497c-f2792314172s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/94505d55a6204fd01f5e9e150ff67497c-f685671963s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/94505d55a6204fd01f5e9e150ff67497c-f1517428301s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/94505d55a6204fd01f5e9e150ff67497c-f33333750s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/94505d55a6204fd01f5e9e150ff67497c-f3610002022s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/94505d55a6204fd01f5e9e150ff67497c-f1304350728s.jpg"
+            }
+        ]
+    },
+    {
+        "property_id": "R9926871413",
+        "listing_id": "2954849501",
+        "prop_type": "apartment",
+        "last_update": "2023-05-07T23:29:57.000Z",
+        "listing_status": "active",
+        "beds": 1,
+        "branding": {
+            "state_license": null
+        },
+        "baths_full": 1,
+        "prop_status": "for_rent",
+        "address": {
+            "city": "Stevens Point",
+            "country": "USA",
+            "county": "Portage",
+            "county_needed_for_uniq": false,
+            "lat": 44.519482,
+            "line": "1579 Strongs Ave Apt 4",
+            "postal_code": "54481",
+            "state_code": "WI",
+            "state": "Wisconsin",
+            "time_zone": "America/Chicago",
+            "lon": -89.579796
+        },
+        "client_display_flags": {
+            "presentation_status": "for_rent",
+            "is_showcase": false,
+            "lead_form_phone_required": true,
+            "price_change": 0,
+            "has_specials": false,
+            "is_mls_rental": false,
+            "is_rental_community": false,
+            "is_rental_unit": true,
+            "is_co_star": false,
+            "is_apartmentlist": false,
+            "suppress_map_pin": false,
+            "suppress_phone_call_lead_event": false,
+            "price_reduced": false
+        },
+        "products": [
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL"
+        ],
+        "agents": [
+            {
+                "primary": true
+            }
+        ],
+        "lead_forms": {
+            "form": {
+                "name": {
+                    "required": true,
+                    "minimum_character_count": 1
+                },
+                "email": {
+                    "required": true,
+                    "minimum_character_count": 5
+                },
+                "move_in_date": {
+                    "required": false,
+                    "default_date": "2023-09-01T12:00:00Z",
+                    "minimum_days_from_today": 1,
+                    "maximum_days_from_today": 180
+                },
+                "phone": {
+                    "required": true,
+                    "minimum_character_count": 10,
+                    "maximum_character_count": 11
+                },
+                "message": {
+                    "required": false,
+                    "minimum_character_count": 0
+                },
+                "show": false
+            },
+            "show_agent": false,
+            "show_broker": false,
+            "show_provider": false,
+            "show_management": false
+        },
+        "lot_size": {
+            "size": 0,
+            "units": "sqft"
+        },
+        "building_size": {
+            "units": "sqft"
+        },
+        "price": 735,
+        "rdc_web_url": "https://www.realtor.com/realestateandhomes-detail/1579-Strongs-Ave-Apt-4_Stevens-Point_WI_54481_M99268-71413",
+        "rdc_app_url": "move-rdc://www.realtor.com/realestateandhomes-detail/1579-Strongs-Ave-Apt-4_Stevens-Point_WI_54481_M99268-71413",
+        "baths": 1,
+        "data_source_name": "unit_rental",
+        "source": "unit_rental",
+        "page_no": 1,
+        "rank": 23,
+        "list_tracking": "type|property|data|prop_id|9926871413|list_id|2954849501|page|rank|list_branding|listing_agent|listing_office|data_source|unit_rental|property_status|product_code|advantage_code^1|N|0|0|3YA|W|0^^$0|1|2|$3|4|5|6|7|H|8|I|9|$A|J|B|K]|C|D|E|L|F|M|G|N]]",
+        "photo_count": 18,
+        "photos": [
+            {
+                "href": "https://ap.rdcpix.com/f2fba3c72afc0e59518509cad5f1d030l-m2927701751s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/f2fba3c72afc0e59518509cad5f1d030l-m2626074682s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/f2fba3c72afc0e59518509cad5f1d030l-m2101591978s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/f2fba3c72afc0e59518509cad5f1d030l-m1334327254s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/f2fba3c72afc0e59518509cad5f1d030l-m3032650959s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/f2fba3c72afc0e59518509cad5f1d030l-m668544852s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/f2fba3c72afc0e59518509cad5f1d030l-m3678566522s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/f2fba3c72afc0e59518509cad5f1d030l-m295923402s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/f2fba3c72afc0e59518509cad5f1d030l-m4117471227s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/f2fba3c72afc0e59518509cad5f1d030l-m3201984168s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/f2fba3c72afc0e59518509cad5f1d030l-m1701849438s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/f2fba3c72afc0e59518509cad5f1d030l-m3589460011s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/f2fba3c72afc0e59518509cad5f1d030l-m28932339s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/f2fba3c72afc0e59518509cad5f1d030l-m3644284335s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/f2fba3c72afc0e59518509cad5f1d030l-m13274739s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/f2fba3c72afc0e59518509cad5f1d030l-m1831435110s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/f2fba3c72afc0e59518509cad5f1d030l-m2726127733s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/f2fba3c72afc0e59518509cad5f1d030l-m2528668029s.jpg"
+            }
+        ]
+    },
+    {
+        "property_id": "R9942591238",
+        "listing_id": "2952128410",
+        "prop_type": "apartment",
+        "last_update": "2023-06-14T23:15:38.000Z",
+        "listing_status": "active",
+        "beds": 6,
+        "branding": {
+            "state_license": null
+        },
+        "baths_full": 2,
+        "price_reduced_date": "2023-06-15T00:28:57.182Z",
+        "prop_status": "for_rent",
+        "address": {
+            "city": "Stevens Point",
+            "country": "USA",
+            "county": "Portage",
+            "county_needed_for_uniq": false,
+            "lat": 44.528126,
+            "line": "725 Prentice St Apt E",
+            "postal_code": "54481",
+            "state_code": "WI",
+            "state": "Wisconsin",
+            "time_zone": "America/Chicago",
+            "lon": -89.577128
+        },
+        "client_display_flags": {
+            "presentation_status": "for_rent",
+            "is_showcase": false,
+            "lead_form_phone_required": true,
+            "price_change": 0,
+            "has_specials": false,
+            "is_mls_rental": false,
+            "is_rental_community": false,
+            "is_rental_unit": true,
+            "is_co_star": false,
+            "is_apartmentlist": false,
+            "suppress_map_pin": false,
+            "suppress_phone_call_lead_event": false,
+            "price_reduced": true
+        },
+        "products": [
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL"
+        ],
+        "agents": [
+            {
+                "primary": true
+            }
+        ],
+        "lead_forms": {
+            "form": {
+                "name": {
+                    "required": true,
+                    "minimum_character_count": 1
+                },
+                "email": {
+                    "required": true,
+                    "minimum_character_count": 5
+                },
+                "move_in_date": {
+                    "required": false,
+                    "default_date": "2023-09-01T12:00:00Z",
+                    "minimum_days_from_today": 1,
+                    "maximum_days_from_today": 180
+                },
+                "phone": {
+                    "required": true,
+                    "minimum_character_count": 10,
+                    "maximum_character_count": 11
+                },
+                "message": {
+                    "required": false,
+                    "minimum_character_count": 0
+                },
+                "show": false
+            },
+            "show_agent": false,
+            "show_broker": false,
+            "show_provider": false,
+            "show_management": false
+        },
+        "lot_size": {
+            "size": 0,
+            "units": "sqft"
+        },
+        "building_size": {
+            "units": "sqft"
+        },
+        "price": 1932,
+        "rdc_web_url": "https://www.realtor.com/realestateandhomes-detail/725-Prentice-St-Apt-E_Stevens-Point_WI_54481_M99425-91238",
+        "rdc_app_url": "move-rdc://www.realtor.com/realestateandhomes-detail/725-Prentice-St-Apt-E_Stevens-Point_WI_54481_M99425-91238",
+        "baths": 2,
+        "data_source_name": "unit_rental",
+        "source": "unit_rental",
+        "page_no": 1,
+        "rank": 24,
+        "list_tracking": "type|property|data|prop_id|9942591238|list_id|2952128410|page|rank|list_branding|listing_agent|listing_office|data_source|unit_rental|property_status|product_code|advantage_code^1|O|0|0|3YA|W|0^^$0|1|2|$3|4|5|6|7|H|8|I|9|$A|J|B|K]|C|D|E|L|F|M|G|N]]",
+        "photo_count": 17,
+        "photos": [
+            {
+                "href": "https://ap.rdcpix.com/7485c998793a2d2e2e3107eba49a8940l-m111646588s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/7485c998793a2d2e2e3107eba49a8940l-m3778699163s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/7485c998793a2d2e2e3107eba49a8940l-m1890870s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/7485c998793a2d2e2e3107eba49a8940l-m443289576s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/7485c998793a2d2e2e3107eba49a8940l-m1517170099s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/7485c998793a2d2e2e3107eba49a8940l-m2603548764s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/7485c998793a2d2e2e3107eba49a8940l-m906519694s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/7485c998793a2d2e2e3107eba49a8940l-m2225724311s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/7485c998793a2d2e2e3107eba49a8940l-m3156921224s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/7485c998793a2d2e2e3107eba49a8940l-m238304241s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/7485c998793a2d2e2e3107eba49a8940l-m220716732s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/7485c998793a2d2e2e3107eba49a8940l-m1117019123s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/7485c998793a2d2e2e3107eba49a8940l-m102216751s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/7485c998793a2d2e2e3107eba49a8940l-m1933923163s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/7485c998793a2d2e2e3107eba49a8940l-m2035757082s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/7485c998793a2d2e2e3107eba49a8940l-m1779736756s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/7485c998793a2d2e2e3107eba49a8940l-m1638156223s.jpg"
+            }
+        ]
+    },
+    {
+        "property_id": "R9445070727",
+        "listing_id": "637305815",
+        "prop_type": "apartment",
+        "list_date": "2023-01-26T16:16:21.000Z",
+        "last_update": "2023-07-31T12:18:30.000Z",
+        "year_built": 1984,
+        "listing_status": "active",
+        "beds": 0,
+        "branding": {
+            "state_license": null
+        },
+        "prop_status": "for_rent",
+        "address": {
+            "city": "Stevens Point",
+            "country": "USA",
+            "county": "Portage",
+            "county_needed_for_uniq": false,
+            "lat": 44.509869,
+            "line": "2640 2641 Bush Ct",
+            "postal_code": "54481",
+            "state_code": "WI",
+            "state": "Wisconsin",
+            "time_zone": "America/Chicago",
+            "lon": -89.547218
+        },
+        "client_display_flags": {
+            "presentation_status": "for_rent",
+            "is_showcase": false,
+            "lead_form_phone_required": true,
+            "price_change": 0,
+            "has_specials": false,
+            "is_mls_rental": false,
+            "is_rental_community": true,
+            "is_rental_unit": false,
+            "is_co_star": false,
+            "is_apartmentlist": false,
+            "suppress_map_pin": false,
+            "suppress_phone_call_lead_event": false,
+            "price_reduced": false,
+            "allows_cats": true,
+            "allows_dogs": false
+        },
+        "products": [
+            "basic",
+            "_COMMUNITY_RENTAL",
+            "_COMMUNITY_RENTAL",
+            "_COMMUNITY_RENTAL",
+            "_COMMUNITY_RENTAL",
+            "_COMMUNITY_RENTAL"
+        ],
+        "agents": [
+            {
+                "primary": true
+            }
+        ],
+        "lead_forms": {
+            "form": {
+                "name": {
+                    "required": true,
+                    "minimum_character_count": 1
+                },
+                "email": {
+                    "required": true,
+                    "minimum_character_count": 5
+                },
+                "move_in_date": {
+                    "required": false,
+                    "default_date": "2023-09-01T12:00:00Z",
+                    "minimum_days_from_today": 1,
+                    "maximum_days_from_today": 180
+                },
+                "phone": {
+                    "required": true,
+                    "minimum_character_count": 10,
+                    "maximum_character_count": 11
+                },
+                "message": {
+                    "required": false,
+                    "minimum_character_count": 0
+                },
+                "show": false
+            },
+            "show_agent": false,
+            "show_broker": false,
+            "show_provider": false,
+            "show_management": false
+        },
+        "lot_size": {
+            "size": 0,
+            "units": "sqft"
+        },
+        "building_size": {
+            "units": "sqft"
+        },
+        "rdc_web_url": "https://www.realtor.com/realestateandhomes-detail/2640-2641-Bush-Ct_Stevens-Point_WI_54481_M94450-70727",
+        "rdc_app_url": "move-rdc://www.realtor.com/realestateandhomes-detail/2640-2641-Bush-Ct_Stevens-Point_WI_54481_M94450-70727",
+        "community": {
+            "baths_max": 1,
+            "baths_min": 1,
+            "beds_max": 2,
+            "beds_min": 2,
+            "contact_number": "(715) 340-3422",
+            "id": 3696829,
+            "name": "Northern Management, LLC",
+            "price_max": 1050,
+            "price_min": 1050,
+            "source_id": "3978761",
+            "sqft_max": null,
+            "sqft_min": null,
+            "sqft_hint": "CALL"
+        },
+        "data_source_name": "community_rental",
+        "source": "community",
+        "page_no": 1,
+        "rank": 25,
+        "list_tracking": "type|property|data|prop_id|9445070727|list_id|637305815|comm_id|3696829|page|rank|list_branding|listing_agent|listing_office|data_source|community_rental|property_status|product_code|advantage_code^1|P|0|0|3K2|W|0^^$0|1|2|$3|4|5|6|7|8|9|J|A|K|B|$C|L|D|M]|E|F|G|N|H|O|I|P]]",
+        "photo_count": 16,
+        "photos": [
+            {
+                "href": "https://ar.rdcpix.com/82064c575f6a0be12877870e44f9d47ac-f1000991260s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/82064c575f6a0be12877870e44f9d47ac-f2734466624s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/82064c575f6a0be12877870e44f9d47ac-f1032851381s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/82064c575f6a0be12877870e44f9d47ac-f871323625s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/82064c575f6a0be12877870e44f9d47ac-f3705757789s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/82064c575f6a0be12877870e44f9d47ac-f1844858792s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/82064c575f6a0be12877870e44f9d47ac-f1200702369s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/82064c575f6a0be12877870e44f9d47ac-f4113345251s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/82064c575f6a0be12877870e44f9d47ac-f4136012901s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/82064c575f6a0be12877870e44f9d47ac-f1517499981s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/82064c575f6a0be12877870e44f9d47ac-f2482187711s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/82064c575f6a0be12877870e44f9d47ac-f419749948s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/82064c575f6a0be12877870e44f9d47ac-f3452174911s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/82064c575f6a0be12877870e44f9d47ac-f3899787061s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/82064c575f6a0be12877870e44f9d47ac-f3504048219s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/82064c575f6a0be12877870e44f9d47ac-f3325344927s.jpg"
+            }
+        ]
+    },
+    {
+        "property_id": "R9555633688",
+        "listing_id": "2952837348",
+        "prop_type": "apartment",
+        "list_date": "2023-02-22T17:15:30.000Z",
+        "last_update": "2023-07-29T10:19:30.000Z",
+        "listing_status": "active",
+        "beds": 0,
+        "branding": {
+            "state_license": null
+        },
+        "prop_status": "for_rent",
+        "address": {
+            "city": "Stevens Point",
+            "country": "USA",
+            "county": "Portage",
+            "county_needed_for_uniq": false,
+            "lat": 44.522293,
+            "line": "3100 3200 Ellis St",
+            "postal_code": "54481",
+            "state_code": "WI",
+            "state": "Wisconsin",
+            "time_zone": "America/Chicago",
+            "lon": -89.554474
+        },
+        "client_display_flags": {
+            "presentation_status": "for_rent",
+            "is_showcase": false,
+            "lead_form_phone_required": true,
+            "price_change": 0,
+            "has_specials": false,
+            "is_mls_rental": false,
+            "is_rental_community": true,
+            "is_rental_unit": false,
+            "is_co_star": false,
+            "is_apartmentlist": false,
+            "suppress_map_pin": false,
+            "suppress_phone_call_lead_event": false,
+            "price_reduced": false,
+            "allows_cats": true,
+            "allows_dogs": true
+        },
+        "products": [
+            "rentals_cost_per_lead_hybrid",
+            "co_broke",
+            "_COMMUNITY_RENTAL",
+            "_COMMUNITY_RENTAL",
+            "_COMMUNITY_RENTAL",
+            "_COMMUNITY_RENTAL",
+            "_COMMUNITY_RENTAL"
+        ],
+        "agents": [
+            {
+                "primary": true
+            }
+        ],
+        "lead_forms": {
+            "form": {
+                "name": {
+                    "required": true,
+                    "minimum_character_count": 1
+                },
+                "email": {
+                    "required": true,
+                    "minimum_character_count": 5
+                },
+                "move_in_date": {
+                    "required": false,
+                    "default_date": "2023-09-01T12:00:00Z",
+                    "minimum_days_from_today": 1,
+                    "maximum_days_from_today": 180
+                },
+                "phone": {
+                    "required": true,
+                    "minimum_character_count": 10,
+                    "maximum_character_count": 11
+                },
+                "message": {
+                    "required": false,
+                    "minimum_character_count": 0
+                },
+                "show": false
+            },
+            "show_agent": false,
+            "show_broker": false,
+            "show_provider": false,
+            "show_management": false
+        },
+        "lot_size": {
+            "size": 0,
+            "units": "sqft"
+        },
+        "building_size": {
+            "units": "sqft"
+        },
+        "rdc_web_url": "https://www.realtor.com/realestateandhomes-detail/3100-3200-Ellis-St_Stevens-Point_WI_54481_M95556-33688",
+        "rdc_app_url": "move-rdc://www.realtor.com/realestateandhomes-detail/3100-3200-Ellis-St_Stevens-Point_WI_54481_M95556-33688",
+        "community": {
+            "baths_max": 1,
+            "baths_min": 1,
+            "beds_max": 1,
+            "beds_min": 1,
+            "contact_number": "(888) 887-4311",
+            "id": 3740505,
+            "name": "Heritage Square Apartments",
+            "price_max": 905,
+            "price_min": 840,
+            "source_id": "100013281",
+            "sqft_max": 548,
+            "sqft_min": 461
+        },
+        "data_source_name": "community_rental",
+        "source": "community",
+        "page_no": 1,
+        "rank": 26,
+        "list_tracking": "type|property|data|prop_id|9555633688|list_id|2952837348|comm_id|3740505|page|rank|list_branding|listing_agent|listing_office|data_source|community_rental|property_status|product_code|advantage_code^1|Q|0|0|3K2|1C|0^^$0|1|2|$3|4|5|6|7|8|9|J|A|K|B|$C|L|D|M]|E|F|G|N|H|O|I|P]]",
+        "photo_count": 16,
+        "photos": [
+            {
+                "href": "https://ar.rdcpix.com/f5c8e863a0a95fe5b96720108ca8ed41c-f3236349736s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f5c8e863a0a95fe5b96720108ca8ed41c-f63873646s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f5c8e863a0a95fe5b96720108ca8ed41c-f4093332589s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f5c8e863a0a95fe5b96720108ca8ed41c-f2869637643s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f5c8e863a0a95fe5b96720108ca8ed41c-f1440207646s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f5c8e863a0a95fe5b96720108ca8ed41c-f2789055714s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f5c8e863a0a95fe5b96720108ca8ed41c-f4232631542s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f5c8e863a0a95fe5b96720108ca8ed41c-f510429133s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f5c8e863a0a95fe5b96720108ca8ed41c-f4193864798s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f5c8e863a0a95fe5b96720108ca8ed41c-f2127944682s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f5c8e863a0a95fe5b96720108ca8ed41c-f192352627s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f5c8e863a0a95fe5b96720108ca8ed41c-f4235685304s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f5c8e863a0a95fe5b96720108ca8ed41c-f4127073949s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f5c8e863a0a95fe5b96720108ca8ed41c-f424785776s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f5c8e863a0a95fe5b96720108ca8ed41c-f981293456s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f5c8e863a0a95fe5b96720108ca8ed41c-f3193827070s.jpg"
+            }
+        ]
+    },
+    {
+        "property_id": "R9951411326",
+        "listing_id": "2926451639",
+        "prop_type": "condo",
+        "list_date": "2022-07-13T06:16:46.000Z",
+        "last_update": "2023-05-27T18:09:26.000Z",
+        "listing_status": "active",
+        "beds": 5,
+        "branding": {
+            "state_license": null
+        },
+        "baths_full": 2,
+        "prop_status": "for_rent",
+        "address": {
+            "city": "Stevens Point",
+            "country": "USA",
+            "county": "Portage",
+            "county_needed_for_uniq": false,
+            "lat": 44.531971,
+            "line": "310 Vincent St Unit Upper",
+            "postal_code": "54481",
+            "state_code": "WI",
+            "state": "Wisconsin",
+            "time_zone": "America/Chicago",
+            "lon": -89.576634
+        },
+        "client_display_flags": {
+            "presentation_status": "for_rent",
+            "is_showcase": false,
+            "lead_form_phone_required": true,
+            "price_change": 0,
+            "has_specials": false,
+            "is_mls_rental": false,
+            "is_rental_community": false,
+            "is_rental_unit": true,
+            "is_co_star": false,
+            "is_apartmentlist": false,
+            "suppress_map_pin": false,
+            "suppress_phone_call_lead_event": false,
+            "price_reduced": false
+        },
+        "products": [
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL"
+        ],
+        "agents": [
+            {
+                "primary": true
+            }
+        ],
+        "lead_forms": {
+            "form": {
+                "name": {
+                    "required": true,
+                    "minimum_character_count": 1
+                },
+                "email": {
+                    "required": true,
+                    "minimum_character_count": 5
+                },
+                "move_in_date": {
+                    "required": false,
+                    "default_date": "2023-09-01T12:00:00Z",
+                    "minimum_days_from_today": 1,
+                    "maximum_days_from_today": 180
+                },
+                "phone": {
+                    "required": true,
+                    "minimum_character_count": 10,
+                    "maximum_character_count": 11
+                },
+                "message": {
+                    "required": false,
+                    "minimum_character_count": 0
+                },
+                "show": false
+            },
+            "show_agent": false,
+            "show_broker": false,
+            "show_provider": false,
+            "show_management": false
+        },
+        "lot_size": {
+            "size": 0,
+            "units": "sqft"
+        },
+        "building_size": {
+            "size": 1800,
+            "units": "sqft"
+        },
+        "price": 2125,
+        "rdc_web_url": "https://www.realtor.com/realestateandhomes-detail/310-Vincent-St_Stevens-Point_WI_54481_M99514-11326",
+        "rdc_app_url": "move-rdc://www.realtor.com/realestateandhomes-detail/310-Vincent-St_Stevens-Point_WI_54481_M99514-11326",
+        "baths": 2,
+        "data_source_name": "unit_rental",
+        "source": "unit_rental",
+        "page_no": 1,
+        "rank": 27,
+        "list_tracking": "type|property|data|prop_id|9951411326|list_id|2926451639|page|rank|list_branding|listing_agent|listing_office|data_source|unit_rental|property_status|product_code|advantage_code^1|R|0|0|3YA|W|0^^$0|1|2|$3|4|5|6|7|H|8|I|9|$A|J|B|K]|C|D|E|L|F|M|G|N]]",
+        "photo_count": 16,
+        "photos": [
+            {
+                "href": "https://ap.rdcpix.com/f0dc2b6c9b5c41352839791b1f9c1b93l-m1158141186s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/f0dc2b6c9b5c41352839791b1f9c1b93l-m1616260513s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/f0dc2b6c9b5c41352839791b1f9c1b93l-m3182260358s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/f0dc2b6c9b5c41352839791b1f9c1b93l-m2836228466s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/f0dc2b6c9b5c41352839791b1f9c1b93l-m2586150115s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/f0dc2b6c9b5c41352839791b1f9c1b93l-m2792446203s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/f0dc2b6c9b5c41352839791b1f9c1b93l-m2963610039s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/f0dc2b6c9b5c41352839791b1f9c1b93l-m1908387349s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/f0dc2b6c9b5c41352839791b1f9c1b93l-m1044234403s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/f0dc2b6c9b5c41352839791b1f9c1b93l-m4245906029s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/f0dc2b6c9b5c41352839791b1f9c1b93l-m1823255037s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/f0dc2b6c9b5c41352839791b1f9c1b93l-m2170236738s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/f0dc2b6c9b5c41352839791b1f9c1b93l-m501198088s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/f0dc2b6c9b5c41352839791b1f9c1b93l-m4154896717s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/f0dc2b6c9b5c41352839791b1f9c1b93l-m1455740034s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/f0dc2b6c9b5c41352839791b1f9c1b93l-m1158141186s.jpg"
+            }
+        ]
+    },
+    {
+        "property_id": "R9035780177",
+        "listing_id": "2925134310",
+        "prop_type": "apartment",
+        "last_update": "2023-07-22T01:46:43.000Z",
+        "listing_status": "active",
+        "beds": 0,
+        "branding": {
+            "state_license": null
+        },
+        "prop_status": "for_rent",
+        "address": {
+            "city": "Stevens Point",
+            "country": "USA",
+            "county": "Portage",
+            "county_needed_for_uniq": false,
+            "lat": 44.534056,
+            "line": "1800 Maria Dr",
+            "postal_code": "54481",
+            "state_code": "WI",
+            "state": "Wisconsin",
+            "time_zone": "America/Chicago",
+            "lon": -89.574712
+        },
+        "client_display_flags": {
+            "presentation_status": "for_rent",
+            "is_showcase": false,
+            "lead_form_phone_required": true,
+            "price_change": 0,
+            "has_specials": false,
+            "is_mls_rental": false,
+            "is_rental_community": true,
+            "is_rental_unit": false,
+            "is_co_star": false,
+            "is_apartmentlist": false,
+            "suppress_map_pin": false,
+            "suppress_phone_call_lead_event": false,
+            "price_reduced": false,
+            "allows_cats": true,
+            "allows_dogs": true
+        },
+        "products": [
+            "basic",
+            "_COMMUNITY_RENTAL",
+            "_COMMUNITY_RENTAL",
+            "_COMMUNITY_RENTAL",
+            "_COMMUNITY_RENTAL",
+            "_COMMUNITY_RENTAL"
+        ],
+        "agents": [
+            {
+                "primary": true
+            }
+        ],
+        "lead_forms": {
+            "form": {
+                "name": {
+                    "required": true,
+                    "minimum_character_count": 1
+                },
+                "email": {
+                    "required": true,
+                    "minimum_character_count": 5
+                },
+                "move_in_date": {
+                    "required": false,
+                    "default_date": "2023-09-01T12:00:00Z",
+                    "minimum_days_from_today": 1,
+                    "maximum_days_from_today": 180
+                },
+                "phone": {
+                    "required": true,
+                    "minimum_character_count": 10,
+                    "maximum_character_count": 11
+                },
+                "message": {
+                    "required": false,
+                    "minimum_character_count": 0
+                },
+                "show": false
+            },
+            "show_agent": false,
+            "show_broker": false,
+            "show_provider": false,
+            "show_management": false
+        },
+        "lot_size": {
+            "size": 0,
+            "units": "sqft"
+        },
+        "building_size": {
+            "units": "sqft"
+        },
+        "rdc_web_url": "https://www.realtor.com/realestateandhomes-detail/1800-Maria-Dr_Stevens-Point_WI_54481_M90357-80177",
+        "rdc_app_url": "move-rdc://www.realtor.com/realestateandhomes-detail/1800-Maria-Dr_Stevens-Point_WI_54481_M90357-80177",
+        "community": {
+            "baths_max": 2,
+            "baths_min": 1,
+            "beds_max": 4,
+            "beds_min": 1,
+            "contact_number": "(920) 570-6923",
+            "id": 3692646,
+            "name": "The Reserve Student Apartments at UWSP",
+            "price_max": 3948,
+            "price_min": 1007,
+            "source_id": "4395484",
+            "sqft_max": 1090,
+            "sqft_min": 675
+        },
+        "data_source_name": "community_rental",
+        "source": "community",
+        "page_no": 1,
+        "rank": 28,
+        "list_tracking": "type|property|data|prop_id|9035780177|list_id|2925134310|comm_id|3692646|page|rank|list_branding|listing_agent|listing_office|data_source|community_rental|property_status|product_code|advantage_code^1|S|0|0|3K2|W|0^^$0|1|2|$3|4|5|6|7|8|9|J|A|K|B|$C|L|D|M]|E|F|G|N|H|O|I|P]]",
+        "photo_count": 15,
+        "photos": [
+            {
+                "href": "https://ar.rdcpix.com/2de259b61ed9e9b3f782f09b4de7d2b0c-f2778124706s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/2de259b61ed9e9b3f782f09b4de7d2b0c-f822322499s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/2de259b61ed9e9b3f782f09b4de7d2b0c-f2391066029s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/2de259b61ed9e9b3f782f09b4de7d2b0c-f3602610418s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/2de259b61ed9e9b3f782f09b4de7d2b0c-f4203094954s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/2de259b61ed9e9b3f782f09b4de7d2b0c-f2611014686s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/2de259b61ed9e9b3f782f09b4de7d2b0c-f1933847466s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/2de259b61ed9e9b3f782f09b4de7d2b0c-f4210177472s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/2de259b61ed9e9b3f782f09b4de7d2b0c-f3974803343s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/2de259b61ed9e9b3f782f09b4de7d2b0c-f460195982s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/2de259b61ed9e9b3f782f09b4de7d2b0c-f380593784s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/2de259b61ed9e9b3f782f09b4de7d2b0c-f2169882380s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/2de259b61ed9e9b3f782f09b4de7d2b0c-f4257650083s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/2de259b61ed9e9b3f782f09b4de7d2b0c-f528035313s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/2de259b61ed9e9b3f782f09b4de7d2b0c-f930479605s.jpg"
+            }
+        ]
+    },
+    {
+        "property_id": "R9397773138",
+        "listing_id": "2955441860",
+        "prop_type": "other",
+        "list_date": "2023-05-09T20:04:14.000Z",
+        "last_update": "2023-07-19T12:19:11.000Z",
+        "listing_status": "active",
+        "beds": 0,
+        "branding": {
+            "state_license": null
+        },
+        "prop_status": "for_rent",
+        "address": {
+            "city": "Stevens Point",
+            "country": "USA",
+            "county": "Portage",
+            "county_needed_for_uniq": false,
+            "lat": 44.56518,
+            "line": "1430 Torun Rd",
+            "postal_code": "54482",
+            "state_code": "WI",
+            "state": "Wisconsin",
+            "time_zone": "America/Chicago",
+            "lon": -89.532418
+        },
+        "client_display_flags": {
+            "presentation_status": "for_rent",
+            "is_showcase": false,
+            "lead_form_phone_required": true,
+            "price_change": 0,
+            "has_specials": false,
+            "is_mls_rental": false,
+            "is_rental_community": true,
+            "is_rental_unit": false,
+            "is_co_star": false,
+            "is_apartmentlist": false,
+            "suppress_map_pin": false,
+            "suppress_phone_call_lead_event": false,
+            "price_reduced": false,
+            "allows_cats": false,
+            "allows_dogs": false
+        },
+        "products": [
+            "basic",
+            "_COMMUNITY_RENTAL",
+            "_COMMUNITY_RENTAL",
+            "_COMMUNITY_RENTAL",
+            "_COMMUNITY_RENTAL",
+            "_COMMUNITY_RENTAL"
+        ],
+        "agents": [
+            {
+                "primary": true
+            }
+        ],
+        "lead_forms": {
+            "form": {
+                "name": {
+                    "required": true,
+                    "minimum_character_count": 1
+                },
+                "email": {
+                    "required": true,
+                    "minimum_character_count": 5
+                },
+                "move_in_date": {
+                    "required": false,
+                    "default_date": "2023-09-01T12:00:00Z",
+                    "minimum_days_from_today": 1,
+                    "maximum_days_from_today": 180
+                },
+                "phone": {
+                    "required": true,
+                    "minimum_character_count": 10,
+                    "maximum_character_count": 11
+                },
+                "message": {
+                    "required": false,
+                    "minimum_character_count": 0
+                },
+                "show": false
+            },
+            "show_agent": false,
+            "show_broker": false,
+            "show_provider": false,
+            "show_management": false
+        },
+        "lot_size": {
+            "size": 0,
+            "units": "sqft"
+        },
+        "building_size": {
+            "units": "sqft"
+        },
+        "rdc_web_url": "https://www.realtor.com/realestateandhomes-detail/1430-Torun-Rd_Stevens-Point_WI_54482_M93977-73138",
+        "rdc_app_url": "move-rdc://www.realtor.com/realestateandhomes-detail/1430-Torun-Rd_Stevens-Point_WI_54482_M93977-73138",
+        "community": {
+            "baths_max": 2,
+            "baths_min": 2,
+            "beds_max": 3,
+            "beds_min": 3,
+            "contact_number": "(715) 496-0546",
+            "id": 3891638,
+            "name": "Schultz Property Management",
+            "price_max": 82900,
+            "price_min": 82900,
+            "source_id": "8051589",
+            "sqft_max": null,
+            "sqft_min": null,
+            "sqft_hint": "CALL"
+        },
+        "data_source_name": "community_rental",
+        "source": "community",
+        "page_no": 1,
+        "rank": 29,
+        "list_tracking": "type|property|data|prop_id|9397773138|list_id|2955441860|comm_id|3891638|page|rank|list_branding|listing_agent|listing_office|data_source|community_rental|property_status|product_code|advantage_code^1|T|0|0|3K2|W|0^^$0|1|2|$3|4|5|6|7|8|9|J|A|K|B|$C|L|D|M]|E|F|G|N|H|O|I|P]]",
+        "photo_count": 15,
+        "photos": [
+            {
+                "href": "https://ar.rdcpix.com/bbedc55ed12994157dc73690a66c0e49c-f439280594s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/bbedc55ed12994157dc73690a66c0e49c-f3210785012s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/bbedc55ed12994157dc73690a66c0e49c-f2659624564s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/bbedc55ed12994157dc73690a66c0e49c-f833902336s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/bbedc55ed12994157dc73690a66c0e49c-f869915472s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/bbedc55ed12994157dc73690a66c0e49c-f143521362s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/bbedc55ed12994157dc73690a66c0e49c-f3671407510s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/bbedc55ed12994157dc73690a66c0e49c-f2349875538s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/bbedc55ed12994157dc73690a66c0e49c-f2192272923s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/bbedc55ed12994157dc73690a66c0e49c-f4213015503s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/bbedc55ed12994157dc73690a66c0e49c-f615527574s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/bbedc55ed12994157dc73690a66c0e49c-f447750823s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/bbedc55ed12994157dc73690a66c0e49c-f1730778630s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/bbedc55ed12994157dc73690a66c0e49c-f2037010060s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/bbedc55ed12994157dc73690a66c0e49c-f439280594s.jpg"
+            }
+        ]
+    },
+    {
+        "property_id": "R9786222213",
+        "listing_id": "2958034844",
+        "prop_type": "apartment",
+        "last_update": "2023-07-25T23:14:25.000Z",
+        "listing_status": "active",
+        "beds": 1,
+        "branding": {
+            "state_license": null
+        },
+        "baths_full": 1,
+        "prop_status": "for_rent",
+        "address": {
+            "city": "Stevens Point",
+            "country": "USA",
+            "county": "Portage",
+            "county_needed_for_uniq": false,
+            "lat": 44.532715,
+            "line": "2623 5th Ave Unit 2623-8",
+            "postal_code": "54481",
+            "state_code": "WI",
+            "state": "Wisconsin",
+            "time_zone": "America/Chicago",
+            "lon": -89.560883
+        },
+        "client_display_flags": {
+            "presentation_status": "for_rent",
+            "is_showcase": false,
+            "lead_form_phone_required": true,
+            "price_change": 0,
+            "has_specials": false,
+            "is_mls_rental": false,
+            "is_rental_community": false,
+            "is_rental_unit": true,
+            "is_co_star": false,
+            "is_apartmentlist": false,
+            "suppress_map_pin": false,
+            "suppress_phone_call_lead_event": false,
+            "price_reduced": false
+        },
+        "products": [
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL"
+        ],
+        "agents": [
+            {
+                "primary": true
+            }
+        ],
+        "lead_forms": {
+            "form": {
+                "name": {
+                    "required": true,
+                    "minimum_character_count": 1
+                },
+                "email": {
+                    "required": true,
+                    "minimum_character_count": 5
+                },
+                "move_in_date": {
+                    "required": false,
+                    "default_date": "2023-09-01T12:00:00Z",
+                    "minimum_days_from_today": 1,
+                    "maximum_days_from_today": 180
+                },
+                "phone": {
+                    "required": true,
+                    "minimum_character_count": 10,
+                    "maximum_character_count": 11
+                },
+                "message": {
+                    "required": false,
+                    "minimum_character_count": 0
+                },
+                "show": false
+            },
+            "show_agent": false,
+            "show_broker": false,
+            "show_provider": false,
+            "show_management": false
+        },
+        "lot_size": {
+            "size": 0,
+            "units": "sqft"
+        },
+        "building_size": {
+            "units": "sqft"
+        },
+        "price": 625,
+        "rdc_web_url": "https://www.realtor.com/realestateandhomes-detail/2623-5th-Ave-2623-8_Stevens-Point_WI_54481_M97862-22213",
+        "rdc_app_url": "move-rdc://www.realtor.com/realestateandhomes-detail/2623-5th-Ave-2623-8_Stevens-Point_WI_54481_M97862-22213",
+        "baths": 1,
+        "data_source_name": "unit_rental",
+        "source": "unit_rental",
+        "page_no": 1,
+        "rank": 30,
+        "list_tracking": "type|property|data|prop_id|9786222213|list_id|2958034844|page|rank|list_branding|listing_agent|listing_office|data_source|unit_rental|property_status|product_code|advantage_code^1|U|0|0|3YA|W|0^^$0|1|2|$3|4|5|6|7|H|8|I|9|$A|J|B|K]|C|D|E|L|F|M|G|N]]",
+        "photo_count": 14,
+        "photos": [
+            {
+                "href": "https://ap.rdcpix.com/dedc3986afc2db8f16036e3bb4fd5625l-m1175533572s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/dedc3986afc2db8f16036e3bb4fd5625l-m382690539s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/dedc3986afc2db8f16036e3bb4fd5625l-m1896377574s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/dedc3986afc2db8f16036e3bb4fd5625l-m3867346385s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/dedc3986afc2db8f16036e3bb4fd5625l-m1415940750s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/dedc3986afc2db8f16036e3bb4fd5625l-m1918554024s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/dedc3986afc2db8f16036e3bb4fd5625l-m840047381s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/dedc3986afc2db8f16036e3bb4fd5625l-m3649035248s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/dedc3986afc2db8f16036e3bb4fd5625l-m2091475519s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/dedc3986afc2db8f16036e3bb4fd5625l-m840047381s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/dedc3986afc2db8f16036e3bb4fd5625l-m2135365040s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/dedc3986afc2db8f16036e3bb4fd5625l-m4144415426s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/dedc3986afc2db8f16036e3bb4fd5625l-m3417770615s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/dedc3986afc2db8f16036e3bb4fd5625l-m1476911699s.jpg"
+            }
+        ]
+    },
+    {
+        "property_id": "R9870150822",
+        "listing_id": "2957128043",
+        "prop_type": "apartment",
+        "last_update": "2023-06-27T23:14:23.000Z",
+        "listing_status": "active",
+        "beds": 3,
+        "branding": {
+            "state_license": null
+        },
+        "baths_full": 1,
+        "baths_half": 1,
+        "prop_status": "for_rent",
+        "address": {
+            "city": "Stevens Point",
+            "country": "USA",
+            "county": "Portage",
+            "county_needed_for_uniq": false,
+            "lat": 44.500712,
+            "line": "1513 River View Ave",
+            "postal_code": "54481",
+            "state_code": "WI",
+            "state": "Wisconsin",
+            "time_zone": "America/Chicago",
+            "lon": -89.576002
+        },
+        "client_display_flags": {
+            "presentation_status": "for_rent",
+            "is_showcase": false,
+            "lead_form_phone_required": true,
+            "price_change": 0,
+            "has_specials": false,
+            "is_mls_rental": false,
+            "is_rental_community": false,
+            "is_rental_unit": true,
+            "is_co_star": false,
+            "is_apartmentlist": false,
+            "suppress_map_pin": false,
+            "suppress_phone_call_lead_event": false,
+            "price_reduced": false,
+            "allows_cats": true,
+            "allows_dogs": true,
+            "allows_dogs_small": true,
+            "allows_dogs_large": true
+        },
+        "products": [
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL"
+        ],
+        "agents": [
+            {
+                "primary": true
+            }
+        ],
+        "lead_forms": {
+            "form": {
+                "name": {
+                    "required": true,
+                    "minimum_character_count": 1
+                },
+                "email": {
+                    "required": true,
+                    "minimum_character_count": 5
+                },
+                "move_in_date": {
+                    "required": false,
+                    "default_date": "2023-09-01T12:00:00Z",
+                    "minimum_days_from_today": 1,
+                    "maximum_days_from_today": 180
+                },
+                "phone": {
+                    "required": true,
+                    "minimum_character_count": 10,
+                    "maximum_character_count": 11
+                },
+                "message": {
+                    "required": false,
+                    "minimum_character_count": 0
+                },
+                "show": false
+            },
+            "show_agent": false,
+            "show_broker": false,
+            "show_provider": false,
+            "show_management": false
+        },
+        "lot_size": {
+            "size": 0,
+            "units": "sqft"
+        },
+        "building_size": {
+            "units": "sqft"
+        },
+        "price": 965,
+        "rdc_web_url": "https://www.realtor.com/realestateandhomes-detail/1513-River-View-Ave_Stevens-Point_WI_54481_M98701-50822",
+        "rdc_app_url": "move-rdc://www.realtor.com/realestateandhomes-detail/1513-River-View-Ave_Stevens-Point_WI_54481_M98701-50822",
+        "baths": 2,
+        "data_source_name": "unit_rental",
+        "source": "unit_rental",
+        "page_no": 1,
+        "rank": 31,
+        "list_tracking": "type|property|data|prop_id|9870150822|list_id|2957128043|page|rank|list_branding|listing_agent|listing_office|data_source|unit_rental|property_status|product_code|advantage_code^1|V|0|0|3YA|W|0^^$0|1|2|$3|4|5|6|7|H|8|I|9|$A|J|B|K]|C|D|E|L|F|M|G|N]]",
+        "photo_count": 14,
+        "photos": [
+            {
+                "href": "https://ap.rdcpix.com/50eba342128f2f5664c76d11e3a69f66l-m883995978s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/50eba342128f2f5664c76d11e3a69f66l-m1331941695s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/50eba342128f2f5664c76d11e3a69f66l-m1300633826s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/50eba342128f2f5664c76d11e3a69f66l-m1949662197s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/50eba342128f2f5664c76d11e3a69f66l-m2554966688s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/50eba342128f2f5664c76d11e3a69f66l-m2351496240s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/50eba342128f2f5664c76d11e3a69f66l-m1666176892s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/50eba342128f2f5664c76d11e3a69f66l-m3725873627s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/50eba342128f2f5664c76d11e3a69f66l-m444881848s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/50eba342128f2f5664c76d11e3a69f66l-m2910946133s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/50eba342128f2f5664c76d11e3a69f66l-m480855562s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/50eba342128f2f5664c76d11e3a69f66l-m3044504197s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/50eba342128f2f5664c76d11e3a69f66l-m1396574486s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/50eba342128f2f5664c76d11e3a69f66l-m1382749039s.jpg"
+            }
+        ]
+    },
+    {
+        "property_id": "R8167197112",
+        "listing_id": "2929338846",
+        "prop_type": "apartment",
+        "last_update": "2023-07-31T01:46:39.000Z",
+        "listing_status": "active",
+        "beds": 0,
+        "branding": {
+            "state_license": null
+        },
+        "prop_status": "for_rent",
+        "address": {
+            "city": "Stevens Point",
+            "country": "USA",
+            "county": "Portage",
+            "county_needed_for_uniq": false,
+            "lat": 44.522657,
+            "line": "1650 Clark St",
+            "postal_code": "54481",
+            "state_code": "WI",
+            "state": "Wisconsin",
+            "time_zone": "America/Chicago",
+            "neighborhood_name": "Downtown Stevens Point",
+            "neighborhoods": [
+                {
+                    "id": "5039d448-3ed3-52ce-b17b-87d17d7d3589",
+                    "level": "neighborhood",
+                    "name": "Downtown Stevens Point"
+                }
+            ],
+            "lon": -89.575146
+        },
+        "client_display_flags": {
+            "presentation_status": "for_rent",
+            "is_showcase": false,
+            "lead_form_phone_required": true,
+            "price_change": 0,
+            "has_specials": false,
+            "is_mls_rental": false,
+            "is_rental_community": true,
+            "is_rental_unit": false,
+            "is_co_star": false,
+            "is_apartmentlist": false,
+            "suppress_map_pin": false,
+            "suppress_phone_call_lead_event": false,
+            "price_reduced": false,
+            "allows_cats": true,
+            "allows_dogs": false
+        },
+        "products": [
+            "basic",
+            "_COMMUNITY_RENTAL",
+            "_COMMUNITY_RENTAL",
+            "_COMMUNITY_RENTAL",
+            "_COMMUNITY_RENTAL",
+            "_COMMUNITY_RENTAL"
+        ],
+        "agents": [
+            {
+                "primary": true
+            }
+        ],
+        "lead_forms": {
+            "form": {
+                "name": {
+                    "required": true,
+                    "minimum_character_count": 1
+                },
+                "email": {
+                    "required": true,
+                    "minimum_character_count": 5
+                },
+                "move_in_date": {
+                    "required": false,
+                    "default_date": "2023-09-01T12:00:00Z",
+                    "minimum_days_from_today": 1,
+                    "maximum_days_from_today": 180
+                },
+                "phone": {
+                    "required": true,
+                    "minimum_character_count": 10,
+                    "maximum_character_count": 11
+                },
+                "message": {
+                    "required": false,
+                    "minimum_character_count": 0
+                },
+                "show": false
+            },
+            "show_agent": false,
+            "show_broker": false,
+            "show_provider": false,
+            "show_management": false
+        },
+        "lot_size": {
+            "size": 0,
+            "units": "sqft"
+        },
+        "building_size": {
+            "units": "sqft"
+        },
+        "rdc_web_url": "https://www.realtor.com/realestateandhomes-detail/1650-Clark-St_Stevens-Point_WI_54481_M81671-97112",
+        "rdc_app_url": "move-rdc://www.realtor.com/realestateandhomes-detail/1650-Clark-St_Stevens-Point_WI_54481_M81671-97112",
+        "community": {
+            "baths_max": 1,
+            "baths_min": 1,
+            "beds_max": 1,
+            "beds_min": 1,
+            "contact_number": "(715) 340-3422",
+            "id": 3796315,
+            "name": "1650 Clark St",
+            "price_max": 800,
+            "price_min": 800,
+            "source_id": "2548639",
+            "sqft_max": null,
+            "sqft_min": null,
+            "sqft_hint": "CALL"
+        },
+        "data_source_name": "community_rental",
+        "source": "community",
+        "page_no": 1,
+        "rank": 32,
+        "list_tracking": "type|property|data|prop_id|8167197112|list_id|2929338846|comm_id|3796315|page|rank|list_branding|listing_agent|listing_office|data_source|community_rental|property_status|product_code|advantage_code^1|W|0|0|3K2|W|0^^$0|1|2|$3|4|5|6|7|8|9|J|A|K|B|$C|L|D|M]|E|F|G|N|H|O|I|P]]",
+        "photo_count": 13,
+        "photos": [
+            {
+                "href": "https://ar.rdcpix.com/4e30fd4c3b99d0b836da37ba6075aa8ac-f4174365497s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/4e30fd4c3b99d0b836da37ba6075aa8ac-f841715854s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/4e30fd4c3b99d0b836da37ba6075aa8ac-f4069834442s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/4e30fd4c3b99d0b836da37ba6075aa8ac-f1702719460s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/4e30fd4c3b99d0b836da37ba6075aa8ac-f2339474693s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/4e30fd4c3b99d0b836da37ba6075aa8ac-f303168056s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/4e30fd4c3b99d0b836da37ba6075aa8ac-f1298446681s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/4e30fd4c3b99d0b836da37ba6075aa8ac-f3599783597s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/4e30fd4c3b99d0b836da37ba6075aa8ac-f2763238996s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/4e30fd4c3b99d0b836da37ba6075aa8ac-f2247994175s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/4e30fd4c3b99d0b836da37ba6075aa8ac-f1813585427s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/4e30fd4c3b99d0b836da37ba6075aa8ac-f2086218960s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/4e30fd4c3b99d0b836da37ba6075aa8ac-f2751927519s.jpg"
+            }
+        ]
+    },
+    {
+        "property_id": "R9934200385",
+        "listing_id": "2927061880",
+        "prop_type": "apartment",
+        "last_update": "2023-04-25T01:47:02.000Z",
+        "listing_status": "active",
+        "beds": 0,
+        "branding": {
+            "state_license": null
+        },
+        "prop_status": "for_rent",
+        "address": {
+            "city": "Stevens Point",
+            "country": "USA",
+            "county": "Portage",
+            "county_needed_for_uniq": false,
+            "lat": 44.521561,
+            "line": "1443 Water St",
+            "postal_code": "54481",
+            "state_code": "WI",
+            "state": "Wisconsin",
+            "time_zone": "America/Chicago",
+            "neighborhood_name": "Downtown Stevens Point",
+            "neighborhoods": [
+                {
+                    "id": "5039d448-3ed3-52ce-b17b-87d17d7d3589",
+                    "level": "neighborhood",
+                    "name": "Downtown Stevens Point"
+                }
+            ],
+            "lon": -89.584348
+        },
+        "client_display_flags": {
+            "presentation_status": "for_rent",
+            "is_showcase": false,
+            "lead_form_phone_required": true,
+            "price_change": 0,
+            "has_specials": false,
+            "is_mls_rental": false,
+            "is_rental_community": true,
+            "is_rental_unit": false,
+            "is_co_star": false,
+            "is_apartmentlist": false,
+            "suppress_map_pin": false,
+            "suppress_phone_call_lead_event": false,
+            "price_reduced": false,
+            "allows_cats": true,
+            "allows_dogs": true
+        },
+        "products": [
+            "basic",
+            "_COMMUNITY_RENTAL",
+            "_COMMUNITY_RENTAL",
+            "_COMMUNITY_RENTAL",
+            "_COMMUNITY_RENTAL",
+            "_COMMUNITY_RENTAL"
+        ],
+        "agents": [
+            {
+                "primary": true
+            }
+        ],
+        "lead_forms": {
+            "form": {
+                "name": {
+                    "required": true,
+                    "minimum_character_count": 1
+                },
+                "email": {
+                    "required": true,
+                    "minimum_character_count": 5
+                },
+                "move_in_date": {
+                    "required": false,
+                    "default_date": "2023-09-01T12:00:00Z",
+                    "minimum_days_from_today": 1,
+                    "maximum_days_from_today": 180
+                },
+                "phone": {
+                    "required": true,
+                    "minimum_character_count": 10,
+                    "maximum_character_count": 11
+                },
+                "message": {
+                    "required": false,
+                    "minimum_character_count": 0
+                },
+                "show": false
+            },
+            "show_agent": false,
+            "show_broker": false,
+            "show_provider": false,
+            "show_management": false
+        },
+        "lot_size": {
+            "size": 0,
+            "units": "sqft"
+        },
+        "building_size": {
+            "units": "sqft"
+        },
+        "rdc_web_url": "https://www.realtor.com/realestateandhomes-detail/1443-Water-St_Stevens-Point_WI_54481_M99342-00385",
+        "rdc_app_url": "move-rdc://www.realtor.com/realestateandhomes-detail/1443-Water-St_Stevens-Point_WI_54481_M99342-00385",
+        "community": {
+            "baths_max": 2,
+            "baths_min": 1,
+            "beds_max": 2,
+            "beds_min": 1,
+            "contact_number": "(715) 410-5282",
+            "id": 2391616,
+            "name": "Berkshire Stevens Point",
+            "price_max": 1079,
+            "price_min": 685,
+            "source_id": "4210222",
+            "sqft_max": 1032,
+            "sqft_min": 647
+        },
+        "data_source_name": "community_rental",
+        "source": "community",
+        "page_no": 1,
+        "rank": 33,
+        "list_tracking": "type|property|data|prop_id|9934200385|list_id|2927061880|comm_id|2391616|page|rank|list_branding|listing_agent|listing_office|data_source|community_rental|property_status|product_code|advantage_code^1|X|0|0|3K2|W|0^^$0|1|2|$3|4|5|6|7|8|9|J|A|K|B|$C|L|D|M]|E|F|G|N|H|O|I|P]]",
+        "photo_count": 13,
+        "photos": [
+            {
+                "href": "https://ar.rdcpix.com/f1460204782fb1baa87bc1f47000bdf8c-f3743186096s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f1460204782fb1baa87bc1f47000bdf8c-f1957360576s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f1460204782fb1baa87bc1f47000bdf8c-f3980965837s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f1460204782fb1baa87bc1f47000bdf8c-f752170125s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f1460204782fb1baa87bc1f47000bdf8c-f3138588857s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f1460204782fb1baa87bc1f47000bdf8c-f816218495s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f1460204782fb1baa87bc1f47000bdf8c-f917507846s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f1460204782fb1baa87bc1f47000bdf8c-f2116248853s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f1460204782fb1baa87bc1f47000bdf8c-f157669805s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f1460204782fb1baa87bc1f47000bdf8c-f60752058s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f1460204782fb1baa87bc1f47000bdf8c-f2244749771s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f1460204782fb1baa87bc1f47000bdf8c-f3109143097s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/f1460204782fb1baa87bc1f47000bdf8c-f820321304s.jpg"
+            }
+        ]
+    },
+    {
+        "property_id": "R9171432690",
+        "listing_id": "2957674558",
+        "prop_type": "apartment",
+        "last_update": "2023-07-24T23:14:20.000Z",
+        "listing_status": "active",
+        "beds": 2,
+        "branding": {
+            "state_license": null
+        },
+        "baths_full": 1,
+        "prop_status": "for_rent",
+        "address": {
+            "city": "Stevens Point",
+            "country": "USA",
+            "county": "Portage",
+            "county_needed_for_uniq": false,
+            "lat": 44.518051,
+            "line": "1717 Water St # B",
+            "postal_code": "54481",
+            "state_code": "WI",
+            "state": "Wisconsin",
+            "time_zone": "America/Chicago",
+            "lon": -89.581085
+        },
+        "client_display_flags": {
+            "presentation_status": "for_rent",
+            "is_showcase": false,
+            "lead_form_phone_required": true,
+            "price_change": 0,
+            "has_specials": false,
+            "is_mls_rental": false,
+            "is_rental_community": false,
+            "is_rental_unit": true,
+            "is_co_star": false,
+            "is_apartmentlist": false,
+            "suppress_map_pin": false,
+            "suppress_phone_call_lead_event": false,
+            "price_reduced": false,
+            "allows_cats": false,
+            "allows_dogs": true,
+            "allows_dogs_small": true,
+            "allows_dogs_large": true
+        },
+        "products": [
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL"
+        ],
+        "agents": [
+            {
+                "primary": true
+            }
+        ],
+        "lead_forms": {
+            "form": {
+                "name": {
+                    "required": true,
+                    "minimum_character_count": 1
+                },
+                "email": {
+                    "required": true,
+                    "minimum_character_count": 5
+                },
+                "move_in_date": {
+                    "required": false,
+                    "default_date": "2023-09-01T12:00:00Z",
+                    "minimum_days_from_today": 1,
+                    "maximum_days_from_today": 180
+                },
+                "phone": {
+                    "required": true,
+                    "minimum_character_count": 10,
+                    "maximum_character_count": 11
+                },
+                "message": {
+                    "required": false,
+                    "minimum_character_count": 0
+                },
+                "show": false
+            },
+            "show_agent": false,
+            "show_broker": false,
+            "show_provider": false,
+            "show_management": false
+        },
+        "lot_size": {
+            "size": 0,
+            "units": "sqft"
+        },
+        "building_size": {
+            "units": "sqft"
+        },
+        "price": 1060,
+        "rdc_web_url": "https://www.realtor.com/realestateandhomes-detail/1717-Water-St-B_Stevens-Point_WI_54481_M91714-32690",
+        "rdc_app_url": "move-rdc://www.realtor.com/realestateandhomes-detail/1717-Water-St-B_Stevens-Point_WI_54481_M91714-32690",
+        "baths": 1,
+        "data_source_name": "unit_rental",
+        "source": "unit_rental",
+        "page_no": 1,
+        "rank": 34,
+        "list_tracking": "type|property|data|prop_id|9171432690|list_id|2957674558|page|rank|list_branding|listing_agent|listing_office|data_source|unit_rental|property_status|product_code|advantage_code^1|Y|0|0|3YA|W|0^^$0|1|2|$3|4|5|6|7|H|8|I|9|$A|J|B|K]|C|D|E|L|F|M|G|N]]",
+        "photo_count": 12,
+        "photos": [
+            {
+                "href": "https://ap.rdcpix.com/e30a21b78379ccf2b0a94f9beeee3599l-m1212894652s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/e30a21b78379ccf2b0a94f9beeee3599l-m2248575380s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/e30a21b78379ccf2b0a94f9beeee3599l-m1930164622s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/e30a21b78379ccf2b0a94f9beeee3599l-m2139305058s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/e30a21b78379ccf2b0a94f9beeee3599l-m3129281856s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/e30a21b78379ccf2b0a94f9beeee3599l-m1072586658s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/e30a21b78379ccf2b0a94f9beeee3599l-m145907896s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/e30a21b78379ccf2b0a94f9beeee3599l-m2272795847s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/e30a21b78379ccf2b0a94f9beeee3599l-m3677669941s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/e30a21b78379ccf2b0a94f9beeee3599l-m2720279441s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/e30a21b78379ccf2b0a94f9beeee3599l-m1844984368s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/e30a21b78379ccf2b0a94f9beeee3599l-m120819790s.jpg"
+            }
+        ]
+    },
+    {
+        "property_id": "R9425382369",
+        "listing_id": "2957853616",
+        "prop_type": "apartment",
+        "last_update": "2023-07-19T23:20:36.000Z",
+        "listing_status": "active",
+        "beds": 1,
+        "branding": {
+            "state_license": null
+        },
+        "baths_full": 1,
+        "prop_status": "for_rent",
+        "address": {
+            "city": "Stevens Point",
+            "country": "USA",
+            "county": "Portage",
+            "county_needed_for_uniq": false,
+            "lat": 44.533821,
+            "line": "2700 5th Ave Apt 12",
+            "postal_code": "54481",
+            "state_code": "WI",
+            "state": "Wisconsin",
+            "time_zone": "America/Chicago",
+            "lon": -89.560043
+        },
+        "client_display_flags": {
+            "presentation_status": "for_rent",
+            "is_showcase": false,
+            "lead_form_phone_required": true,
+            "price_change": 0,
+            "has_specials": false,
+            "is_mls_rental": false,
+            "is_rental_community": false,
+            "is_rental_unit": true,
+            "is_co_star": false,
+            "is_apartmentlist": false,
+            "suppress_map_pin": false,
+            "suppress_phone_call_lead_event": false,
+            "price_reduced": false,
+            "allows_cats": true,
+            "allows_dogs": true,
+            "allows_dogs_small": true,
+            "allows_dogs_large": true
+        },
+        "products": [
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL"
+        ],
+        "agents": [
+            {
+                "primary": true
+            }
+        ],
+        "lead_forms": {
+            "form": {
+                "name": {
+                    "required": true,
+                    "minimum_character_count": 1
+                },
+                "email": {
+                    "required": true,
+                    "minimum_character_count": 5
+                },
+                "move_in_date": {
+                    "required": false,
+                    "default_date": "2023-09-01T12:00:00Z",
+                    "minimum_days_from_today": 1,
+                    "maximum_days_from_today": 180
+                },
+                "phone": {
+                    "required": true,
+                    "minimum_character_count": 10,
+                    "maximum_character_count": 11
+                },
+                "message": {
+                    "required": false,
+                    "minimum_character_count": 0
+                },
+                "show": false
+            },
+            "show_agent": false,
+            "show_broker": false,
+            "show_provider": false,
+            "show_management": false
+        },
+        "lot_size": {
+            "size": 0,
+            "units": "sqft"
+        },
+        "building_size": {
+            "units": "sqft"
+        },
+        "price": 660,
+        "rdc_web_url": "https://www.realtor.com/realestateandhomes-detail/2700-5th-Ave-Apt-12_Stevens-Point_WI_54481_M94253-82369",
+        "rdc_app_url": "move-rdc://www.realtor.com/realestateandhomes-detail/2700-5th-Ave-Apt-12_Stevens-Point_WI_54481_M94253-82369",
+        "baths": 1,
+        "data_source_name": "unit_rental",
+        "source": "unit_rental",
+        "page_no": 1,
+        "rank": 35,
+        "list_tracking": "type|property|data|prop_id|9425382369|list_id|2957853616|page|rank|list_branding|listing_agent|listing_office|data_source|unit_rental|property_status|product_code|advantage_code^1|Z|0|0|3YA|W|0^^$0|1|2|$3|4|5|6|7|H|8|I|9|$A|J|B|K]|C|D|E|L|F|M|G|N]]",
+        "photo_count": 12,
+        "photos": [
+            {
+                "href": "https://ap.rdcpix.com/596e2d56dd25138d50dfbf4f5bdff8f7l-m3490118687s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/596e2d56dd25138d50dfbf4f5bdff8f7l-m1024723396s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/596e2d56dd25138d50dfbf4f5bdff8f7l-m2761162964s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/596e2d56dd25138d50dfbf4f5bdff8f7l-m1903705502s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/596e2d56dd25138d50dfbf4f5bdff8f7l-m2966207755s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/596e2d56dd25138d50dfbf4f5bdff8f7l-m2988723852s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/596e2d56dd25138d50dfbf4f5bdff8f7l-m1109047457s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/596e2d56dd25138d50dfbf4f5bdff8f7l-m1140833239s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/596e2d56dd25138d50dfbf4f5bdff8f7l-m2575825278s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/596e2d56dd25138d50dfbf4f5bdff8f7l-m117142490s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/596e2d56dd25138d50dfbf4f5bdff8f7l-m1585403302s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/596e2d56dd25138d50dfbf4f5bdff8f7l-m3826705298s.jpg"
+            }
+        ]
+    },
+    {
+        "property_id": "R9579563823",
+        "listing_id": "2942547571",
+        "prop_type": "apartment",
+        "last_update": "2023-07-11T15:17:15.000Z",
+        "listing_status": "active",
+        "beds": 3,
+        "branding": {
+            "state_license": null
+        },
+        "baths_full": 1,
+        "prop_status": "for_rent",
+        "address": {
+            "city": "Stevens Point",
+            "country": "USA",
+            "county": "Portage",
+            "county_needed_for_uniq": false,
+            "lat": 44.53335,
+            "line": "2901 5th Avenuea2 Unit A2",
+            "postal_code": "54481",
+            "state_code": "WI",
+            "state": "Wisconsin",
+            "time_zone": "America/Chicago",
+            "lon": -89.55941
+        },
+        "client_display_flags": {
+            "presentation_status": "for_rent",
+            "is_showcase": false,
+            "lead_form_phone_required": true,
+            "price_change": 0,
+            "has_specials": false,
+            "is_mls_rental": false,
+            "is_rental_community": false,
+            "is_rental_unit": true,
+            "is_co_star": false,
+            "is_apartmentlist": false,
+            "suppress_map_pin": false,
+            "suppress_phone_call_lead_event": false,
+            "price_reduced": false
+        },
+        "products": [
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL"
+        ],
+        "agents": [
+            {
+                "primary": true
+            }
+        ],
+        "lead_forms": {
+            "form": {
+                "name": {
+                    "required": true,
+                    "minimum_character_count": 1
+                },
+                "email": {
+                    "required": true,
+                    "minimum_character_count": 5
+                },
+                "move_in_date": {
+                    "required": false,
+                    "default_date": "2023-09-01T12:00:00Z",
+                    "minimum_days_from_today": 1,
+                    "maximum_days_from_today": 180
+                },
+                "phone": {
+                    "required": true,
+                    "minimum_character_count": 10,
+                    "maximum_character_count": 11
+                },
+                "message": {
+                    "required": false,
+                    "minimum_character_count": 0
+                },
+                "show": false
+            },
+            "show_agent": false,
+            "show_broker": false,
+            "show_provider": false,
+            "show_management": false
+        },
+        "lot_size": {
+            "size": 0,
+            "units": "sqft"
+        },
+        "building_size": {
+            "units": "sqft"
+        },
+        "price": 850,
+        "rdc_web_url": "https://www.realtor.com/realestateandhomes-detail/2901-5th-Avenuea2-Unit-A2_Stevens-Point_WI_54481_M95795-63823",
+        "rdc_app_url": "move-rdc://www.realtor.com/realestateandhomes-detail/2901-5th-Avenuea2-Unit-A2_Stevens-Point_WI_54481_M95795-63823",
+        "baths": 1,
+        "data_source_name": "unit_rental",
+        "source": "unit_rental",
+        "page_no": 1,
+        "rank": 36,
+        "list_tracking": "type|property|data|prop_id|9579563823|list_id|2942547571|page|rank|list_branding|listing_agent|listing_office|data_source|unit_rental|property_status|product_code|advantage_code^1|10|0|0|3YA|W|0^^$0|1|2|$3|4|5|6|7|H|8|I|9|$A|J|B|K]|C|D|E|L|F|M|G|N]]",
+        "photo_count": 12,
+        "photos": [
+            {
+                "href": "https://ap.rdcpix.com/114448984bb321fc7fafbca3e50ca6a9l-m159929566s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/114448984bb321fc7fafbca3e50ca6a9l-m2087375737s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/114448984bb321fc7fafbca3e50ca6a9l-m90753508s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/114448984bb321fc7fafbca3e50ca6a9l-m22500868s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/114448984bb321fc7fafbca3e50ca6a9l-m2615530595s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/114448984bb321fc7fafbca3e50ca6a9l-m3323661404s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/114448984bb321fc7fafbca3e50ca6a9l-m3149903082s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/114448984bb321fc7fafbca3e50ca6a9l-m385411052s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/114448984bb321fc7fafbca3e50ca6a9l-m2267388259s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/114448984bb321fc7fafbca3e50ca6a9l-m2900276554s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/114448984bb321fc7fafbca3e50ca6a9l-m3768102818s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/114448984bb321fc7fafbca3e50ca6a9l-m2465583563s.jpg"
+            }
+        ]
+    },
+    {
+        "property_id": "R9505666242",
+        "listing_id": "2958034786",
+        "prop_type": "apartment",
+        "last_update": "2023-07-25T23:13:57.000Z",
+        "listing_status": "active",
+        "beds": 0,
+        "branding": {
+            "state_license": null
+        },
+        "baths_full": 1,
+        "prop_status": "for_rent",
+        "address": {
+            "city": "Stevens Point",
+            "country": "USA",
+            "county": "Portage",
+            "county_needed_for_uniq": false,
+            "lat": 44.518356,
+            "line": "1901 Texas Ave Apt 126",
+            "postal_code": "54481",
+            "state_code": "WI",
+            "state": "Wisconsin",
+            "time_zone": "America/Chicago",
+            "lon": -89.55146
+        },
+        "client_display_flags": {
+            "presentation_status": "for_rent",
+            "is_showcase": false,
+            "lead_form_phone_required": true,
+            "price_change": 0,
+            "has_specials": false,
+            "is_mls_rental": false,
+            "is_rental_community": false,
+            "is_rental_unit": true,
+            "is_co_star": false,
+            "is_apartmentlist": false,
+            "suppress_map_pin": false,
+            "suppress_phone_call_lead_event": false,
+            "price_reduced": false,
+            "allows_cats": true,
+            "allows_dogs": false
+        },
+        "products": [
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL"
+        ],
+        "agents": [
+            {
+                "primary": true
+            }
+        ],
+        "lead_forms": {
+            "form": {
+                "name": {
+                    "required": true,
+                    "minimum_character_count": 1
+                },
+                "email": {
+                    "required": true,
+                    "minimum_character_count": 5
+                },
+                "move_in_date": {
+                    "required": false,
+                    "default_date": "2023-09-01T12:00:00Z",
+                    "minimum_days_from_today": 1,
+                    "maximum_days_from_today": 180
+                },
+                "phone": {
+                    "required": true,
+                    "minimum_character_count": 10,
+                    "maximum_character_count": 11
+                },
+                "message": {
+                    "required": false,
+                    "minimum_character_count": 0
+                },
+                "show": false
+            },
+            "show_agent": false,
+            "show_broker": false,
+            "show_provider": false,
+            "show_management": false
+        },
+        "lot_size": {
+            "size": 0,
+            "units": "sqft"
+        },
+        "building_size": {
+            "units": "sqft"
+        },
+        "price": 560,
+        "rdc_web_url": "https://www.realtor.com/realestateandhomes-detail/1901-Texas-Ave-Apt-126_Stevens-Point_WI_54481_M95056-66242",
+        "rdc_app_url": "move-rdc://www.realtor.com/realestateandhomes-detail/1901-Texas-Ave-Apt-126_Stevens-Point_WI_54481_M95056-66242",
+        "baths": 1,
+        "data_source_name": "unit_rental",
+        "source": "unit_rental",
+        "page_no": 1,
+        "rank": 37,
+        "list_tracking": "type|property|data|prop_id|9505666242|list_id|2958034786|page|rank|list_branding|listing_agent|listing_office|data_source|unit_rental|property_status|product_code|advantage_code^1|11|0|0|3YA|W|0^^$0|1|2|$3|4|5|6|7|H|8|I|9|$A|J|B|K]|C|D|E|L|F|M|G|N]]",
+        "photo_count": 10,
+        "photos": [
+            {
+                "href": "https://ap.rdcpix.com/6d670d2091444d6309498dc925d988e5l-m1080981352s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/6d670d2091444d6309498dc925d988e5l-m2779677812s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/6d670d2091444d6309498dc925d988e5l-m899718676s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/6d670d2091444d6309498dc925d988e5l-m3125576857s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/6d670d2091444d6309498dc925d988e5l-m222917094s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/6d670d2091444d6309498dc925d988e5l-m3580228062s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/6d670d2091444d6309498dc925d988e5l-m1386207518s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/6d670d2091444d6309498dc925d988e5l-m581456628s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/6d670d2091444d6309498dc925d988e5l-m3133997170s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/6d670d2091444d6309498dc925d988e5l-m3843886351s.jpg"
+            }
+        ]
+    },
+    {
+        "property_id": "R9940247471",
+        "listing_id": "2957515548",
+        "prop_type": "apartment",
+        "last_update": "2023-07-24T23:14:46.000Z",
+        "listing_status": "active",
+        "beds": 3,
+        "branding": {
+            "state_license": null
+        },
+        "baths_full": 1,
+        "price_reduced_date": "2023-07-25T00:31:24.928Z",
+        "baths_half": 1,
+        "prop_status": "for_rent",
+        "address": {
+            "city": "Stevens Point",
+            "country": "USA",
+            "county": "Portage",
+            "county_needed_for_uniq": false,
+            "lat": 44.536549,
+            "line": "201 Wilshire Blvd N Apt 11",
+            "postal_code": "54481",
+            "state_code": "WI",
+            "state": "Wisconsin",
+            "time_zone": "America/Chicago",
+            "lon": -89.549019
+        },
+        "client_display_flags": {
+            "presentation_status": "for_rent",
+            "is_showcase": false,
+            "lead_form_phone_required": true,
+            "price_change": -50,
+            "has_specials": false,
+            "is_mls_rental": false,
+            "is_rental_community": false,
+            "is_rental_unit": true,
+            "is_co_star": false,
+            "is_apartmentlist": false,
+            "suppress_map_pin": false,
+            "suppress_phone_call_lead_event": false,
+            "price_reduced": true,
+            "allows_cats": true,
+            "allows_dogs": true,
+            "allows_dogs_small": true,
+            "allows_dogs_large": true
+        },
+        "products": [
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL"
+        ],
+        "agents": [
+            {
+                "primary": true
+            }
+        ],
+        "lead_forms": {
+            "form": {
+                "name": {
+                    "required": true,
+                    "minimum_character_count": 1
+                },
+                "email": {
+                    "required": true,
+                    "minimum_character_count": 5
+                },
+                "move_in_date": {
+                    "required": false,
+                    "default_date": "2023-09-01T12:00:00Z",
+                    "minimum_days_from_today": 1,
+                    "maximum_days_from_today": 180
+                },
+                "phone": {
+                    "required": true,
+                    "minimum_character_count": 10,
+                    "maximum_character_count": 11
+                },
+                "message": {
+                    "required": false,
+                    "minimum_character_count": 0
+                },
+                "show": false
+            },
+            "show_agent": false,
+            "show_broker": false,
+            "show_provider": false,
+            "show_management": false
+        },
+        "lot_size": {
+            "size": 0,
+            "units": "sqft"
+        },
+        "building_size": {
+            "units": "sqft"
+        },
+        "price": 1100,
+        "rdc_web_url": "https://www.realtor.com/realestateandhomes-detail/201-Wilshire-Blvd-N-Apt-11_Stevens-Point_WI_54481_M99402-47471",
+        "rdc_app_url": "move-rdc://www.realtor.com/realestateandhomes-detail/201-Wilshire-Blvd-N-Apt-11_Stevens-Point_WI_54481_M99402-47471",
+        "baths": 2,
+        "data_source_name": "unit_rental",
+        "source": "unit_rental",
+        "page_no": 1,
+        "rank": 38,
+        "list_tracking": "type|property|data|prop_id|9940247471|list_id|2957515548|page|rank|list_branding|listing_agent|listing_office|data_source|unit_rental|property_status|product_code|advantage_code^1|12|0|0|3YA|W|0^^$0|1|2|$3|4|5|6|7|H|8|I|9|$A|J|B|K]|C|D|E|L|F|M|G|N]]",
+        "photo_count": 8,
+        "photos": [
+            {
+                "href": "https://ap.rdcpix.com/317f818023d724ba46355524848045c3l-m3134812176s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/317f818023d724ba46355524848045c3l-m797660106s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/317f818023d724ba46355524848045c3l-m4024707292s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/317f818023d724ba46355524848045c3l-m1453303175s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/317f818023d724ba46355524848045c3l-m2496692353s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/317f818023d724ba46355524848045c3l-m3019998765s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/317f818023d724ba46355524848045c3l-m1792636845s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/317f818023d724ba46355524848045c3l-m984252836s.jpg"
+            }
+        ]
+    },
+    {
+        "property_id": "R9226204735",
+        "listing_id": "2928912730",
+        "prop_type": "apartment",
+        "last_update": "2023-07-24T23:14:46.000Z",
+        "listing_status": "active",
+        "beds": 3,
+        "branding": {
+            "state_license": null
+        },
+        "baths_full": 1,
+        "price_reduced_date": "2023-07-25T00:31:24.928Z",
+        "baths_half": 1,
+        "prop_status": "for_rent",
+        "address": {
+            "city": "Stevens Point",
+            "country": "USA",
+            "county": "Portage",
+            "county_needed_for_uniq": false,
+            "lat": 44.536497,
+            "line": "3616 Doolittle Dr Apt 4",
+            "postal_code": "54481",
+            "state_code": "WI",
+            "state": "Wisconsin",
+            "time_zone": "America/Chicago",
+            "lon": -89.548474
+        },
+        "client_display_flags": {
+            "presentation_status": "for_rent",
+            "is_showcase": false,
+            "lead_form_phone_required": true,
+            "price_change": -50,
+            "has_specials": false,
+            "is_mls_rental": false,
+            "is_rental_community": false,
+            "is_rental_unit": true,
+            "is_co_star": false,
+            "is_apartmentlist": false,
+            "suppress_map_pin": false,
+            "suppress_phone_call_lead_event": false,
+            "price_reduced": true
+        },
+        "products": [
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL"
+        ],
+        "agents": [
+            {
+                "primary": true
+            }
+        ],
+        "lead_forms": {
+            "form": {
+                "name": {
+                    "required": true,
+                    "minimum_character_count": 1
+                },
+                "email": {
+                    "required": true,
+                    "minimum_character_count": 5
+                },
+                "move_in_date": {
+                    "required": false,
+                    "default_date": "2023-09-01T12:00:00Z",
+                    "minimum_days_from_today": 1,
+                    "maximum_days_from_today": 180
+                },
+                "phone": {
+                    "required": true,
+                    "minimum_character_count": 10,
+                    "maximum_character_count": 11
+                },
+                "message": {
+                    "required": false,
+                    "minimum_character_count": 0
+                },
+                "show": false
+            },
+            "show_agent": false,
+            "show_broker": false,
+            "show_provider": false,
+            "show_management": false
+        },
+        "lot_size": {
+            "size": 0,
+            "units": "sqft"
+        },
+        "building_size": {
+            "units": "sqft"
+        },
+        "price": 1050,
+        "rdc_web_url": "https://www.realtor.com/realestateandhomes-detail/3616-Doolittle-Dr-Apt-4_Stevens-Point_WI_54481_M92262-04735",
+        "rdc_app_url": "move-rdc://www.realtor.com/realestateandhomes-detail/3616-Doolittle-Dr-Apt-4_Stevens-Point_WI_54481_M92262-04735",
+        "baths": 2,
+        "data_source_name": "unit_rental",
+        "source": "unit_rental",
+        "page_no": 1,
+        "rank": 39,
+        "list_tracking": "type|property|data|prop_id|9226204735|list_id|2928912730|page|rank|list_branding|listing_agent|listing_office|data_source|unit_rental|property_status|product_code|advantage_code^1|13|0|0|3YA|W|0^^$0|1|2|$3|4|5|6|7|H|8|I|9|$A|J|B|K]|C|D|E|L|F|M|G|N]]",
+        "photo_count": 8,
+        "photos": [
+            {
+                "href": "https://ap.rdcpix.com/d0030010e33b4f441077bb9bfd21d06el-m3699738186s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/d0030010e33b4f441077bb9bfd21d06el-m173035287s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/d0030010e33b4f441077bb9bfd21d06el-m3832514244s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/d0030010e33b4f441077bb9bfd21d06el-m2915200330s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/d0030010e33b4f441077bb9bfd21d06el-m2915200330s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/d0030010e33b4f441077bb9bfd21d06el-m3699738186s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/d0030010e33b4f441077bb9bfd21d06el-m3832514244s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/d0030010e33b4f441077bb9bfd21d06el-m173035287s.jpg"
+            }
+        ]
+    },
+    {
+        "property_id": "R9290983844",
+        "listing_id": "2957492948",
+        "prop_type": "apartment",
+        "last_update": "2023-07-24T23:14:46.000Z",
+        "listing_status": "active",
+        "beds": 3,
+        "branding": {
+            "state_license": null
+        },
+        "baths_full": 1,
+        "price_reduced_date": "2023-07-25T00:31:24.928Z",
+        "baths_half": 1,
+        "prop_status": "for_rent",
+        "address": {
+            "city": "Stevens Point",
+            "country": "USA",
+            "county": "Portage",
+            "county_needed_for_uniq": false,
+            "lat": 44.536549,
+            "line": "201 Wilshire Blvd N Apt 10",
+            "postal_code": "54481",
+            "state_code": "WI",
+            "state": "Wisconsin",
+            "time_zone": "America/Chicago",
+            "lon": -89.549019
+        },
+        "client_display_flags": {
+            "presentation_status": "for_rent",
+            "is_showcase": false,
+            "lead_form_phone_required": true,
+            "price_change": -50,
+            "has_specials": false,
+            "is_mls_rental": false,
+            "is_rental_community": false,
+            "is_rental_unit": true,
+            "is_co_star": false,
+            "is_apartmentlist": false,
+            "suppress_map_pin": false,
+            "suppress_phone_call_lead_event": false,
+            "price_reduced": true,
+            "allows_cats": true,
+            "allows_dogs": true,
+            "allows_dogs_small": true,
+            "allows_dogs_large": true
+        },
+        "products": [
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL"
+        ],
+        "agents": [
+            {
+                "primary": true
+            }
+        ],
+        "lead_forms": {
+            "form": {
+                "name": {
+                    "required": true,
+                    "minimum_character_count": 1
+                },
+                "email": {
+                    "required": true,
+                    "minimum_character_count": 5
+                },
+                "move_in_date": {
+                    "required": false,
+                    "default_date": "2023-09-01T12:00:00Z",
+                    "minimum_days_from_today": 1,
+                    "maximum_days_from_today": 180
+                },
+                "phone": {
+                    "required": true,
+                    "minimum_character_count": 10,
+                    "maximum_character_count": 11
+                },
+                "message": {
+                    "required": false,
+                    "minimum_character_count": 0
+                },
+                "show": false
+            },
+            "show_agent": false,
+            "show_broker": false,
+            "show_provider": false,
+            "show_management": false
+        },
+        "lot_size": {
+            "size": 0,
+            "units": "sqft"
+        },
+        "building_size": {
+            "units": "sqft"
+        },
+        "price": 1150,
+        "rdc_web_url": "https://www.realtor.com/realestateandhomes-detail/201-Wilshire-Blvd-N-Apt-10_Stevens-Point_WI_54481_M92909-83844",
+        "rdc_app_url": "move-rdc://www.realtor.com/realestateandhomes-detail/201-Wilshire-Blvd-N-Apt-10_Stevens-Point_WI_54481_M92909-83844",
+        "baths": 2,
+        "data_source_name": "unit_rental",
+        "source": "unit_rental",
+        "page_no": 1,
+        "rank": 40,
+        "list_tracking": "type|property|data|prop_id|9290983844|list_id|2957492948|page|rank|list_branding|listing_agent|listing_office|data_source|unit_rental|property_status|product_code|advantage_code^1|14|0|0|3YA|W|0^^$0|1|2|$3|4|5|6|7|H|8|I|9|$A|J|B|K]|C|D|E|L|F|M|G|N]]",
+        "photo_count": 8,
+        "photos": [
+            {
+                "href": "https://ap.rdcpix.com/74c8008780307cadc99b78a64bc25845l-m2282290313s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/74c8008780307cadc99b78a64bc25845l-m207331569s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/74c8008780307cadc99b78a64bc25845l-m266202334s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/74c8008780307cadc99b78a64bc25845l-m1123692422s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/74c8008780307cadc99b78a64bc25845l-m188182839s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/74c8008780307cadc99b78a64bc25845l-m3444285049s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/74c8008780307cadc99b78a64bc25845l-m2656170561s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/74c8008780307cadc99b78a64bc25845l-m2295966173s.jpg"
+            }
+        ]
+    },
+    {
+        "property_id": "R8070447543",
+        "listing_id": "2957504202",
+        "prop_type": "other",
+        "list_date": "2023-07-08T12:19:07.000Z",
+        "last_update": "2023-07-14T12:19:17.000Z",
+        "listing_status": "active",
+        "beds": 0,
+        "branding": {
+            "state_license": null
+        },
+        "prop_status": "for_rent",
+        "address": {
+            "city": "Stevens Point",
+            "country": "USA",
+            "county": "Portage",
+            "county_needed_for_uniq": false,
+            "lat": 44.510083,
+            "line": "3509 Bush St",
+            "postal_code": "54481",
+            "state_code": "WI",
+            "state": "Wisconsin",
+            "time_zone": "America/Chicago",
+            "lon": -89.55075
+        },
+        "client_display_flags": {
+            "presentation_status": "for_rent",
+            "is_showcase": false,
+            "lead_form_phone_required": true,
+            "price_change": 0,
+            "has_specials": false,
+            "is_mls_rental": false,
+            "is_rental_community": true,
+            "is_rental_unit": false,
+            "is_co_star": false,
+            "is_apartmentlist": false,
+            "suppress_map_pin": false,
+            "suppress_phone_call_lead_event": false,
+            "price_reduced": false,
+            "allows_cats": false,
+            "allows_dogs": false
+        },
+        "products": [
+            "basic",
+            "_COMMUNITY_RENTAL",
+            "_COMMUNITY_RENTAL",
+            "_COMMUNITY_RENTAL",
+            "_COMMUNITY_RENTAL",
+            "_COMMUNITY_RENTAL"
+        ],
+        "agents": [
+            {
+                "primary": true
+            }
+        ],
+        "lead_forms": {
+            "form": {
+                "name": {
+                    "required": true,
+                    "minimum_character_count": 1
+                },
+                "email": {
+                    "required": true,
+                    "minimum_character_count": 5
+                },
+                "move_in_date": {
+                    "required": false,
+                    "default_date": "2023-09-01T12:00:00Z",
+                    "minimum_days_from_today": 1,
+                    "maximum_days_from_today": 180
+                },
+                "phone": {
+                    "required": true,
+                    "minimum_character_count": 10,
+                    "maximum_character_count": 11
+                },
+                "message": {
+                    "required": false,
+                    "minimum_character_count": 0
+                },
+                "show": false
+            },
+            "show_agent": false,
+            "show_broker": false,
+            "show_provider": false,
+            "show_management": false
+        },
+        "lot_size": {
+            "size": 0,
+            "units": "sqft"
+        },
+        "building_size": {
+            "units": "sqft"
+        },
+        "rdc_web_url": "https://www.realtor.com/realestateandhomes-detail/3509-Bush-St_Stevens-Point_WI_54481_M80704-47543",
+        "rdc_app_url": "move-rdc://www.realtor.com/realestateandhomes-detail/3509-Bush-St_Stevens-Point_WI_54481_M80704-47543",
+        "community": {
+            "baths_max": 0,
+            "baths_min": 0,
+            "beds_max": 0,
+            "beds_min": 0,
+            "contact_number": "(715) 350-8900",
+            "id": 3945844,
+            "name": "ABC Rental Management LLC",
+            "price_max": 200,
+            "price_min": 100,
+            "source_id": "6944190",
+            "sqft_max": 576,
+            "sqft_min": 288
+        },
+        "data_source_name": "community_rental",
+        "source": "community",
+        "page_no": 1,
+        "rank": 41,
+        "list_tracking": "type|property|data|prop_id|8070447543|list_id|2957504202|comm_id|3945844|page|rank|list_branding|listing_agent|listing_office|data_source|community_rental|property_status|product_code|advantage_code^1|15|0|0|3K2|W|0^^$0|1|2|$3|4|5|6|7|8|9|J|A|K|B|$C|L|D|M]|E|F|G|N|H|O|I|P]]",
+        "photo_count": 8,
+        "photos": [
+            {
+                "href": "https://ar.rdcpix.com/97363d22f04830495e2d7c2984a78f8fc-f668403816s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/97363d22f04830495e2d7c2984a78f8fc-f2461799800s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/97363d22f04830495e2d7c2984a78f8fc-f2938519569s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/97363d22f04830495e2d7c2984a78f8fc-f853044401s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/97363d22f04830495e2d7c2984a78f8fc-f668403816s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/97363d22f04830495e2d7c2984a78f8fc-f2938519569s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/97363d22f04830495e2d7c2984a78f8fc-f4292497527s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/97363d22f04830495e2d7c2984a78f8fc-f2461799800s.jpg"
+            }
+        ]
+    },
+    {
+        "property_id": "R9432081010",
+        "listing_id": "2957454242",
+        "prop_type": "apartment",
+        "list_date": "2023-07-07T06:22:49.000Z",
+        "last_update": "2023-07-07T06:22:49.000Z",
+        "listing_status": "active",
+        "beds": 1,
+        "branding": {
+            "state_license": null
+        },
+        "baths_full": 1,
+        "prop_status": "for_rent",
+        "address": {
+            "city": "Stevens Point",
+            "country": "USA",
+            "county": "Portage",
+            "county_needed_for_uniq": false,
+            "lat": 44.527328,
+            "line": "1530 Franklin St Apt 1",
+            "postal_code": "54481",
+            "state_code": "WI",
+            "state": "Wisconsin",
+            "time_zone": "America/Chicago",
+            "lon": -89.576309
+        },
+        "client_display_flags": {
+            "presentation_status": "for_rent",
+            "is_showcase": false,
+            "lead_form_phone_required": true,
+            "price_change": 0,
+            "has_specials": false,
+            "is_mls_rental": false,
+            "is_rental_community": false,
+            "is_rental_unit": true,
+            "is_co_star": false,
+            "is_apartmentlist": false,
+            "suppress_map_pin": false,
+            "suppress_phone_call_lead_event": false,
+            "price_reduced": false
+        },
+        "products": [
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL"
+        ],
+        "agents": [
+            {
+                "primary": true
+            }
+        ],
+        "lead_forms": {
+            "form": {
+                "name": {
+                    "required": true,
+                    "minimum_character_count": 1
+                },
+                "email": {
+                    "required": true,
+                    "minimum_character_count": 5
+                },
+                "move_in_date": {
+                    "required": false,
+                    "default_date": "2023-09-01T12:00:00Z",
+                    "minimum_days_from_today": 1,
+                    "maximum_days_from_today": 180
+                },
+                "phone": {
+                    "required": true,
+                    "minimum_character_count": 10,
+                    "maximum_character_count": 11
+                },
+                "message": {
+                    "required": false,
+                    "minimum_character_count": 0
+                },
+                "show": false
+            },
+            "show_agent": false,
+            "show_broker": false,
+            "show_provider": false,
+            "show_management": false
+        },
+        "lot_size": {
+            "size": 0,
+            "units": "sqft"
+        },
+        "building_size": {
+            "units": "sqft"
+        },
+        "price": 700,
+        "rdc_web_url": "https://www.realtor.com/realestateandhomes-detail/1530-Franklin-St-Apt-1_Stevens-Point_WI_54481_M94320-81010",
+        "rdc_app_url": "move-rdc://www.realtor.com/realestateandhomes-detail/1530-Franklin-St-Apt-1_Stevens-Point_WI_54481_M94320-81010",
+        "baths": 1,
+        "data_source_name": "unit_rental",
+        "source": "unit_rental",
+        "page_no": 1,
+        "rank": 42,
+        "list_tracking": "type|property|data|prop_id|9432081010|list_id|2957454242|page|rank|list_branding|listing_agent|listing_office|data_source|unit_rental|property_status|product_code|advantage_code^1|16|0|0|3YA|W|0^^$0|1|2|$3|4|5|6|7|H|8|I|9|$A|J|B|K]|C|D|E|L|F|M|G|N]]",
+        "photo_count": 8,
+        "photos": [
+            {
+                "href": "https://ap.rdcpix.com/cf4820f5f946e514bf03ac8ea1b123fbl-m1973070775s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/cf4820f5f946e514bf03ac8ea1b123fbl-m4120063914s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/cf4820f5f946e514bf03ac8ea1b123fbl-m2092820586s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/cf4820f5f946e514bf03ac8ea1b123fbl-m4125992663s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/cf4820f5f946e514bf03ac8ea1b123fbl-m3628173697s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/cf4820f5f946e514bf03ac8ea1b123fbl-m4023677326s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/cf4820f5f946e514bf03ac8ea1b123fbl-m2303850994s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/cf4820f5f946e514bf03ac8ea1b123fbl-m1973070775s.jpg"
+            }
+        ]
+    },
+    {
+        "property_id": "R8141362459",
+        "listing_id": "2958169824",
+        "prop_type": "apartment",
+        "list_date": "2023-07-29T12:19:05.000Z",
+        "last_update": "2023-07-29T12:19:05.000Z",
+        "listing_status": "active",
+        "beds": 0,
+        "branding": {
+            "state_license": null
+        },
+        "prop_status": "for_rent",
+        "address": {
+            "city": "Stevens Point",
+            "country": "USA",
+            "county": "Portage",
+            "county_needed_for_uniq": false,
+            "lat": 44.525445,
+            "line": "1708 Briggs St",
+            "postal_code": "54481",
+            "state_code": "WI",
+            "state": "Wisconsin",
+            "time_zone": "America/Chicago",
+            "lon": -89.57439
+        },
+        "client_display_flags": {
+            "presentation_status": "for_rent",
+            "is_showcase": false,
+            "lead_form_phone_required": true,
+            "price_change": 0,
+            "has_specials": false,
+            "is_new_listing": true,
+            "is_mls_rental": false,
+            "is_rental_community": true,
+            "is_rental_unit": false,
+            "is_co_star": false,
+            "is_apartmentlist": false,
+            "suppress_map_pin": false,
+            "suppress_phone_call_lead_event": false,
+            "price_reduced": false,
+            "allows_cats": false,
+            "allows_dogs": false
+        },
+        "products": [
+            "basic",
+            "_COMMUNITY_RENTAL",
+            "_COMMUNITY_RENTAL",
+            "_COMMUNITY_RENTAL",
+            "_COMMUNITY_RENTAL",
+            "_COMMUNITY_RENTAL"
+        ],
+        "agents": [
+            {
+                "primary": true
+            }
+        ],
+        "lead_forms": {
+            "form": {
+                "name": {
+                    "required": true,
+                    "minimum_character_count": 1
+                },
+                "email": {
+                    "required": true,
+                    "minimum_character_count": 5
+                },
+                "move_in_date": {
+                    "required": false,
+                    "default_date": "2023-09-01T12:00:00Z",
+                    "minimum_days_from_today": 1,
+                    "maximum_days_from_today": 180
+                },
+                "phone": {
+                    "required": true,
+                    "minimum_character_count": 10,
+                    "maximum_character_count": 11
+                },
+                "message": {
+                    "required": false,
+                    "minimum_character_count": 0
+                },
+                "show": false
+            },
+            "show_agent": false,
+            "show_broker": false,
+            "show_provider": false,
+            "show_management": false
+        },
+        "lot_size": {
+            "size": 0,
+            "units": "sqft"
+        },
+        "building_size": {
+            "units": "sqft"
+        },
+        "rdc_web_url": "https://www.realtor.com/realestateandhomes-detail/1708-Briggs-St_Stevens-Point_WI_54481_M81413-62459",
+        "rdc_app_url": "move-rdc://www.realtor.com/realestateandhomes-detail/1708-Briggs-St_Stevens-Point_WI_54481_M81413-62459",
+        "community": {
+            "baths_max": 1,
+            "baths_min": 1,
+            "beds_max": 2,
+            "beds_min": 2,
+            "contact_number": "(715) 252-1184",
+            "id": 3962207,
+            "name": "ESOX Properties LLC",
+            "price_max": 800,
+            "price_min": 800,
+            "source_id": "8179137",
+            "sqft_max": null,
+            "sqft_min": null,
+            "sqft_hint": "CALL"
+        },
+        "data_source_name": "community_rental",
+        "source": "community",
+        "page_no": 1,
+        "rank": 43,
+        "list_tracking": "type|property|data|prop_id|8141362459|list_id|2958169824|comm_id|3962207|page|rank|list_branding|listing_agent|listing_office|data_source|community_rental|property_status|product_code|advantage_code^1|17|0|0|3K2|W|0^^$0|1|2|$3|4|5|6|7|8|9|J|A|K|B|$C|L|D|M]|E|F|G|N|H|O|I|P]]",
+        "photo_count": 7,
+        "photos": [
+            {
+                "href": "https://ar.rdcpix.com/edc3471262608b8fd31cbf0545fac714c-f3851721894s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/edc3471262608b8fd31cbf0545fac714c-f1976836030s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/edc3471262608b8fd31cbf0545fac714c-f4222815423s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/edc3471262608b8fd31cbf0545fac714c-f2507051230s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/edc3471262608b8fd31cbf0545fac714c-f1422065790s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/edc3471262608b8fd31cbf0545fac714c-f1475321964s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/edc3471262608b8fd31cbf0545fac714c-f4284581584s.jpg"
+            }
+        ]
+    },
+    {
+        "property_id": "R8056184377",
+        "listing_id": "2947442043",
+        "prop_type": "apartment",
+        "list_date": "2023-06-22T12:18:55.000Z",
+        "last_update": "2023-06-24T12:19:14.000Z",
+        "year_built": 1979,
+        "listing_status": "active",
+        "beds": 0,
+        "branding": {
+            "state_license": null
+        },
+        "prop_status": "for_rent",
+        "address": {
+            "city": "Stevens Point",
+            "country": "USA",
+            "county": "Portage",
+            "county_needed_for_uniq": false,
+            "lat": 44.56313,
+            "line": "215 Jordan Rd",
+            "postal_code": "54481",
+            "state_code": "WI",
+            "state": "Wisconsin",
+            "time_zone": "America/Chicago",
+            "lon": -89.593767
+        },
+        "client_display_flags": {
+            "presentation_status": "for_rent",
+            "is_showcase": false,
+            "lead_form_phone_required": true,
+            "price_change": 0,
+            "has_specials": false,
+            "is_mls_rental": false,
+            "is_rental_community": true,
+            "is_rental_unit": false,
+            "is_co_star": false,
+            "is_apartmentlist": false,
+            "suppress_map_pin": false,
+            "suppress_phone_call_lead_event": false,
+            "price_reduced": false,
+            "allows_cats": true,
+            "allows_dogs": true,
+            "allows_dogs_small": true
+        },
+        "products": [
+            "basic",
+            "_COMMUNITY_RENTAL",
+            "_COMMUNITY_RENTAL",
+            "_COMMUNITY_RENTAL",
+            "_COMMUNITY_RENTAL",
+            "_COMMUNITY_RENTAL"
+        ],
+        "agents": [
+            {
+                "primary": true
+            }
+        ],
+        "lead_forms": {
+            "form": {
+                "name": {
+                    "required": true,
+                    "minimum_character_count": 1
+                },
+                "email": {
+                    "required": true,
+                    "minimum_character_count": 5
+                },
+                "move_in_date": {
+                    "required": false,
+                    "default_date": "2023-09-01T12:00:00Z",
+                    "minimum_days_from_today": 1,
+                    "maximum_days_from_today": 180
+                },
+                "phone": {
+                    "required": true,
+                    "minimum_character_count": 10,
+                    "maximum_character_count": 11
+                },
+                "message": {
+                    "required": false,
+                    "minimum_character_count": 0
+                },
+                "show": false
+            },
+            "show_agent": false,
+            "show_broker": false,
+            "show_provider": false,
+            "show_management": false
+        },
+        "lot_size": {
+            "size": 0,
+            "units": "sqft"
+        },
+        "building_size": {
+            "units": "sqft"
+        },
+        "rdc_web_url": "https://www.realtor.com/realestateandhomes-detail/215-Jordan-Rd_Stevens-Point_WI_54481_M80561-84377",
+        "rdc_app_url": "move-rdc://www.realtor.com/realestateandhomes-detail/215-Jordan-Rd_Stevens-Point_WI_54481_M80561-84377",
+        "community": {
+            "baths_max": 1,
+            "baths_min": 1,
+            "beds_max": 2,
+            "beds_min": 2,
+            "contact_number": "(715) 496-0546",
+            "id": 3930808,
+            "name": "North Valley Holdings LLC",
+            "price_max": 995,
+            "price_min": 995,
+            "source_id": "7681577",
+            "sqft_max": null,
+            "sqft_min": null,
+            "sqft_hint": "CALL"
+        },
+        "data_source_name": "community_rental",
+        "source": "community",
+        "page_no": 2,
+        "rank": 1,
+        "list_tracking": "type|property|data|prop_id|8056184377|list_id|2947442043|comm_id|3930808|page|rank|list_branding|listing_agent|listing_office|data_source|community_rental|property_status|product_code|advantage_code^2|1|0|0|3K2|W|0^^$0|1|2|$3|4|5|6|7|8|9|J|A|K|B|$C|L|D|M]|E|F|G|N|H|O|I|P]]",
+        "photo_count": 7,
+        "photos": [
+            {
+                "href": "https://ar.rdcpix.com/7324f994e0190e1df81fda350df4cda2c-f2306327979s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/7324f994e0190e1df81fda350df4cda2c-f2306327979s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/7324f994e0190e1df81fda350df4cda2c-f805886478s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/7324f994e0190e1df81fda350df4cda2c-f1875751784s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/7324f994e0190e1df81fda350df4cda2c-f445876885s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/7324f994e0190e1df81fda350df4cda2c-f1935976281s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/7324f994e0190e1df81fda350df4cda2c-f1407640793s.jpg"
+            }
+        ]
+    },
+    {
+        "property_id": "R9207578289",
+        "listing_id": "2956734722",
+        "prop_type": "condo",
+        "last_update": "2023-06-14T23:15:38.000Z",
+        "listing_status": "active",
+        "beds": 0,
+        "branding": {
+            "state_license": null
+        },
+        "prop_status": "for_rent",
+        "address": {
+            "city": "Stevens Point",
+            "country": "USA",
+            "county": "Portage",
+            "county_needed_for_uniq": false,
+            "lat": 44.498325,
+            "line": "3442 Church St",
+            "postal_code": "54481",
+            "state_code": "WI",
+            "state": "Wisconsin",
+            "time_zone": "America/Chicago",
+            "lon": -89.562615
+        },
+        "client_display_flags": {
+            "presentation_status": "for_rent",
+            "is_showcase": false,
+            "lead_form_phone_required": true,
+            "price_change": 0,
+            "has_specials": false,
+            "is_mls_rental": false,
+            "is_rental_community": false,
+            "is_rental_unit": true,
+            "is_co_star": false,
+            "is_apartmentlist": false,
+            "suppress_map_pin": false,
+            "suppress_phone_call_lead_event": false,
+            "price_reduced": false
+        },
+        "products": [
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL"
+        ],
+        "agents": [
+            {
+                "primary": true
+            }
+        ],
+        "lead_forms": {
+            "form": {
+                "name": {
+                    "required": true,
+                    "minimum_character_count": 1
+                },
+                "email": {
+                    "required": true,
+                    "minimum_character_count": 5
+                },
+                "move_in_date": {
+                    "required": false,
+                    "default_date": "2023-09-01T12:00:00Z",
+                    "minimum_days_from_today": 1,
+                    "maximum_days_from_today": 180
+                },
+                "phone": {
+                    "required": true,
+                    "minimum_character_count": 10,
+                    "maximum_character_count": 11
+                },
+                "message": {
+                    "required": false,
+                    "minimum_character_count": 0
+                },
+                "show": false
+            },
+            "show_agent": false,
+            "show_broker": false,
+            "show_provider": false,
+            "show_management": false
+        },
+        "lot_size": {
+            "size": 0,
+            "units": "sqft"
+        },
+        "building_size": {
+            "units": "sqft"
+        },
+        "price": 425,
+        "rdc_web_url": "https://www.realtor.com/realestateandhomes-detail/3442-Church-St_Stevens-Point_WI_54481_M92075-78289",
+        "rdc_app_url": "move-rdc://www.realtor.com/realestateandhomes-detail/3442-Church-St_Stevens-Point_WI_54481_M92075-78289",
+        "data_source_name": "unit_rental",
+        "source": "unit_rental",
+        "page_no": 2,
+        "rank": 2,
+        "list_tracking": "type|property|data|prop_id|9207578289|list_id|2956734722|page|rank|list_branding|listing_agent|listing_office|data_source|unit_rental|property_status|product_code|advantage_code^2|2|0|0|3YA|W|0^^$0|1|2|$3|4|5|6|7|H|8|I|9|$A|J|B|K]|C|D|E|L|F|M|G|N]]",
+        "photo_count": 7,
+        "photos": [
+            {
+                "href": "https://ap.rdcpix.com/60b56e26d06e3bc4665e82c5289897e5l-m39565097s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/60b56e26d06e3bc4665e82c5289897e5l-m3899952716s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/60b56e26d06e3bc4665e82c5289897e5l-m3808389819s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/60b56e26d06e3bc4665e82c5289897e5l-m2932184103s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/60b56e26d06e3bc4665e82c5289897e5l-m314908067s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/60b56e26d06e3bc4665e82c5289897e5l-m188273675s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/60b56e26d06e3bc4665e82c5289897e5l-m2185528552s.jpg"
+            }
+        ]
+    },
+    {
+        "property_id": "R8129586421",
+        "listing_id": "2926451641",
+        "prop_type": "single_family",
+        "list_date": "2022-07-13T06:16:46.000Z",
+        "last_update": "2023-04-25T00:16:08.000Z",
+        "listing_status": "active",
+        "beds": 4,
+        "branding": {
+            "state_license": null
+        },
+        "baths_full": 2,
+        "prop_status": "for_rent",
+        "address": {
+            "city": "Stevens Point",
+            "country": "USA",
+            "county": "Portage",
+            "county_needed_for_uniq": false,
+            "lat": 44.532009,
+            "line": "308 Vincent St",
+            "postal_code": "54481",
+            "state_code": "WI",
+            "state": "Wisconsin",
+            "time_zone": "America/Chicago",
+            "lon": -89.576734
+        },
+        "client_display_flags": {
+            "presentation_status": "for_rent",
+            "is_showcase": false,
+            "lead_form_phone_required": true,
+            "price_change": 0,
+            "has_specials": false,
+            "is_mls_rental": false,
+            "is_rental_community": false,
+            "is_rental_unit": true,
+            "is_co_star": false,
+            "is_apartmentlist": false,
+            "suppress_map_pin": false,
+            "suppress_phone_call_lead_event": false,
+            "price_reduced": false
+        },
+        "products": [
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL"
+        ],
+        "agents": [
+            {
+                "primary": true
+            }
+        ],
+        "lead_forms": {
+            "form": {
+                "name": {
+                    "required": true,
+                    "minimum_character_count": 1
+                },
+                "email": {
+                    "required": true,
+                    "minimum_character_count": 5
+                },
+                "move_in_date": {
+                    "required": false,
+                    "default_date": "2023-09-01T12:00:00Z",
+                    "minimum_days_from_today": 1,
+                    "maximum_days_from_today": 180
+                },
+                "phone": {
+                    "required": true,
+                    "minimum_character_count": 10,
+                    "maximum_character_count": 11
+                },
+                "message": {
+                    "required": false,
+                    "minimum_character_count": 0
+                },
+                "show": false
+            },
+            "show_agent": false,
+            "show_broker": false,
+            "show_provider": false,
+            "show_management": false
+        },
+        "lot_size": {
+            "size": 0,
+            "units": "sqft"
+        },
+        "building_size": {
+            "size": 1800,
+            "units": "sqft"
+        },
+        "price": 1500,
+        "rdc_web_url": "https://www.realtor.com/realestateandhomes-detail/308-Vincent-St_Stevens-Point_WI_54481_M81295-86421",
+        "rdc_app_url": "move-rdc://www.realtor.com/realestateandhomes-detail/308-Vincent-St_Stevens-Point_WI_54481_M81295-86421",
+        "baths": 2,
+        "data_source_name": "unit_rental",
+        "source": "unit_rental",
+        "page_no": 2,
+        "rank": 3,
+        "list_tracking": "type|property|data|prop_id|8129586421|list_id|2926451641|page|rank|list_branding|listing_agent|listing_office|data_source|unit_rental|property_status|product_code|advantage_code^2|3|0|0|3YA|W|0^^$0|1|2|$3|4|5|6|7|H|8|I|9|$A|J|B|K]|C|D|E|L|F|M|G|N]]",
+        "photo_count": 7,
+        "photos": [
+            {
+                "href": "https://ap.rdcpix.com/525273e16e0cacc2148637ce9a3683dal-m1158141186s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/525273e16e0cacc2148637ce9a3683dal-m1616260513s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/525273e16e0cacc2148637ce9a3683dal-m2635893831s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/525273e16e0cacc2148637ce9a3683dal-m3593536581s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/525273e16e0cacc2148637ce9a3683dal-m4273978492s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/525273e16e0cacc2148637ce9a3683dal-m3417809035s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/525273e16e0cacc2148637ce9a3683dal-m928577517s.jpg"
+            }
+        ]
+    },
+    {
+        "property_id": "R7369530984",
+        "listing_id": "2952258287",
+        "prop_type": "apartment",
+        "list_date": "2023-02-09T12:17:51.000Z",
+        "last_update": "2023-05-17T12:19:00.000Z",
+        "listing_status": "active",
+        "beds": 0,
+        "branding": {
+            "state_license": null
+        },
+        "prop_status": "for_rent",
+        "address": {
+            "city": "Stevens Point",
+            "country": "USA",
+            "county": "Portage",
+            "county_needed_for_uniq": false,
+            "lat": 44.54198,
+            "line": "1266 Northpoint Dr",
+            "postal_code": "54481",
+            "state_code": "WI",
+            "state": "Wisconsin",
+            "time_zone": "America/Chicago",
+            "lon": -89.58148
+        },
+        "client_display_flags": {
+            "presentation_status": "for_rent",
+            "is_showcase": false,
+            "lead_form_phone_required": true,
+            "price_change": 0,
+            "has_specials": false,
+            "is_mls_rental": false,
+            "is_rental_community": true,
+            "is_rental_unit": false,
+            "is_co_star": false,
+            "is_apartmentlist": false,
+            "suppress_map_pin": false,
+            "suppress_phone_call_lead_event": false,
+            "price_reduced": false,
+            "allows_cats": true,
+            "allows_dogs": false
+        },
+        "products": [
+            "basic",
+            "_COMMUNITY_RENTAL",
+            "_COMMUNITY_RENTAL",
+            "_COMMUNITY_RENTAL",
+            "_COMMUNITY_RENTAL",
+            "_COMMUNITY_RENTAL"
+        ],
+        "agents": [
+            {
+                "primary": true
+            }
+        ],
+        "lead_forms": {
+            "form": {
+                "name": {
+                    "required": true,
+                    "minimum_character_count": 1
+                },
+                "email": {
+                    "required": true,
+                    "minimum_character_count": 5
+                },
+                "move_in_date": {
+                    "required": false,
+                    "default_date": "2023-09-01T12:00:00Z",
+                    "minimum_days_from_today": 1,
+                    "maximum_days_from_today": 180
+                },
+                "phone": {
+                    "required": true,
+                    "minimum_character_count": 10,
+                    "maximum_character_count": 11
+                },
+                "message": {
+                    "required": false,
+                    "minimum_character_count": 0
+                },
+                "show": false
+            },
+            "show_agent": false,
+            "show_broker": false,
+            "show_provider": false,
+            "show_management": false
+        },
+        "lot_size": {
+            "size": 0,
+            "units": "sqft"
+        },
+        "building_size": {
+            "units": "sqft"
+        },
+        "rdc_web_url": "https://www.realtor.com/realestateandhomes-detail/1266-N-Point-Dr_Stevens-Point_WI_54481_M73695-30984",
+        "rdc_app_url": "move-rdc://www.realtor.com/realestateandhomes-detail/1266-N-Point-Dr_Stevens-Point_WI_54481_M73695-30984",
+        "community": {
+            "baths_max": 1,
+            "baths_min": 1,
+            "beds_max": 2,
+            "beds_min": 2,
+            "contact_number": "(715) 341-1405",
+            "id": 3722728,
+            "name": "Evergreen Apartments",
+            "price_max": null,
+            "price_min": null,
+            "price_hint": "CALL",
+            "source_id": "2744789",
+            "sqft_max": null,
+            "sqft_min": null,
+            "sqft_hint": "CALL"
+        },
+        "data_source_name": "community_rental",
+        "source": "community",
+        "page_no": 2,
+        "rank": 4,
+        "list_tracking": "type|property|data|prop_id|7369530984|list_id|2952258287|comm_id|3722728|page|rank|list_branding|listing_agent|listing_office|data_source|community_rental|property_status|product_code|advantage_code^2|4|0|0|3K2|W|0^^$0|1|2|$3|4|5|6|7|8|9|J|A|K|B|$C|L|D|M]|E|F|G|N|H|O|I|P]]",
+        "photo_count": 6,
+        "photos": [
+            {
+                "href": "https://ar.rdcpix.com/368fc5ad030040a0ccfc44557bb94629c-f1124893236s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/368fc5ad030040a0ccfc44557bb94629c-f107204713s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/368fc5ad030040a0ccfc44557bb94629c-f1671138869s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/368fc5ad030040a0ccfc44557bb94629c-f844212727s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/368fc5ad030040a0ccfc44557bb94629c-f1637638563s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/368fc5ad030040a0ccfc44557bb94629c-f1204651800s.jpg"
+            }
+        ]
+    },
+    {
+        "property_id": "R9282881600",
+        "listing_id": "2957515587",
+        "prop_type": "apartment",
+        "last_update": "2023-07-24T23:14:46.000Z",
+        "listing_status": "active",
+        "beds": 4,
+        "branding": {
+            "state_license": null
+        },
+        "baths_full": 1,
+        "price_reduced_date": "2023-07-25T00:31:24.928Z",
+        "baths_half": 1,
+        "prop_status": "for_rent",
+        "address": {
+            "city": "Stevens Point",
+            "country": "USA",
+            "county": "Portage",
+            "county_needed_for_uniq": false,
+            "lat": 44.536308,
+            "line": "3616 Doolittle Dr Apt 5",
+            "postal_code": "54481",
+            "state_code": "WI",
+            "state": "Wisconsin",
+            "time_zone": "America/Chicago",
+            "lon": -89.5485
+        },
+        "client_display_flags": {
+            "presentation_status": "for_rent",
+            "is_showcase": false,
+            "lead_form_phone_required": true,
+            "price_change": -50,
+            "has_specials": false,
+            "is_mls_rental": false,
+            "is_rental_community": false,
+            "is_rental_unit": true,
+            "is_co_star": false,
+            "is_apartmentlist": false,
+            "suppress_map_pin": false,
+            "suppress_phone_call_lead_event": false,
+            "price_reduced": true
+        },
+        "products": [
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL"
+        ],
+        "agents": [
+            {
+                "primary": true
+            }
+        ],
+        "lead_forms": {
+            "form": {
+                "name": {
+                    "required": true,
+                    "minimum_character_count": 1
+                },
+                "email": {
+                    "required": true,
+                    "minimum_character_count": 5
+                },
+                "move_in_date": {
+                    "required": false,
+                    "default_date": "2023-09-01T12:00:00Z",
+                    "minimum_days_from_today": 1,
+                    "maximum_days_from_today": 180
+                },
+                "phone": {
+                    "required": true,
+                    "minimum_character_count": 10,
+                    "maximum_character_count": 11
+                },
+                "message": {
+                    "required": false,
+                    "minimum_character_count": 0
+                },
+                "show": false
+            },
+            "show_agent": false,
+            "show_broker": false,
+            "show_provider": false,
+            "show_management": false
+        },
+        "lot_size": {
+            "size": 0,
+            "units": "sqft"
+        },
+        "building_size": {
+            "units": "sqft"
+        },
+        "price": 1200,
+        "rdc_web_url": "https://www.realtor.com/realestateandhomes-detail/3616-Doolittle-Dr-Apt-5_Stevens-Point_WI_54481_M92828-81600",
+        "rdc_app_url": "move-rdc://www.realtor.com/realestateandhomes-detail/3616-Doolittle-Dr-Apt-5_Stevens-Point_WI_54481_M92828-81600",
+        "baths": 2,
+        "data_source_name": "unit_rental",
+        "source": "unit_rental",
+        "page_no": 2,
+        "rank": 5,
+        "list_tracking": "type|property|data|prop_id|9282881600|list_id|2957515587|page|rank|list_branding|listing_agent|listing_office|data_source|unit_rental|property_status|product_code|advantage_code^2|5|0|0|3YA|W|0^^$0|1|2|$3|4|5|6|7|H|8|I|9|$A|J|B|K]|C|D|E|L|F|M|G|N]]",
+        "photo_count": 4,
+        "photos": [
+            {
+                "href": "https://ap.rdcpix.com/c4157a28e5569566ae02ae83bf460cabl-m500209622s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/c4157a28e5569566ae02ae83bf460cabl-m2727287199s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/c4157a28e5569566ae02ae83bf460cabl-m1958109780s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/c4157a28e5569566ae02ae83bf460cabl-m2109602891s.jpg"
+            }
+        ]
+    },
+    {
+        "property_id": "R9354995452",
+        "listing_id": "2936396424",
+        "prop_type": "apartment",
+        "list_date": "2023-02-10T18:05:04.000Z",
+        "last_update": "2023-07-20T16:07:33.000Z",
+        "listing_status": "active",
+        "beds": 0,
+        "branding": {
+            "state_license": null
+        },
+        "baths_full": 1,
+        "prop_status": "for_rent",
+        "address": {
+            "city": "Stevens Point",
+            "country": "USA",
+            "county": "Portage",
+            "county_needed_for_uniq": false,
+            "lat": 44.526903,
+            "line": "908 Michigan Ave Unit A",
+            "postal_code": "54481",
+            "state_code": "WI",
+            "state": "Wisconsin",
+            "time_zone": "America/Chicago",
+            "lon": -89.564846
+        },
+        "client_display_flags": {
+            "presentation_status": "for_rent",
+            "is_showcase": false,
+            "lead_form_phone_required": true,
+            "price_change": 0,
+            "has_specials": false,
+            "is_mls_rental": false,
+            "is_rental_community": false,
+            "is_rental_unit": true,
+            "is_co_star": false,
+            "is_apartmentlist": false,
+            "suppress_map_pin": false,
+            "suppress_phone_call_lead_event": false,
+            "price_reduced": false,
+            "allows_cats": true,
+            "allows_dogs": true,
+            "allows_dogs_small": true,
+            "allows_dogs_large": true
+        },
+        "products": [
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL",
+            "_UNIT_RENTAL"
+        ],
+        "agents": [
+            {
+                "primary": true
+            }
+        ],
+        "lead_forms": {
+            "form": {
+                "name": {
+                    "required": true,
+                    "minimum_character_count": 1
+                },
+                "email": {
+                    "required": true,
+                    "minimum_character_count": 5
+                },
+                "move_in_date": {
+                    "required": false,
+                    "default_date": "2023-09-01T12:00:00Z",
+                    "minimum_days_from_today": 1,
+                    "maximum_days_from_today": 180
+                },
+                "phone": {
+                    "required": true,
+                    "minimum_character_count": 10,
+                    "maximum_character_count": 11
+                },
+                "message": {
+                    "required": false,
+                    "minimum_character_count": 0
+                },
+                "show": false
+            },
+            "show_agent": false,
+            "show_broker": false,
+            "show_provider": false,
+            "show_management": false
+        },
+        "lot_size": {
+            "size": 0,
+            "units": "sqft"
+        },
+        "building_size": {
+            "size": 400,
+            "units": "sqft"
+        },
+        "price": 700,
+        "rdc_web_url": "https://www.realtor.com/realestateandhomes-detail/908-Michigan-Ave-A_Stevens-Point_WI_54481_M93549-95452",
+        "rdc_app_url": "move-rdc://www.realtor.com/realestateandhomes-detail/908-Michigan-Ave-A_Stevens-Point_WI_54481_M93549-95452",
+        "baths": 1,
+        "data_source_name": "unit_rental",
+        "source": "unit_rental",
+        "page_no": 2,
+        "rank": 6,
+        "list_tracking": "type|property|data|prop_id|9354995452|list_id|2936396424|page|rank|list_branding|listing_agent|listing_office|data_source|unit_rental|property_status|product_code|advantage_code^2|6|0|0|3YA|W|0^^$0|1|2|$3|4|5|6|7|H|8|I|9|$A|J|B|K]|C|D|E|L|F|M|G|N]]",
+        "photo_count": 4,
+        "photos": [
+            {
+                "href": "https://ap.rdcpix.com/a41ba86afd23e57203ec126024a4fa94l-m2938131121s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/a41ba86afd23e57203ec126024a4fa94l-m1321206586s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/a41ba86afd23e57203ec126024a4fa94l-m2228642706s.jpg"
+            },
+            {
+                "href": "https://ap.rdcpix.com/a41ba86afd23e57203ec126024a4fa94l-m507987180s.jpg"
+            }
+        ]
+    },
+    {
+        "property_id": "R9780277525",
+        "listing_id": "2954575668",
+        "prop_type": "apartment",
+        "list_date": "2023-04-14T12:19:43.000Z",
+        "last_update": "2023-07-10T12:18:54.000Z",
+        "listing_status": "active",
+        "beds": 0,
+        "branding": {
+            "state_license": null
+        },
+        "prop_status": "for_rent",
+        "address": {
+            "city": "Stevens Point",
+            "country": "USA",
+            "county": "Portage",
+            "county_needed_for_uniq": false,
+            "lat": 44.542152,
+            "line": "1116 N Point Dr # 13D16",
+            "postal_code": "54481",
+            "state_code": "WI",
+            "state": "Wisconsin",
+            "time_zone": "America/Chicago",
+            "lon": -89.583611
+        },
+        "client_display_flags": {
+            "presentation_status": "for_rent",
+            "is_showcase": false,
+            "lead_form_phone_required": true,
+            "price_change": 0,
+            "has_specials": false,
+            "is_mls_rental": false,
+            "is_rental_community": true,
+            "is_rental_unit": false,
+            "is_co_star": false,
+            "is_apartmentlist": false,
+            "suppress_map_pin": false,
+            "suppress_phone_call_lead_event": false,
+            "price_reduced": false,
+            "allows_cats": true,
+            "allows_dogs": true,
+            "allows_dogs_small": true
+        },
+        "products": [
+            "basic",
+            "_COMMUNITY_RENTAL",
+            "_COMMUNITY_RENTAL",
+            "_COMMUNITY_RENTAL",
+            "_COMMUNITY_RENTAL",
+            "_COMMUNITY_RENTAL"
+        ],
+        "agents": [
+            {
+                "primary": true
+            }
+        ],
+        "lead_forms": {
+            "form": {
+                "name": {
+                    "required": true,
+                    "minimum_character_count": 1
+                },
+                "email": {
+                    "required": true,
+                    "minimum_character_count": 5
+                },
+                "move_in_date": {
+                    "required": false,
+                    "default_date": "2023-09-01T12:00:00Z",
+                    "minimum_days_from_today": 1,
+                    "maximum_days_from_today": 180
+                },
+                "phone": {
+                    "required": true,
+                    "minimum_character_count": 10,
+                    "maximum_character_count": 11
+                },
+                "message": {
+                    "required": false,
+                    "minimum_character_count": 0
+                },
+                "show": false
+            },
+            "show_agent": false,
+            "show_broker": false,
+            "show_provider": false,
+            "show_management": false
+        },
+        "lot_size": {
+            "size": 0,
+            "units": "sqft"
+        },
+        "building_size": {
+            "units": "sqft"
+        },
+        "rdc_web_url": "https://www.realtor.com/realestateandhomes-detail/1116-N-Point-Dr-D13-D16_Stevens-Point_WI_54481_M97802-77525",
+        "rdc_app_url": "move-rdc://www.realtor.com/realestateandhomes-detail/1116-N-Point-Dr-D13-D16_Stevens-Point_WI_54481_M97802-77525",
+        "community": {
+            "baths_max": 1,
+            "baths_min": 1,
+            "beds_max": 2,
+            "beds_min": 2,
+            "contact_number": "(715) 422-0819",
+            "id": 3859143,
+            "name": "Ruesch Companies",
+            "price_max": 775,
+            "price_min": 775,
+            "source_id": "8023003",
+            "sqft_max": 700,
+            "sqft_min": 700
+        },
+        "data_source_name": "community_rental",
+        "source": "community",
+        "page_no": 2,
+        "rank": 7,
+        "list_tracking": "type|property|data|prop_id|9780277525|list_id|2954575668|comm_id|3859143|page|rank|list_branding|listing_agent|listing_office|data_source|community_rental|property_status|product_code|advantage_code^2|7|0|0|3K2|W|0^^$0|1|2|$3|4|5|6|7|8|9|J|A|K|B|$C|L|D|M]|E|F|G|N|H|O|I|P]]",
+        "photo_count": 3,
+        "photos": [
+            {
+                "href": "https://ar.rdcpix.com/929c82983b907c5c350d70c66dc96c06c-f3242525876s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/929c82983b907c5c350d70c66dc96c06c-f166112943s.jpg"
+            },
+            {
+                "href": "https://ar.rdcpix.com/929c82983b907c5c350d70c66dc96c06c-f4241073421s.jpg"
+            }
+        ]
+    },
+    {
+        "property_id": "R9639489992",
+        "listing_id": "2952760092",
+        "prop_type": "apartment",
+        "list_date": "2023-02-25T00:26:57.000Z",
+        "last_update": "2023-08-01T12:19:08.000Z",
+        "listing_status": "active",
+        "beds": 0,
+        "branding": {
+            "state_license": null
+        },
+        "prop_status": "for_rent",
+        "address": {
+            "city": "Stevens Point",
+            "country": "USA",
+            "county": "Portage",
+            "county_needed_for_uniq": false,
+            "lat": 44.522054,
+            "line": "1408 Strongs Ave",
+            "postal_code": "54481",
+            "state_code": "WI",
+            "state": "Wisconsin",
+            "time_zone": "America/Chicago",
+            "neighborhood_name": "Downtown Stevens Point",
+            "neighborhoods": [
+                {
+                    "id": "5039d448-3ed3-52ce-b17b-87d17d7d3589",
+                    "level": "neighborhood",
+                    "name": "Downtown Stevens Point"
+                }
+            ],
+            "lon": -89.582856
+        },
+        "client_display_flags": {
+            "presentation_status": "for_rent",
+            "is_showcase": false,
+            "lead_form_phone_required": true,
+            "price_change": 0,
+            "has_specials": false,
+            "is_mls_rental": false,
+            "is_rental_community": true,
+            "is_rental_unit": false,
+            "is_co_star": false,
+            "is_apartmentlist": false,
+            "suppress_map_pin": false,
+            "suppress_phone_call_lead_event": false,
+            "price_reduced": false,
+            "allows_cats": true,
+            "allows_dogs": true,
+            "allows_dogs_small": true
+        },
+        "products": [
+            "basic",
+            "_COMMUNITY_RENTAL",
+            "_COMMUNITY_RENTAL",
+            "_COMMUNITY_RENTAL",
+            "_COMMUNITY_RENTAL",
+            "_COMMUNITY_RENTAL"
+        ],
+        "agents": [
+            {
+                "primary": true
+            }
+        ],
+        "lead_forms": {
+            "form": {
+                "name": {
+                    "required": true,
+                    "minimum_character_count": 1
+                },
+                "email": {
+                    "required": true,
+                    "minimum_character_count": 5
+                },
+                "move_in_date": {
+                    "required": false,
+                    "default_date": "2023-09-01T12:00:00Z",
+                    "minimum_days_from_today": 1,
+                    "maximum_days_from_today": 180
+                },
+                "phone": {
+                    "required": true,
+                    "minimum_character_count": 10,
+                    "maximum_character_count": 11
+                },
+                "message": {
+                    "required": false,
+                    "minimum_character_count": 0
+                },
+                "show": false
+            },
+            "show_agent": false,
+            "show_broker": false,
+            "show_provider": false,
+            "show_management": false
+        },
+        "lot_size": {
+            "size": 0,
+            "units": "sqft"
+        },
+        "building_size": {
+            "units": "sqft"
+        },
+        "rdc_web_url": "https://www.realtor.com/realestateandhomes-detail/1408-Strongs-Ave_Stevens-Point_WI_54481_M96394-89992",
+        "rdc_app_url": "move-rdc://www.realtor.com/realestateandhomes-detail/1408-Strongs-Ave_Stevens-Point_WI_54481_M96394-89992",
+        "community": {
+            "baths_max": 2,
+            "baths_min": 2,
+            "beds_max": 2,
+            "beds_min": 2,
+            "contact_number": "(715) 241-6300",
+            "id": 3765148,
+            "name": "Lokre Companies",
+            "price_max": 1499,
+            "price_min": 1499,
+            "source_id": "7946115",
+            "sqft_max": 1511,
+            "sqft_min": 1511
+        },
+        "data_source_name": "community_rental",
+        "source": "community",
+        "page_no": 2,
+        "rank": 8,
+        "list_tracking": "type|property|data|prop_id|9639489992|list_id|2952760092|comm_id|3765148|page|rank|list_branding|listing_agent|listing_office|data_source|community_rental|property_status|product_code|advantage_code^2|8|0|0|3K2|W|0^^$0|1|2|$3|4|5|6|7|8|9|J|A|K|B|$C|L|D|M]|E|F|G|N|H|O|I|P]]",
+        "photo_count": 0,
+        "photos": []
+    }
+]
