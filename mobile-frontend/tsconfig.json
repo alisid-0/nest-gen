@@ -13,5 +13,5 @@
     "**/*.tsx",
     ".expo/types/**/*.ts",
     "expo-env.d.ts"
-, "app/selected_home.jsx", "app/(tabs)/index.jsx", "app/(tabs)/buy.jsx", "app/modal.jsx", "app/_layout.jsx", "app/(tabs)/rent.jsx"  ]
+, "app/selected_home.jsx", "app/(tabs)/index.jsx", "app/(tabs)/buy.jsx", "app/modal.jsx", "app/_layout.jsx", "app/(tabs)/rent.jsx", "app/(tabs)/saved_homes.jsx"  ]
 }

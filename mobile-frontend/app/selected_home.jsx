@@ -1148,6 +1148,7 @@ function SelectedHome() {
           postal_code: house.address.postal_code,
           prop_type: house.prop_type,
           prop_status: house.prop_status,
+          thumbnail: house.thumbnail,
           user_id: user._id,
         });
 

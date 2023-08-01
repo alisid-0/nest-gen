@@ -5,6 +5,7 @@ const savedHomeSchema = new Schema(
     user_ids: [{ type: Types.ObjectId, ref: 'User' }],  // Add this line
     home_id: { type: String, default: '' },
     price: { type: Number, required: true },
+    thumbnail: {type: String, required: true},
     beds: { type: Number, required: true },
     baths: { type: Number, required: true },
     size_sqft: { type: Number, required: true },
