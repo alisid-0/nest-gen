@@ -1,4 +1,4 @@
-import { StyleSheet, TouchableOpacity, TextInput, Image} from 'react-native'
+import { StyleSheet, TouchableOpacity, Image} from 'react-native'
 import { ScrollView } from 'native-base'
 import { Text, View } from '@/components/Themed'
 import axios from 'axios'
@@ -6,7 +6,7 @@ import { useState, useEffect } from 'react'
 import * as Location from 'expo-location'
 import { Spinner } from 'native-base'
 import {bigRentList} from '../homeobjects'
-import { useRouter, Link, router } from 'expo-router'
+import { router } from 'expo-router'
 
 export default function Buy() {
 
