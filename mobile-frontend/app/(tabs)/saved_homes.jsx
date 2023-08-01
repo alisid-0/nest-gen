@@ -84,28 +84,7 @@ export default function SavedHomes() {
             <Text style={styles.title}>Please sign in to save and view homes.</Text>
           </View>
         )}
-        {/* {homes && homes.map((house,index)=> (
-          (house.size_sqft && house.thumbnail && (
-            <View style={{ width: '100%',shadowColor: '#171717', shadowOffset: {width: -2, height: 4}, shadowOpacity: 0.2, shadowRadius: 3, padding: 10, borderRadius: 10, borderColor: 'black',  marginBottom: 10}} key={index}>
-              <TouchableOpacity style={{width: '100%'}} onPress={()=> {
-                setHome(house)
-                router.push({ pathname: 'selected_home', params: {home: JSON.stringify(house)}})
-              }}>
-                <Image source={{uri:`${house.thumbnail}`}} style={{width: '90%', aspectRatio: 16/9}}></Image>
-                <View style={{width: '90%', marginTop: 15, gap: 7}}>
-                  <View style={{flexDirection:'row', gap: 10, alignItems: 'flex-end'}}>
-                    <Text style={{fontSize: 20, fontWeight: 'bold'}}>${numberWithCommas(house.price)}</Text>
-                    <Text style={{marginBottom: 1}}>{house.beds} bd | {house.baths} ba | {house.size_sqft} sqft </Text>
-                  </View>
-                  <Text>{house.address_line}, {house.city} {house.state_code} {house.postal_code}</Text>
-                  <Text style={{fontWeight: 'bold'}}>{formatString(house.prop_type)} | {formatString(house.prop_status)}</Text>
-                </View>
-              </TouchableOpacity>
 
-            </View>
-          ) )
-
-        ))} */}
       </View>
       
     </ScrollView>
