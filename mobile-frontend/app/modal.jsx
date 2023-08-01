@@ -223,7 +223,7 @@ export default function ModalScreen() {
 
       {signedIn && user && (
         <View style={styles.container}>
-          <Text style={styles.title}>Welcome, {user.username}!</Text>
+          <Text style={{fontSize: 30, fontWeight: 'bold'}}>Welcome, {user.username}!</Text>
 
           <View style={styles.profileInfo}>
             <Text style={styles.subTitle}>Profile Information</Text>
@@ -333,7 +333,7 @@ const styles = StyleSheet.create({
     width: '100%',
   },
   profileInfo: {
-    width: '80%',  // adjust as needed
+    width: '100%',  // adjust as needed
     backgroundColor: '#f2f2f2',  // adjust as needed
     padding: 10,  // adjust as needed
     borderRadius: 10,  // adjust as needed
