@@ -68,7 +68,7 @@ Contributions are what make the open-source community an amazing place to learn,
 
 For any inquiries or collaborations, please feel free to reach out.
 
-Your Name - alisiddiquia22@yahoo.com
+Ali Siddiqui - alisiddiquia22@yahoo.com
 
 ## Acknowledgements
 
