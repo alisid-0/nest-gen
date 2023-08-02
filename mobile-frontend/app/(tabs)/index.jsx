@@ -270,7 +270,7 @@ export default function Home() {
           )}
         </ScrollView>
       </View>
-      {location && (
+      {!searchHouses && newHouses && location && (
         <View style={{width: '100%', height: 230, marginTop: 10}}>
           <MapView
           initialRegion={{
@@ -281,6 +281,27 @@ export default function Home() {
           }}        
           style={styles.map}>
             {newHouses && newHouses.map((house,index)=> (
+              <Marker key={index} coordinate={{latitude: house.address.lat, longitude: house.address.lon}}
+              onPress={()=> {
+                setHome(house)
+                router.push({ pathname: 'selected_home', params: {home: JSON.stringify(house)}})
+              }}></Marker>
+            ))}
+          </MapView>
+        </View>
+      )}
+
+      {searchHouses && newHouses && location && (
+        <View style={{width: '100%', height: 230, marginTop: 10}}>
+          <MapView
+          initialRegion={{
+            latitude: searchHouses[0].address.lat,
+            longitude: searchHouses[0].address.lon,
+            latitudeDelta: 0.0922,
+            longitudeDelta: 0.0421
+          }}        
+          style={styles.map}>
+            {searchHouses && searchHouses.map((house,index)=> (
               <Marker key={index} coordinate={{latitude: house.address.lat, longitude: house.address.lon}}
               onPress={()=> {
                 setHome(house)
