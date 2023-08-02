@@ -18,11 +18,13 @@ export default function Home() {
   
   // console.log(houses)
   const [newHouses, setNewHouses] = useState(newHomesList)
+  const [searchHouses, setSearchHouses] = useState(null)
   const [home, setHome] = useState(null)
 
   const [location, setLocation] = useState(null)
   const [address, setAddress] = useState(null)
   const [city, setCity] = useState('')
+  const [searchedCity, setSearchedCity] = useState('')
   const [state, setState] = useState('')
   const [errorMsg, setErrorMsg] = useState(null)
 
@@ -91,10 +93,36 @@ export default function Home() {
     }
 
     if(city && state){
-      // getNewHouses()
+      // getSearchHouses()
     }
 
   },[city,state])
+
+  const getSearchHouses = async(searchCity, searchState)=>{
+    const options = {
+      method: 'GET',
+      url: 'https://realty-in-us.p.rapidapi.com/properties/v2/list-for-sale',
+      params: {
+        city: searchCity,
+        state_code: searchState,
+        offset: '0',
+        limit: '10',
+        sort: 'relevance'
+      },
+      headers: {
+        'X-RapidAPI-Key': '55744ee29emsh8d7f5fc5fdca9b9p176e64jsn68abcf1c6127',
+        'X-RapidAPI-Host': 'realty-in-us.p.rapidapi.com'
+      }
+    }
+    
+    try {
+      const response = await axios.request(options)
+      console.log(response.data.properties)
+      setSearchHouses(response.data.properties)
+    } catch (error) {
+      console.error(error)
+    }
+  }
 
   
 
@@ -113,7 +141,7 @@ export default function Home() {
       <View style={styles.leftContainer}>
         <Text style={{fontSize: 25, fontWeight: 'bold', marginBottom: 15}}>New in your area</Text>
         <ScrollView horizontal style={{gap:5}} showsHorizontalScrollIndicator= 'false'>
-          {newHouses && (
+          {!searchHouses && newHouses && (
             newHouses.map((house,index)=>(
               house.thumbnail && (house.beds) && (
 
