@@ -1,6 +1,6 @@
 # NestGen
 
-![alt text](./assets/images/splash2.png)
+![alt text](./mobile-frontend/assets/images/splash2.png)
 
 Welcome to NestGen, a cutting-edge React Native real estate application that brings property hunting at your fingertips. The app utilizes React Native for the frontend, Node.js with Express.js for the backend, and harnesses the power of the Realty Mole Property API through RapidAPI.
 
