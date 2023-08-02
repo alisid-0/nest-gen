@@ -125,8 +125,10 @@ export default function Home() {
     }
   }
 
-  
-
+  const onSearch = () => {
+    const [searchCity, searchState] = searchInput.split(", ").map(item => item.trim())
+    getSearchHouses(searchCity, searchState)
+  }
   
   return (
     <ScrollView contentContainerStyle={styles.container}>
@@ -134,7 +136,7 @@ export default function Home() {
 
       <View style={styles.section}>
         <TextInput style={styles.input} placeholder='City, State' onChangeText={text => setSearchInput(text)} value={searchInput}/>
-        <TouchableOpacity>
+        <TouchableOpacity onPress={onSearch}>
           <Image source={require('../../assets/images/search.png')} style={styles.searchImg}/>
         </TouchableOpacity>
       </View>
@@ -144,6 +146,52 @@ export default function Home() {
         <ScrollView horizontal style={{gap:5}} showsHorizontalScrollIndicator= 'false'>
           {!searchHouses && newHouses && (
             newHouses.map((house,index)=>(
+              house.thumbnail && (house.beds) && (
+
+                <TouchableOpacity key={index} style={{paddingHorizontal: 10, }}
+                  onPress={()=> {
+                    setHome(house)
+                    router.push({ pathname: 'selected_home', params: {home: JSON.stringify(house)}})
+                  }} 
+                  >
+                  <View style={{backgroundColor:'white', borderRadius: 10, overflow: 'hidden'}}>
+                    <Image 
+                      source={{uri:`${house.thumbnail}`}} 
+                      style={{width: 250, aspectRatio: 16/9}}
+                    />
+                    <Text 
+                      style={{
+                        position: 'absolute', 
+                        top: 0, 
+                        color: 'white', 
+                        backgroundColor: 'rgba(0,0,0,0.2)', 
+                        paddingHorizontal: 5, 
+                        paddingVertical: 2,
+                        width: 250
+                      }}
+                    >
+                      {house.beds} beds, {house.baths} baths
+                    </Text>
+                    <Text 
+                      style={{
+                        position: 'absolute', 
+                        bottom: 0, 
+                        color: 'white', 
+                        backgroundColor: 'rgba(0,0,0,0.6)', 
+                        paddingHorizontal: 5, 
+                        paddingVertical: 2,
+                        width: 250
+                      }}
+                    >
+                      {house.address.line} {house.address.city}, {house.address.state_code}
+                    </Text>
+                  </View>
+                </TouchableOpacity>
+              )
+            ))
+          )}
+          {searchHouses &&  (
+            searchHouses.map((house,index)=>(
               house.thumbnail && (house.beds) && (
 
                 <TouchableOpacity key={index} style={{paddingHorizontal: 10, }}
