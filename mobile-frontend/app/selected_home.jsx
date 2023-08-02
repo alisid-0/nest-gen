@@ -1449,16 +1449,12 @@ function SelectedHome() {
           </View>
         ))}
       </View>
-
-      
-      {/* <EditScreenInfo path="app/(tabs)/two.tsx" /> */}
     </ScrollView>
   )
 }
 
 const styles = StyleSheet.create({
   container: {
-    // flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
     backgroundColor: 'white'

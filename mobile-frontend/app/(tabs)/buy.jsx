@@ -132,7 +132,7 @@ export default function Buy() {
         getHouses()
         // console.log(bigHomesList)
         // setHouses(bigHomesList) 
-      }, 3000)
+      }, 0)
     }
 
     if(city && state && searchQueryCity && searchQueryState){
@@ -140,7 +140,7 @@ export default function Buy() {
         getSearchHouses( searchQueryCity, searchQueryState)
         // console.log(bigHomesList)
         // setHouses(bigHomesList) 
-      }, 3000)
+      }, 0)
     }
 
   },[city,state])
