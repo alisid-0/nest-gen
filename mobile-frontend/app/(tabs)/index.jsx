@@ -125,10 +125,20 @@ export default function Home() {
     }
   }
 
-  const onSearch = () => {
+  const onSearch = async () => {
     const [searchCity, searchState] = searchInput.split(", ").map(item => item.trim())
     getSearchHouses(searchCity, searchState)
+  
+    try {
+      const response = await axios.post('http://localhost:3001/api/search/', {
+        query: searchInput
+      })
+      console.log(response.data)
+    } catch (error) {
+      console.error('Error creating new search:', error)
+    }
   }
+  
   
   return (
     <ScrollView contentContainerStyle={styles.container}>

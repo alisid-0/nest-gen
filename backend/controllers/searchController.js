@@ -22,7 +22,7 @@ const getSearchById = async (req, res) => {
 const createSearch = async (req, res) => {
     const search = new Search(req.body)
     try {
-        await Search.save()
+        await search.save()
         res.status(201).send(search)
     } catch (e) {
         res.status(400).send(e.message)
