@@ -10,6 +10,7 @@ import * as Location from 'expo-location'
 import { newHomesList } from '../homeobjects'
 import { ScrollView } from 'native-base'
 import MapView from 'react-native-maps'
+import { Marker } from 'react-native-maps'
 
 export default function Home() {
 
@@ -52,6 +53,7 @@ export default function Home() {
       }
     })()
 
+    console.log(newHouses)
    
   },[])
 
@@ -89,7 +91,7 @@ export default function Home() {
     }
 
     if(city && state){
-      // getNewHouses()
+      getNewHouses()
     }
 
   },[city,state])
@@ -168,7 +170,11 @@ export default function Home() {
             latitudeDelta: 0.0922,
             longitudeDelta: 0.0421
           }}        
-          style={styles.map}></MapView>
+          style={styles.map}>
+            {newHouses && newHouses.map((house,index)=> (
+              <Marker key={index} coordinate={{latitude: house.address.lat, longitude: house.address.lon}}></Marker>
+            ))}
+          </MapView>
         </View>
       )}
     </ScrollView>
