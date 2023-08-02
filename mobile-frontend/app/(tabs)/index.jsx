@@ -35,6 +35,8 @@ export default function Home() {
   const [state, setState] = useState('')
   const [errorMsg, setErrorMsg] = useState(null)
 
+  const mapRef = useRef(null)
+
 
   useEffect(()=>{
     (async () => {
@@ -141,18 +143,17 @@ export default function Home() {
       })
       console.log(searchResponse.data)
   
-      // get the id of the newly created search
       const searchId = searchResponse.data.id
   
       if (signedIn && user){
-        const userSearches = user.searches; // get user's current searches
+        const userSearches = user.searches 
         axios.put(`http://localhost:3001/api/users/${user._id}`, { searches: [...userSearches, searchInput] })
           .then(userResponse => {
-              console.log(userResponse.data);
+              console.log(userResponse.data)
           })
           .catch(error => {
-              console.log('Error updating user:', error);
-          });
+              console.log('Error updating user:', error)
+          })
       }
   
     } catch (error) {
@@ -295,6 +296,7 @@ export default function Home() {
       {searchHouses && newHouses && location && (
         <View style={{width: '100%', height: 230, marginTop: 10}}>
           <MapView
+          ref={mapRef}
           initialRegion={{
             latitude: searchHouses[0].address.lat,
             longitude: searchHouses[0].address.lon,
