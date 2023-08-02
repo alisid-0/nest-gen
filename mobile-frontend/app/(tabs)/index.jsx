@@ -12,6 +12,7 @@ import { ScrollView } from 'native-base'
 import MapView from 'react-native-maps'
 import { Marker } from 'react-native-maps'
 import { LoginContext } from '../_layout'
+import { useRef } from 'react'
 
 export default function Home() {
 
