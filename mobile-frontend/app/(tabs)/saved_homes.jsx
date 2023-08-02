@@ -1,28 +1,17 @@
 import { StyleSheet, TouchableOpacity, TextInput, Image} from 'react-native'
 import { ScrollView } from 'native-base'
-import * as Location from 'expo-location'
 import { Spinner } from 'native-base'
-import {bigHomesList} from '../homeobjects'
-import { useRouter, Link, router } from 'expo-router'
-import { StatusBar } from 'expo-status-bar'
-import { Platform } from 'react-native'
 import { Text, View } from '@/components/Themed'
 import axios from 'axios'
 import { useState, useEffect, useContext } from 'react'
 import { LoginContext } from '../_layout'
-import { FormControl, Input, Button } from 'native-base'
-import {useForm} from 'react-hook-form'
-import { FlatList } from 'native-base'
-import { Alert } from 'react-native'
+
 
 
 export default function SavedHomes() {
 
   const contextValue = useContext(LoginContext)
   const user = contextValue.user
-  const setUser = contextValue.setUser
-  const signedIn = contextValue.signedIn
-  const setSignedIn = contextValue.setSignedIn
   const [homes, setHomes] = useState('')
   const [home, setHome] = useState('')
 
@@ -88,7 +77,7 @@ export default function SavedHomes() {
       </View>
       
     </ScrollView>
-  );
+  )
 }
 
 const styles = StyleSheet.create({
