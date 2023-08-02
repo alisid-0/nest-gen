@@ -60,20 +60,20 @@ const deleteUser = async (req, res) => {
 }
 
 const loginUser = async (req, res) => {
-    const { email, password } = req.body;
+    const { email, password } = req.body
   
     try {
-      const user = await User.findOne({ email: email });
+      const user = await User.findOne({ email: email })
       if (!user) {
-        return res.status(404).json({ error: 'User not found' });
+        return res.status(404).json({ error: 'User not found' })
       }
   
       if (password !== '' || user.password !== '') {
-        console.log('password not empty. comparing..');
-        const isMatch = bcrypt.compareSync(password, user.password);
+        console.log('password not empty. comparing..')
+        const isMatch = bcrypt.compareSync(password, user.password)
   
         if (!isMatch) {
-          return res.status(400).json({ error: 'Incorrect password' });
+          return res.status(400).json({ error: 'Incorrect password' })
         }
       }
   
@@ -82,15 +82,15 @@ const loginUser = async (req, res) => {
         email: user.email,
         username: user.username,
         role: user.role,
-        saved_homes: user.saved_homes,  // Add this line
-        searches: user.searches,  // And this line
-      };
+        saved_homes: user.saved_homes, 
+        searches: user.searches, 
+      }
   
-      res.json(userObject);
+      res.json(userObject)
     } catch (error) {
-      res.status(500).json({ error: 'Server error' });
+      res.status(500).json({ error: 'Server error' })
     }
-};
+}
 
   
 
