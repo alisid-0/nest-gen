@@ -133,16 +133,33 @@ export default function Home() {
   const onSearch = async () => {
     const [searchCity, searchState] = searchInput.split(", ").map(item => item.trim())
     getSearchHouses(searchCity, searchState)
-  
+    
     try {
-      const response = await axios.post('http://localhost:3001/api/search/', {
+      const searchResponse = await axios.post('http://localhost:3001/api/search/', {
         query: searchInput
       })
-      console.log(response.data)
+      console.log(searchResponse.data)
+  
+      // get the id of the newly created search
+      const searchId = searchResponse.data.id
+  
+      if (signedIn && user){
+        const userSearches = user.searches; // get user's current searches
+        axios.put(`http://localhost:3001/api/users/${user._id}`, { searches: [...userSearches, searchInput] })
+          .then(userResponse => {
+              console.log(userResponse.data);
+          })
+          .catch(error => {
+              console.log('Error updating user:', error);
+          });
+      }
+  
     } catch (error) {
       console.error('Error creating new search:', error)
     }
   }
+  
+  
   
   
   return (

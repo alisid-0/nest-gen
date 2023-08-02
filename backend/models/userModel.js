@@ -7,7 +7,7 @@ const userSchema = new Schema(
     password: { type: String, required: true },
     role: { type: String, default: 'user' },
     saved_homes: { type: [String], default: [] },
-    searches: {type: [Types.ObjectId], ref: 'Searches'}
+    searches: {type: [String], default: []}
   },
   { timestamps: true }
 )
