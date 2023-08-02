@@ -23,11 +23,12 @@ const createSearch = async (req, res) => {
     const search = new Search(req.body)
     try {
         await search.save()
-        res.status(201).send(search)
+        res.status(201).send({ search, id: search._id })
     } catch (e) {
         res.status(400).send(e.message)
     }
 }
+
 
 const updateSearch = async (req, res) => {
     try {
