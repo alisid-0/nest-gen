@@ -159,6 +159,15 @@ export default function Home() {
     } catch (error) {
       console.error('Error creating new search:', error)
     }
+
+    if (searchHouses && searchHouses[0] && searchHouses[0].address) {
+      mapRef.current.animateToRegion({
+          latitude: searchHouses[0].address.lat,
+          longitude: searchHouses[0].address.lon,
+          latitudeDelta: 0.0922,
+          longitudeDelta: 0.0421,
+      }, 1000) // duration in milliseconds
+    }
   }
   
   
