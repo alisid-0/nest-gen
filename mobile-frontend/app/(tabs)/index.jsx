@@ -9,6 +9,7 @@ import { useState, useEffect } from 'react'
 import * as Location from 'expo-location'
 import { newHomesList } from '../homeobjects'
 import { ScrollView } from 'native-base'
+import MapView from 'react-native-maps'
 
 export default function Home() {
 
@@ -58,6 +59,7 @@ export default function Home() {
     if(city && state){
       console.log(city)
       console.log(state)
+      console.log(location)
     }
 
     const getNewHouses = async()=>{
@@ -105,21 +107,6 @@ export default function Home() {
           <Image source={require('../../assets/images/search.png')} style={styles.searchImg}/>
         </TouchableOpacity>
       </View>
-      
-      <View style={{height: 50}}>
-        <ScrollView horizontal contentContainerStyle={styles.scrollview}>
-
-          <TouchableOpacity onPress={()=> router.push('buy')}>
-            <Text style={styles.scrollViewItem}>Buy</Text>
-          </TouchableOpacity>
-
-          <TouchableOpacity onPress={()=> router.push('rent')}>
-            <Text style={styles.scrollViewItem}>Rent</Text>
-          </TouchableOpacity>
-
-        </ScrollView>
-      </View>
-      
 
       <View style={styles.leftContainer}>
         <Text style={{fontSize: 25, fontWeight: 'bold', marginBottom: 15}}>New in your area</Text>
@@ -172,6 +159,18 @@ export default function Home() {
           )}
         </ScrollView>
       </View>
+      {location && (
+        <View style={{width: '100%', height: 230, marginTop: 10}}>
+          <MapView
+          initalRegion={{
+            latitude: location.coords.latitude,
+            longitude: location.coords.longitude,
+            latitudeDelta: 0.0922,
+            longitudeDelta: 0.0421
+          }}        
+          style={styles.map}></MapView>
+        </View>
+      )}
     </ScrollView>
   )
 }
@@ -182,6 +181,10 @@ const styles = StyleSheet.create({
     justifyContent: 'flex-start',
     height: '100%',
     backgroundColor: 'white'
+  },
+  map: {
+    width: '100%',
+    height: '100%'
   },
   leftContainer:{
     width: '100%',
