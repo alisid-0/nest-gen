@@ -6,6 +6,8 @@ Welcome to NestGen, a cutting-edge React Native real estate application that bri
 
 NestGen is a digital solution I designed to streamline the process of searching and managing properties. The app leverages the Realty Mole Property API to pull extensive data about property listings, while RapidAPI ensures seamless and efficient management of these API calls. NestGen brings together modern technologies to provide an intuitive, user-friendly interface that simplifies real estate transactions.
 
+![alt text](./mobile-frontend/assets/images/screenshot.png)
+
 ## Features
 
 - Real-time property listings
