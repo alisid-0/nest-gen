@@ -19,6 +19,10 @@ export default function Home() {
   const contextValue = useContext(LoginContext)
   const user = contextValue.user
   const signedIn = contextValue.signedIn
+  const searchQueryCity = contextValue.searchQueryCity
+  const setSearchQueryCity = contextValue.setSearchQueryCity
+  const searchQueryState = contextValue.searchQueryState
+  const setSearchQueryState = contextValue.setSearchQueryState
 
   const houses = newHomesList
   
@@ -128,6 +132,8 @@ export default function Home() {
       const response = await axios.request(options)
       console.log(response.data.properties)
       setSearchHouses(response.data.properties)
+      setSearchQueryCity(searchCity)
+      setSearchQueryState(searchState)
     } catch (error) {
       console.error(error)
     }

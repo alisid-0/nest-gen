@@ -51,6 +51,11 @@ function RootLayoutNav() {
   const [searchQueryCity, setSearchQueryCity] = useState('')
   const [searchQueryState, setSearchQueryState] = useState('')
 
+  useEffect(()=>{
+    console.log('city', searchQueryCity)
+    console.log('state', searchQueryState)
+  }, [searchQueryCity, searchQueryState])
+
   return (
     <NativeBaseProvider>
       <LoginContext.Provider value={{ user, setUser, signedIn, setSignedIn, searchQueryCity, setSearchQueryCity, searchQueryState, setSearchQueryState}}>

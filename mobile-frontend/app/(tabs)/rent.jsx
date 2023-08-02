@@ -7,6 +7,8 @@ import * as Location from 'expo-location'
 import { Spinner } from 'native-base'
 import {bigRentList} from '../homeobjects'
 import { router } from 'expo-router'
+import { useContext } from 'react'
+import { LoginContext } from '../_layout'
 
 export default function Buy() {
 
@@ -17,6 +19,14 @@ export default function Buy() {
   const [errorMsg, setErrorMsg] = useState(null)
   const [houses,setHouses] = useState(null)
   const [home, setHome] = useState(null)
+
+  const contextValue = useContext(LoginContext)
+  const user = contextValue.user
+  const signedIn = contextValue.signedIn
+  const searchQueryCity = contextValue.searchQueryCity
+  const setSearchQueryCity = contextValue.setSearchQueryCity
+  const searchQueryState = contextValue.searchQueryState
+  const setSearchQueryState = contextValue.setSearchQueryState
 
   function formatString(str) {
     return str.split('_').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ')
@@ -89,9 +99,45 @@ export default function Buy() {
       }
     }
 
-    if(city && state){
+    const getSearchHouses = async(searchCity, searchState)=>{
+      const options = {
+        method: 'GET',
+        url: 'https://realty-in-us.p.rapidapi.com/properties/v2/list-for-rent',
+        params: {
+          city: searchCity,
+          state_code: searchState,
+          offset: '0',
+          limit: '200',
+          sort: 'relevance',
+          is_new_plan: 'false'
+        },
+        headers: {
+          'X-RapidAPI-Key': '55744ee29emsh8d7f5fc5fdca9b9p176e64jsn68abcf1c6127',
+          'X-RapidAPI-Host': 'realty-in-us.p.rapidapi.com'
+        }
+      }
+      
+      
+      try {
+        const response = await axios.request(options)
+        console.log(response.data.properties)
+        setHouses(response.data.properties)
+      } catch (error) {
+        console.error(error)
+      }
+    }
+
+    if(city && state && !searchQueryCity && !searchQueryState){
       setTimeout(()=>{
         getHouses()
+        // console.log(bigRentList)
+        // setHouses(bigRentList)
+      }, 3000)
+    }
+
+    if(city && state && searchQueryCity && searchQueryState){
+      setTimeout(()=>{
+        getSearchHouses(searchQueryCity, searchQueryState)
         // console.log(bigRentList)
         // setHouses(bigRentList)
       }, 3000)
@@ -117,7 +163,9 @@ export default function Buy() {
                 setHome(house)
                 router.push({ pathname: 'selected_home', params: {home: JSON.stringify(house)}})
               }}>
-                <Image source={{uri:`${house.photos[0].href}`}} style={{width: '90%', aspectRatio: 16/9}}></Image>
+                {house.photos && house.photos[0] && house.photos[0].href && (
+                  <Image source={{uri:`${house.photos[0].href}`}} style={{width: '90%', aspectRatio: 16/9}}></Image>
+                )}
                 <View style={{width: '90%', marginTop: 15, gap: 7}}>
                   <View style={{flexDirection:'row', gap: 10, alignItems: 'flex-end'}}>
                     <Text style={{fontSize: 20, fontWeight: 'bold'}}>${numberWithCommas(house.price)}</Text>
