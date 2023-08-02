@@ -339,7 +339,8 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     backgroundColor: 'white',
     gap: 10,
-    paddingVertical: 10
+    paddingVertical: 10,
+    minHeight: '100%'
   },
   leftContainer: {
     width: '90%',

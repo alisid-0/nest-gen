@@ -188,9 +188,6 @@ const styles = StyleSheet.create({
   leftContainer:{
     width: '100%',
     marginLeft: 50
-    // alignItems: 'flex-start',
-    // justifyContent: 'flex-start',
-    // textAlign: 'left'
   },
   section: {
     gap: 10,

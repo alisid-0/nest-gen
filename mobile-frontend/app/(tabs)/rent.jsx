@@ -104,7 +104,7 @@ export default function Buy() {
       <View style={{marginVertical: 10}}></View>
       <Text style={styles.title}>Homes Listed for Rent</Text>
       <View style={{marginVertical: 20}}></View>
-      <View style={styles.container}>
+      <View>
         {!houses && (
           <Spinner color='emerald.500'></Spinner>
         )}
@@ -142,7 +142,8 @@ const styles = StyleSheet.create({
   container: {
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: 'white'
+    backgroundColor: 'white',
+    minHeight: '100%'
   },
   leftContainer: {
     width: '90%',
