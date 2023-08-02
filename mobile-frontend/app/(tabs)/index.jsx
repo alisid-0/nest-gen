@@ -91,7 +91,7 @@ export default function Home() {
     }
 
     if(city && state){
-      getNewHouses()
+      // getNewHouses()
     }
 
   },[city,state])
@@ -164,7 +164,7 @@ export default function Home() {
       {location && (
         <View style={{width: '100%', height: 230, marginTop: 10}}>
           <MapView
-          initalRegion={{
+          initialRegion={{
             latitude: location.coords.latitude,
             longitude: location.coords.longitude,
             latitudeDelta: 0.0922,
@@ -172,7 +172,11 @@ export default function Home() {
           }}        
           style={styles.map}>
             {newHouses && newHouses.map((house,index)=> (
-              <Marker key={index} coordinate={{latitude: house.address.lat, longitude: house.address.lon}}></Marker>
+              <Marker key={index} coordinate={{latitude: house.address.lat, longitude: house.address.lon}}
+              onPress={()=> {
+                setHome(house)
+                router.push({ pathname: 'selected_home', params: {home: JSON.stringify(house)}})
+              }}></Marker>
             ))}
           </MapView>
         </View>
