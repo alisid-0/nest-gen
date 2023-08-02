@@ -5,14 +5,19 @@ import { Text, View, } from '@/components/Themed'
 import { TouchableOpacity, TextInput, Image} from 'react-native'
 import axios from 'axios'
 import { useRouter, Link, router } from 'expo-router'
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useContext } from 'react'
 import * as Location from 'expo-location'
 import { newHomesList } from '../homeobjects'
 import { ScrollView } from 'native-base'
 import MapView from 'react-native-maps'
 import { Marker } from 'react-native-maps'
+import { LoginContext } from '../_layout'
 
 export default function Home() {
+
+  const contextValue = useContext(LoginContext)
+  const user = contextValue.user
+  const signedIn = contextValue.signedIn
 
   const houses = newHomesList
   
