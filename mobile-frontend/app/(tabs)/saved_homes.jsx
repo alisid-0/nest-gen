@@ -5,6 +5,7 @@ import { Text, View } from '@/components/Themed'
 import axios from 'axios'
 import { useState, useEffect, useContext } from 'react'
 import { LoginContext } from '../_layout'
+import { router } from 'expo-router'
 
 
 
@@ -31,7 +32,9 @@ export default function SavedHomes() {
     }
     getHomes()
 
-  },[])
+    console.log('user',user)
+
+  },[user])
 
   return (
     <ScrollView contentContainerStyle={styles.container}>
@@ -44,7 +47,7 @@ export default function SavedHomes() {
       </View>
       <View>
         {user && homes && homes.map((house, index) => (
-          user.saved_homes.includes(home.home_id) ?
+          user.saved_homes.includes(house.home_id) ?
           (house.size_sqft && house.thumbnail && (
             <View style={{ width: '100%',shadowColor: '#171717', shadowOffset: {width: -2, height: 4}, shadowOpacity: 0.2, shadowRadius: 3, padding: 10, borderRadius: 10, borderColor: 'black',  marginBottom: 10}} key={index}>
               <TouchableOpacity style={{width: '100%'}} onPress={()=> {
@@ -84,8 +87,7 @@ const styles = StyleSheet.create({
   container: {
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: 'white',
-
+    backgroundColor: 'white'
   },
   leftContainer: {
     width: '90%',

@@ -2,12 +2,13 @@ import { StyleSheet, Touchable } from 'react-native'
 
 import EditScreenInfo from '@/components/EditScreenInfo'
 import { Text, View, } from '@/components/Themed'
-import { ScrollView, TouchableOpacity, TextInput, Image} from 'react-native'
+import { TouchableOpacity, TextInput, Image} from 'react-native'
 import axios from 'axios'
 import { useRouter, Link, router } from 'expo-router'
 import { useState, useEffect } from 'react'
 import * as Location from 'expo-location'
 import { newHomesList } from '../homeobjects'
+import { ScrollView } from 'native-base'
 
 export default function Home() {
 
@@ -95,7 +96,7 @@ export default function Home() {
 
   
   return (
-    <View style={styles.container}>
+    <ScrollView contentContainerStyle={styles.container}>
       <Text style={styles.title}>Getting Started</Text>
 
       <View style={styles.section}>
@@ -105,20 +106,20 @@ export default function Home() {
         </TouchableOpacity>
       </View>
       
+      <View style={{height: 50}}>
+        <ScrollView horizontal contentContainerStyle={styles.scrollview}>
 
-      <ScrollView horizontal contentContainerStyle={styles.scrollview} showsHorizontalScrollIndicator= 'false'>
+          <TouchableOpacity onPress={()=> router.push('buy')}>
+            <Text style={styles.scrollViewItem}>Buy</Text>
+          </TouchableOpacity>
 
-        <TouchableOpacity onPress={()=> router.push('buy')}>
-          <Text style={styles.scrollViewItem}>Buy</Text>
-        </TouchableOpacity>
+          <TouchableOpacity onPress={()=> router.push('rent')}>
+            <Text style={styles.scrollViewItem}>Rent</Text>
+          </TouchableOpacity>
 
-        <TouchableOpacity onPress={()=> router.push('rent')}>
-          <Text style={styles.scrollViewItem}>Rent</Text>
-        </TouchableOpacity>
-
-
-      </ScrollView>
-      {/* <View style={styles.separator} lightColor="#eee" darkColor="rgba(255,255,255,0.1)" /> */}
+        </ScrollView>
+      </View>
+      
 
       <View style={styles.leftContainer}>
         <Text style={{fontSize: 25, fontWeight: 'bold', marginBottom: 15}}>New in your area</Text>
@@ -171,19 +172,16 @@ export default function Home() {
           )}
         </ScrollView>
       </View>
-
-      
-
-      
-
-    </View>
+    </ScrollView>
   )
 }
 
 const styles = StyleSheet.create({
   container: {
     alignItems: 'center',
-    justifyContent: 'center',
+    justifyContent: 'flex-start',
+    height: '100%',
+    backgroundColor: 'white'
   },
   leftContainer:{
     width: '100%',
@@ -198,7 +196,6 @@ const styles = StyleSheet.create({
   scrollview: {
     justifyContent: 'center',
     flexDirection: 'row',
-    height: 50,
     width: '100%',
   },
   searchImg: {

@@ -1112,35 +1112,37 @@ function SelectedHome() {
             'X-RapidAPI-Key': '55744ee29emsh8d7f5fc5fdca9b9p176e64jsn68abcf1c6127',
             'X-RapidAPI-Host': 'realty-in-us.p.rapidapi.com',
           },
-        };
+        }
 
-        const response = await axios.request(options);
-        setHouseDetails(response.data.properties[0]);
+        const response = await axios.request(options)
+        setHouseDetails(response.data.properties[0])
         console.log(response)
       } catch (error) {
-        console.error(error);
+        console.error(error)
       }
-    };
+    }
 
-    // fetchHouseDetails();
-  }, []);
+    // fetchHouseDetails()
+  }, [])
 
   useEffect(() => {
-    axios
-      .get('http://localhost:3001/api/savedhomes')
-      .then((response) => {
-        const homeIsSaved = response.data.some(
-          (savedHome) => savedHome.home_id === house.property_id
-        );
-        setIsSaved(homeIsSaved);
-      })
-      .catch(console.error);
-  }, []);
+    if(signedIn){
+      axios
+        .get('http://localhost:3001/api/savedhomes')
+        .then((response) => {
+          const homeIsSaved = response.data.some(
+            (savedHome) => savedHome.home_id === house.property_id
+          )
+          setIsSaved(homeIsSaved)
+        })
+        .catch(console.error)
+    } 
+  }, [])
 
   const saveHome = async () => {
     if (!signedIn) {
       alert('Please log in to save homes.')
-      return;
+      return
     }
 
     if (!isSaved) {
@@ -1160,51 +1162,48 @@ function SelectedHome() {
           prop_status: house.prop_status,
           thumbnail: house.thumbnail,
           user_id: user._id,
-        });
+        })
 
-        setIsSaved(true);
+        setIsSaved(true)
 
-        // Fetch updated user data
         const updatedUser = await axios.get(
           `http://localhost:3001/api/users/${user._id}`
-        );
-        setUser(updatedUser.data);
+        )
+        setUser(updatedUser.data)
       } catch (error) {
-        console.error(error);
+        console.error(error)
       }
     } else {
       
       try {
         
-        let savedHomeId;
+        let savedHomeId
         for (let homeId of user.saved_homes) {
           
           if (homeId === house.property_id) {
-            savedHomeId = homeId;
-            break;
+            savedHomeId = homeId
+            break
           }
         }
-
-        
 
         if (savedHomeId) {
           await axios.delete(
             `http://localhost:3001/api/savedhomes/${savedHomeId}/${user._id}`
-          );
+          )
 
-          setIsSaved(false);
+          setIsSaved(false)
 
           // Fetch updated user data
           const updatedUser = await axios.get(
             `http://localhost:3001/api/users/${user._id}`
-          );
-          setUser(updatedUser.data);
+          )
+          setUser(updatedUser.data)
         }
       } catch (error) {
-        console.error(error);
+        console.error(error)
       }
     }
-  };
+  }
   
   
 
