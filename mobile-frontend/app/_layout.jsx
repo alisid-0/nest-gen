@@ -48,10 +48,12 @@ function RootLayoutNav() {
   const colorScheme = useColorScheme();
   const [user, setUser] = useState(null)
   const [signedIn, setSignedIn] = useState(false)
+  const [searchQueryCity, setSearchQueryCity] = useState('')
+  const [searchQueryState, setSearchQueryState] = useState('')
 
   return (
     <NativeBaseProvider>
-      <LoginContext.Provider value={{ user, setUser, signedIn, setSignedIn}}>
+      <LoginContext.Provider value={{ user, setUser, signedIn, setSignedIn, searchQueryCity, setSearchQueryCity, searchQueryState, setSearchQueryState}}>
         <Stack>
           <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
           <Stack.Screen name="modal" options={{ presentation: 'modal', title: 'Account' }} />
