@@ -1122,7 +1122,7 @@ function SelectedHome() {
       }
     }
 
-    // fetchHouseDetails()
+    fetchHouseDetails()
   }, [])
 
   useEffect(() => {
@@ -1193,7 +1193,6 @@ function SelectedHome() {
 
           setIsSaved(false)
 
-          // Fetch updated user data
           const updatedUser = await axios.get(
             `http://localhost:3001/api/users/${user._id}`
           )
@@ -1394,7 +1393,7 @@ function SelectedHome() {
                   <Text style={{textAlign: 'center'}}>{history.event_name}</Text>
                 </View>
                 <View style={{width: 80, alignItems: 'flex-start'}}>
-                  <Text style={{textAlign: 'center'}}>{history.event_name ==='Sold'? '' : `${history.price}`}</Text>
+                  <Text style={{textAlign: 'center'}}>{history.event_name ==='Sold'? '' : `$${history.price}`}</Text>
                 </View>
               </View>
             ))}
@@ -1416,9 +1415,11 @@ function SelectedHome() {
                   <View style={{width: 125, alignItems: 'flex-start'}}>
                     <Text style={{textAlign: 'center'}}>${history.tax}</Text>
                   </View>
-                  <View style={{width: 80, alignItems: 'flex-start'}}>
-                    <Text style={{textAlign: 'center'}}>${history.assessment.total}</Text>
-                  </View>
+                  {history.assessment && history.assessment.total && (
+                    <View style={{width: 80, alignItems: 'flex-start'}}>
+                      <Text style={{textAlign: 'center'}}>${history.assessment.total}</Text>
+                    </View>
+                  )}
                 </View>
               ))}
           </View>
@@ -1437,8 +1438,12 @@ function SelectedHome() {
             <View style={{justifyContent: 'space-between', height: 50, padding: 5}}>
               <Text style={{fontWeight: 'bold'}}>{school.name}</Text>
               <View style={{flexDirection: 'row', gap: 10}}>
-                <Text>Grades: {school.grades.range.low}-{school.grades.range.high}</Text>
-                <Text>Distance: {school.distance_in_miles}</Text>
+                {school.grades.range && (
+                  <>
+                    <Text>Grades: {school.grades.range.low}-{school.grades.range.high}</Text>
+                    <Text>Distance: {school.distance_in_miles}</Text>
+                  </>
+                )}
               </View>
             </View>
           </View>

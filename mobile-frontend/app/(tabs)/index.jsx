@@ -102,7 +102,7 @@ export default function Home() {
     }
 
     if(city && state){
-      // getSearchHouses()
+      getSearchHouses()
     }
 
   },[city,state])

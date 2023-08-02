@@ -91,9 +91,9 @@ export default function Buy() {
 
     if(city && state){
       setTimeout(()=>{
-        // getHouses()
-        console.log(bigRentList)
-        setHouses(bigRentList) //
+        getHouses()
+        // console.log(bigRentList)
+        // setHouses(bigRentList)
       }, 3000)
     }
 
