@@ -25,6 +25,7 @@ export default function Home() {
   const [address, setAddress] = useState(null)
   const [city, setCity] = useState('')
   const [searchedCity, setSearchedCity] = useState('')
+  const [searchInput, setSearchInput] = useState('')
   const [state, setState] = useState('')
   const [errorMsg, setErrorMsg] = useState(null)
 
@@ -132,7 +133,7 @@ export default function Home() {
       <Text style={styles.title}>Getting Started</Text>
 
       <View style={styles.section}>
-        <TextInput style={styles.input} placeholder='Search housing'/>
+        <TextInput style={styles.input} placeholder='City, State' onChangeText={text => setSearchInput(text)} value={searchInput}/>
         <TouchableOpacity>
           <Image source={require('../../assets/images/search.png')} style={styles.searchImg}/>
         </TouchableOpacity>
